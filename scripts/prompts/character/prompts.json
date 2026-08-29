@@ -1,0 +1,971 @@
+{
+  "description": "Headspace flat design characters",
+  "createdAt": "2026-03-22",
+  "config": {
+    "model": "gemini-3-pro-image-preview",
+    "aspectRatio": "1:1",
+    "outputMimeType": "image/png",
+    "temperature": 0.4,
+    "topP": 0.9
+  },
+  "characters": {
+    "explorer": {
+      "filename": "type_explorer.png",
+      "trials": [
+        {
+          "at": "2026-03-22T03:32:31.715Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, stick-like arms and legs with no joints.\n\nBody shape: Large perfect circle, the biggest of all characters. A blob of curiosity in round form.\nColor: solid turquoise (#2DD4BF) body\nAccessory: telescope (holding it up to one eye, peeking through)\nPose: looking diagonally upward through the telescope, one arm holding the telescope, slight tilt of the body\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "explorer-01.png",
+          "reference": "scripts/characters/explorer-flat-01.png"
+        },
+        {
+          "at": "2026-03-22T03:44:06.279Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, open-mouth excited smile, stick-like arms and legs with no joints.\n\nBody shape: Large perfect circle, the biggest of all characters. A blob of curiosity in round form.\nColor: solid turquoise (#2DD4BF) body\nExpression: open-mouth excited smile, thrilled to discover something new\nAccessory: telescope (holding it up to one eye, peeking through)\nPose: looking diagonally upward through the telescope, one arm holding the telescope, slight tilt of the body\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "explorer-02.png",
+          "reference": "scripts/characters/explorer-flat-01.png"
+        },
+        {
+          "at": "2026-03-22T08:29:04.425Z",
+          "prompt": "Headspace-style flat design character illustration, exactly matching the reference image style.\nClean flat vector style, solid colors, no gradients, no shadows, no textures, no black outlines, white background.\nSimple geometric shape, minimal details, soft rounded curves.\nGender-neutral abstract character, round dot eyes with white sclera.\n\nBody shape: big round circle, like the reference. Curious blob of energy.\nColor: solid teal/turquoise (#2DD4BF) body, single flat color fill\nLimbs: slightly thick stick arms and legs, energetic and active, like the reference but a tiny bit thicker\nBody detail: sleeveless explorer vest in darker teal over the body\nExpression: open-mouth excited smile, discovering something new\nAccessory: holding a telescope, looking through it\nPose: looking upward through telescope while walking, like the reference",
+          "output": "explorer-04.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T09:31:46.596Z",
+          "prompt": "Headspace-style flat design character illustration with rich personality.\nThick rounded limbs with volume (NOT thin stick limbs), multiple flat color tones, clothing as part of character identity.\nGender-neutral abstract character, round dot eyes with white sclera. Arms are same color as body.\n\nBody shape: big round circle, a curious blob of energy\nHead: round with a prominent antenna/protrusion on top, visible in silhouette — curiosity sensor\nMain color: teal/turquoise (#2DD4BF) body\nLimbs: slightly thick rounded arms and legs with volume, energetic and active, no joints\nClothing: sleeveless explorer vest in dark teal, clearly visible on body\nShoes: dark teal boots on feet, matching the vest color\nColor palette: turquoise (body) / dark teal (vest + boots) / brown (telescope)\nExpression: open-mouth excited smile, discovering something new\nAccessory: holding a telescope, looking through it upward\nPose: looking upward through telescope while walking\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines. Multiple flat color tones.",
+          "output": "explorer-05.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-23T12:46:21.153Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER — MATCH REFERENCE EXACTLY:\n- Round teal body with darker teal explorer vest (sleeveless) and darker teal boots\n- Single antenna on top of head\n- White sclera eyes with dark pupils, open-mouth excited expression\n- Holding a brown telescope, looking through it\n- Thick rounded limbs with volume\n\nCOMPOSITION — CRITICAL:\n- Character placed at CENTER of the image, facing slightly right\n- Character is LARGE — filling 50% of image width\n- Standing on a cliff edge at the BOTTOM of the image (cliff takes only bottom 20%)\n\nSCENE: Cliff overlooking turquoise ocean\n- VIVID turquoise ocean stretching to the horizon — rich, saturated teal-blue water\n- Beautiful CLEAR sky — bright turquoise-tinted blue, luminous, NOT white or washed out\n- Small white clouds scattered in the sky\n- A small mysterious island silhouette in the distance on the ocean\n- The cliff is small, just enough ground for the character to stand on\n\nCOLOR:\n- Sky: vivid turquoise-tinted blue — bright and saturated\n- Ocean: rich turquoise, deeper than the sky\n- Cliff: warm sandy brown, small\n- The teal character should POP against the blue background\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "explorer-bg-04.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/explorer-05.png"
+        }
+      ],
+      "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER — MATCH REFERENCE EXACTLY:\n- Round teal body with darker teal explorer vest (sleeveless) and darker teal boots\n- Single antenna on top of head\n- White sclera eyes with dark pupils, open-mouth excited expression\n- Holding a brown telescope, looking through it\n- Thick rounded limbs with volume\n\nCOMPOSITION — CRITICAL:\n- Character placed at CENTER of the image, facing slightly right\n- Character is LARGE — filling 50% of image width\n- Standing on a cliff edge at the BOTTOM of the image (cliff takes only bottom 20%)\n\nSCENE: Cliff overlooking turquoise ocean\n- VIVID turquoise ocean stretching to the horizon — rich, saturated teal-blue water\n- Beautiful CLEAR sky — bright turquoise-tinted blue, luminous, NOT white or washed out\n- Small white clouds scattered in the sky\n- A small mysterious island silhouette in the distance on the ocean\n- The cliff is small, just enough ground for the character to stand on\n\nCOLOR:\n- Sky: vivid turquoise-tinted blue — bright and saturated\n- Ocean: rich turquoise, deeper than the sky\n- Cliff: warm sandy brown, small\n- The teal character should POP against the blue background\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+      "reference": "scripts/characters/explorer-05.png",
+      "temperature": 0.2
+    },
+    "planner": {
+      "filename": "type_planner.png",
+      "trials": [
+        {
+          "at": "2026-03-22T03:46:47.551Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, confident smirk, stick-like arms and legs with no joints.\n\nBody shape: Rounded rectangle, medium size, stable and solid. A reliable square-ish form.\nColor: solid deep green (#16A34A) body\nExpression: confident smirk, one corner of the mouth raised knowingly — the look of a plan coming together\nAccessory: round glasses (worn on face)\nPose: one hand on chin, thinking pose, slight head tilt\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "planner-01.png",
+          "reference": "scripts/characters/explorer-flat-01.png"
+        },
+        {
+          "at": "2026-03-22T04:23:20.828Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, content happy smile, stick-like arms and legs with no joints.\n\nBody shape: Rounded rectangle, medium size, stable and solid. A reliable square-ish form, taller than wide.\nColor: solid green (#22C55E) body\nExpression: content happy smile, the satisfied look of someone who just made the perfect plan — warm and reliable\nAccessory: white-framed round glasses (worn on face, clearly visible against green body)\nPose: one hand on chin, thinking pose, slight head tilt\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "planner-02.png",
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T08:30:56.763Z",
+          "prompt": "Headspace-style flat design character illustration, exactly matching the reference image style.\nClean flat vector style, solid colors, no gradients, no shadows, no textures, no black outlines, white background.\nSimple geometric shape, minimal details, soft rounded curves.\nGender-neutral abstract character, round dot eyes with white sclera.\n\nBody shape: rounded rectangle, taller than wide, stable and reliable looking.\nColor: solid green (#22C55E) body, single flat color fill\nLimbs: thin delicate stick arms and legs, slender and intellectual looking\nExpression: content happy smile, closed mouth, satisfied and confident — a 'leave it to me!' trustworthy face\nAccessory: white-framed round glasses on face, clearly visible against green body\nPose: one hand on chin, thinking pose",
+          "output": "planner-03.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T09:34:24.735Z",
+          "prompt": "Headspace-style flat design character illustration with rich personality.\nThick rounded limbs with volume (NOT thin stick limbs), multiple flat color tones, clothing as part of character identity.\nGender-neutral abstract character, round dot eyes with white sclera. Arms are same color as body.\n\nBody shape: rounded rectangle, taller than wide, stable and reliable\nHead: flat top (like a book or notebook), distinctive silhouette\nMain color: green (#22C55E) body\nLimbs: slightly thin but still rounded arms and legs with volume, intellectual, no joints\nClothing: short pants/trousers in dark green, covering lower body\nShoes: none (dark green pants extend to feet, legs and pants merge)\nColor palette: green (body) / dark green (pants + lower legs) / white (glasses frame)\nExpression: content happy smile, closed mouth, satisfied and confident\nAccessory: white-framed round glasses on face, clearly visible against green body\nPose: one hand on chin, thinking pose\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines. Multiple flat color tones.",
+          "output": "planner-04.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-22T10:23:16.670Z",
+          "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character has a rounded rectangle body shape — taller than wide, like a notebook standing upright. Bright green color (#22C55E). Flat top on the head (like a book/notebook). Wearing a checkered/plaid vest in dark green — neat and tidy, representing the planner's love of order and structure. Dark green shoes on the feet. Slightly thinner rounded limbs than other characters (intellectual feeling) but still with volume. Holding a clipboard in one hand (the symbol of plans and checklists). The other hand touching chin in a thinking pose. Content happy smile — the satisfaction of a perfect plan. 'Leave it to me\\!' confidence. Round dot eyes. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 3 colors: green body + dark green plaid vest/shoes + beige clipboard.",
+          "output": "planner-05.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        }
+      ],
+      "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character has a rounded rectangle body shape — taller than wide, like a notebook standing upright. Bright green color (#22C55E). Flat top on the head (like a book/notebook). Wearing a checkered/plaid vest in dark green — neat and tidy, representing the planner's love of order and structure. Dark green shoes on the feet. Slightly thinner rounded limbs than other characters (intellectual feeling) but still with volume. Holding a clipboard in one hand (the symbol of plans and checklists). The other hand touching chin in a thinking pose. Content happy smile — the satisfaction of a perfect plan. 'Leave it to me\\!' confidence. Round dot eyes. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 3 colors: green body + dark green plaid vest/shoes + beige clipboard.",
+      "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg",
+      "temperature": 0.3
+    },
+    "socialite": {
+      "filename": "type_socialite.png",
+      "trials": [
+        {
+          "at": "2026-03-22T03:48:18.417Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, wide open-mouth laugh, stick-like arms and legs with no joints.\n\nBody shape: Tall and slim, the tallest of all 8 characters. Commanding presence, charismatic vertical form.\nColor: solid sunset orange (#F97316) body\nExpression: wide open-mouth laugh, beaming with energy, the life of the party\nAccessory: megaphone (held in one hand, big enough to be recognizable in silhouette)\nPose: one hand holding the megaphone, the other arm raised high, rallying everyone\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "socialite-01.png",
+          "reference": "scripts/characters/explorer-flat-01.png"
+        },
+        {
+          "at": "2026-03-22T04:24:45.397Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, wide open-mouth laugh, stick-like arms and legs with no joints.\n\nBody shape: Tall capsule shape, slightly wider at the top, the tallest of all 8 characters. Commanding presence, like a natural-born leader.\nColor: solid sunset orange (#F97316) body\nExpression: wide open-mouth laugh, beaming with energy, the life of the party\nAccessory: megaphone (held up to mouth, big enough to be recognizable in silhouette)\nPose: holding megaphone up to mouth as if cheering everyone on, the other arm raised high, rallying everyone\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "socialite-02.png",
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T04:54:41.492Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, stick-like arms and legs with no joints.\n\nBody shape: Bowling pin shape — round head on top, a slight narrowing (neck/waist) in the middle, and a wider rounded body at the bottom. The tallest of all 8 characters. Commanding and charismatic silhouette.\nColor: solid sunset orange (#F97316) body\nExpression: wide open-mouth laugh, the biggest smile of all 8 characters, beaming with energy, the life of the party\nAccessory: megaphone (held up to mouth, big enough to be recognizable in silhouette)\nPose: holding megaphone up to mouth as if cheering everyone on, the other arm raised high, rallying everyone\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "socialite-03.png",
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T06:23:54.218Z",
+          "prompt": "Headspace-style flat design character illustration. Simple geometric shape, minimal details, no sharp edges, soft rounded curves. Gender-neutral abstract character, 1 to 1.5 head-to-body ratio. Round dot eyes with white sclera, stick-like arms and legs with no joints. Body shape: Bowling pin shape - a round head area on top, then a SUBTLE and SHORT waist constriction (not a long neck - the narrowing should be very brief), then a wider rounded body at the bottom. The tallest of all 8 characters. Commanding and charismatic silhouette. The waist area should be gentle and not make it look like a long neck. Color: solid sunset orange #F97316 body. Expression: wide open-mouth laugh, the biggest smile of all 8 characters, beaming with energy, the life of the party. Accessory: megaphone held up to mouth, big enough to be recognizable in silhouette. Pose: holding megaphone up to mouth as if cheering everyone on, the other arm raised high, rallying everyone. Clean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "socialite-04.png",
+          "temperature": 0.4,
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T08:32:46.717Z",
+          "prompt": "Headspace-style flat design character illustration, exactly matching the reference image style.\nClean flat vector style, solid colors, no gradients, no shadows, no textures, no black outlines, white background.\nSimple geometric shape, minimal details, soft rounded curves.\nGender-neutral abstract character, round dot eyes with white sclera.\n\nBody shape: bowling pin shape, round head on top, slight waist in the middle, wider at the bottom. Tallest of all characters. Charismatic presence.\nColor: solid sunset orange (#F97316) body, single flat color fill\nLimbs: long stick arms and legs, longest of all characters, stylish and tall\nBody detail: small sneakers/shoes on feet, casual and fashionable\nExpression: wide open-mouth laugh, biggest smile of all characters, party energy\nAccessory: holding a megaphone in one hand, big enough for clear silhouette\nPose: megaphone near mouth, other hand raised high, rallying everyone",
+          "output": "socialite-04.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T09:36:35.543Z",
+          "prompt": "Headspace-style flat design character illustration with rich personality.\nThick rounded limbs with volume (NOT thin stick limbs), multiple flat color tones, clothing as part of character identity.\nGender-neutral abstract character, round dot eyes with white sclera. Arms are same color as body.\n\nBody shape: bowling pin shape, round head on top, slight waist in middle, wider at bottom. Tallest of all characters. Charismatic presence.\nHead: crown-like protrusions on top, prominent and visible in silhouette (like the reference image crown head style)\nMain color: sunset orange (#F97316) body\nLimbs: long rounded arms and legs with volume, longest of all characters, stylish, no joints\nClothing: striped t-shirt with horizontal dark orange stripes on the body\nShoes: dark orange sneakers on feet\nColor palette: sunset orange (body) / dark orange (striped shirt + sneakers) / yellow (megaphone)\nExpression: wide open-mouth laugh, biggest smile, party energy\nAccessory: holding a yellow megaphone in one hand, big enough for clear silhouette\nPose: megaphone near mouth shouting, other hand raised high, rallying everyone\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines. Multiple flat color tones.",
+          "output": "socialite-05.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/74749ea0b88c26f99fbfb5803a1c9f0f.jpg"
+        }
+      ],
+      "prompt": "Headspace-style flat design character illustration with rich personality.\nThick rounded limbs with volume (NOT thin stick limbs), multiple flat color tones, clothing as part of character identity.\nGender-neutral abstract character, round dot eyes with white sclera. Arms are same color as body.\n\nBody shape: bowling pin shape, round head on top, slight waist in middle, wider at bottom. Tallest of all characters. Charismatic presence.\nHead: crown-like protrusions on top, prominent and visible in silhouette (like the reference image crown head style)\nMain color: sunset orange (#F97316) body\nLimbs: long rounded arms and legs with volume, longest of all characters, stylish, no joints\nClothing: striped t-shirt with horizontal dark orange stripes on the body\nShoes: dark orange sneakers on feet\nColor palette: sunset orange (body) / dark orange (striped shirt + sneakers) / yellow (megaphone)\nExpression: wide open-mouth laugh, biggest smile, party energy\nAccessory: holding a yellow megaphone in one hand, big enough for clear silhouette\nPose: megaphone near mouth shouting, other hand raised high, rallying everyone\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines. Multiple flat color tones.",
+      "reference": "scripts/characters/references/74749ea0b88c26f99fbfb5803a1c9f0f.jpg",
+      "temperature": 0.3
+    },
+    "harmonizer": {
+      "filename": "type_harmonizer.png",
+      "trials": [
+        {
+          "at": "2026-03-22T03:49:14.540Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, gentle warm smile with closed mouth, stick-like arms and legs with no joints.\n\nBody shape: Flat and wide mochi-like shape, the shortest and widest of all 8 characters. Like a comforting stuffed toy.\nColor: solid soft pink (#F9A8D4) body\nExpression: gentle warm closed-mouth smile, radiating comfort and safety\nAccessory: none\nPose: both arms spread wide open, as if inviting a hug, welcoming and warm\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "harmonizer-01.png",
+          "reference": "scripts/characters/explorer-flat-01.png"
+        },
+        {
+          "at": "2026-03-22T09:37:48.369Z",
+          "prompt": "Headspace-style flat design character illustration with rich personality.\nThick rounded limbs with volume (NOT thin stick limbs), multiple flat color tones, clothing as part of character identity.\nGender-neutral abstract character, round dot eyes with white sclera. Arms are same color as body.\n\nBody shape: flat mochi/rice cake shape, the widest and shortest of all characters. Plush toy-like comfort.\nHead: softly rounded, merging with the mochi body shape. The simplest head of all characters.\nMain color: soft pink (#F9A8D4) body\nLimbs: short stubby rounded arms and legs, soft and plush-like, like a stuffed animal, no joints\nClothing: scarf/muffler wrapped around neck area in darker pink, warm and cozy\nShoes: none (short stubby feet are part of the plush toy look)\nColor palette: soft pink (body) / dark pink (scarf) / subtle pink cheeks (blush marks on face)\nExpression: gentle warm smile, closed mouth, comforting and kind\nAccessory: none\nPose: both arms spread wide open, ready for a hug, welcoming and safe\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines. Multiple flat color tones.",
+          "output": "harmonizer-02.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        }
+      ],
+      "prompt": "Headspace-style flat design character illustration with rich personality.\nThick rounded limbs with volume (NOT thin stick limbs), multiple flat color tones, clothing as part of character identity.\nGender-neutral abstract character, round dot eyes with white sclera. Arms are same color as body.\n\nBody shape: flat mochi/rice cake shape, the widest and shortest of all characters. Plush toy-like comfort.\nHead: softly rounded, merging with the mochi body shape. The simplest head of all characters.\nMain color: soft pink (#F9A8D4) body\nLimbs: short stubby rounded arms and legs, soft and plush-like, like a stuffed animal, no joints\nClothing: scarf/muffler wrapped around neck area in darker pink, warm and cozy\nShoes: none (short stubby feet are part of the plush toy look)\nColor palette: soft pink (body) / dark pink (scarf) / subtle pink cheeks (blush marks on face)\nExpression: gentle warm smile, closed mouth, comforting and kind\nAccessory: none\nPose: both arms spread wide open, ready for a hug, welcoming and safe\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines. Multiple flat color tones.",
+      "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg",
+      "temperature": 0.3
+    },
+    "empath": {
+      "filename": "type_empath.png",
+      "trials": [
+        {
+          "at": "2026-03-22T03:51:00.330Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, shy gentle smile, stick-like arms and legs with no joints.\n\nBody shape: Pear-shaped, narrow at the top and gently widening toward the bottom. Delicate soft curves.\nColor: solid lavender (#C084FC) body\nExpression: shy gentle smile, a quiet tender look as if whispering to the butterfly\nAccessory: small butterfly resting on one outstretched hand\nPose: one hand gently extended with a butterfly perched on it, quiet and still\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "empath-01.png",
+          "reference": "scripts/characters/explorer-flat-01.png"
+        },
+        {
+          "at": "2026-03-22T04:59:31.734Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, stick-like arms and legs with no joints.\n\nBody shape: Teardrop (water drop) shape — narrow and softly rounded at the top, gradually widening into a full round bottom. Like a gentle water droplet. Delicate and soft curves. Clearly narrower at top than bottom.\nColor: solid lavender (#C084FC) body\nExpression: soft attentive gaze with a small gentle smile. Quietly looking at you as if to say I understand. Deep empathy and warmth, not worried — understanding. The face of someone who truly sees others feelings.\nAccessory: small butterfly resting on one outstretched hand\nPose: one hand gently extended with a butterfly perched on it, quiet and still\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "empath-02.png",
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T06:23:03.891Z",
+          "prompt": "Headspace-style flat design character illustration. Simple geometric shape, minimal details, no sharp edges, soft rounded curves. Gender-neutral abstract character, 1 to 1.5 head-to-body ratio. Round dot eyes with white sclera, stick-like arms and legs with no joints. Body shape: Teardrop (water drop) shape - narrow and softly rounded at the top, gradually widening into a full round bottom. Like a gentle water droplet. Delicate and soft curves. Clearly narrower at top than bottom. Color: solid lavender #C084FC body. Expression: head tilted slightly to one side, gazing upward with gentle round eyes, mouth slightly open as if sensing something. A quiet contemplative look - feeling not smiling. Different from a warm smile - this is a perceptive sensing expression. Accessory: small butterfly resting on one outstretched hand. Pose: head tilted to one side, one hand gently extended with a butterfly perched on it, quiet and still. Clean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "empath-03.png",
+          "temperature": 0.4,
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T09:40:21.011Z",
+          "prompt": "Headspace-style flat design character illustration with rich personality.\nThick rounded limbs with volume (NOT thin stick limbs), multiple flat color tones, clothing as part of character identity.\nGender-neutral abstract character, round dot eyes with white sclera. Arms are same color as body.\n\nBody shape: teardrop shape, narrow and rounded at top, fuller and rounder at bottom. Delicate like a water droplet.\nHead: the narrow top of the teardrop smoothly tapers, integrated with body shape\nMain color: lavender (#C084FC) body\nLimbs: thin but still rounded arms and legs with volume, delicate and ethereal, longest thin limbs, no joints\nClothing: cape/poncho draped over shoulders in dark lavender, flowing down to cover the feet\nShoes: none (cape drapes down and covers the feet)\nColor palette: lavender (body) / dark lavender (cape) / subtle concentric ripple pattern on body in same lavender color family\nExpression: head slightly tilted, contemplative gaze with large looking-up eyes, mouth slightly open, sensing and feeling\nAccessory: a butterfly resting on one outstretched hand\nPose: gently extending one hand with butterfly landing on it, quiet gentleness\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines. Multiple flat color tones.",
+          "output": "empath-04.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-22T09:58:22.584Z",
+          "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character has a teardrop body shape — narrow and rounded at the top, wider and rounder at the bottom. Bright cheerful lavender/light purple color (NOT dark purple, keep it light and warm). Wearing a short cape/poncho that only covers the shoulders and upper body (NOT full-length, the body and legs should be visible below). The cape is a slightly deeper lavender but still light. Light purple simple shoes on the feet. Thin but rounded limbs (thinner than other characters but still with volume, delicate feeling). Head tilts slightly to one side with a soft gentle smile — big round warm eyes (NOT wide-open scared eyes, NOT white-eyed), a subtle sweet smile that says 'it's okay, I understand you'. A small butterfly resting on one gently extended hand. The overall feeling should be gentle, warm, approachable — like a caring friend. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 2-3 colors: bright lavender body + slightly deeper lavender cape + light purple shoes.",
+          "output": "empath-05.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-22T10:48:33.785Z",
+          "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character has a teardrop body shape — narrow and rounded at the top, wider and rounder at the bottom. Lavender/light purple color (#C084FC, NOT too pale, use the actual lavender color with presence). Wearing a short cape/poncho that only covers the shoulders and upper body in DARK PURPLE (strong contrast with the lavender body, like Headspace's teal character wears dark blue pants). Dark purple simple shoes on the feet matching the cape. Thin but rounded limbs (thinner than other characters but still with volume). Head tilts slightly to one side with a soft gentle smile. IMPORTANT: small simple facial features like Headspace characters — small round white eyes with tiny dark pupils, small simple curved mouth. Do NOT make the eyes or mouth big or anime-like. A WHITE butterfly (large enough to be clearly visible) resting on one gently extended hand — the white butterfly is an accent color against the purple. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 3 colors: lavender body + dark purple cape/shoes + white butterfly.",
+          "output": "empath-06.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-22T10:58:09.269Z",
+          "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character has a teardrop body shape — narrow and rounded at the top, wider and rounder at the bottom. Lavender/light purple color (#C084FC, NOT too pale). Wearing a short cape/poncho that only covers the shoulders and upper body in DARK PURPLE (strong contrast with the lavender body). Dark purple simple shoes on the feet matching the cape. Thin but rounded limbs (thinner than other characters but still with volume). Head tilts slightly to one side with a soft gentle smile. Small simple facial features like Headspace characters — small round white eyes with tiny dark pupils, small simple curved mouth. NO NOSE. Do NOT draw a nose. Do NOT make the eyes or mouth big. A BRIGHT PINK butterfly (large enough to be clearly visible against the white background) resting on one gently extended hand. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 3 colors: lavender body + dark purple cape/shoes + bright pink butterfly.",
+          "output": "empath-07.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        }
+      ],
+      "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character has a teardrop body shape — narrow and rounded at the top, wider and rounder at the bottom. Lavender/light purple color (#C084FC, NOT too pale). Wearing a short cape/poncho that only covers the shoulders and upper body in DARK PURPLE (strong contrast with the lavender body). Dark purple simple shoes on the feet matching the cape. Thin but rounded limbs (thinner than other characters but still with volume). Head tilts slightly to one side with a soft gentle smile. Small simple facial features like Headspace characters — small round white eyes with tiny dark pupils, small simple curved mouth. NO NOSE. Do NOT draw a nose. Do NOT make the eyes or mouth big. A BRIGHT PINK butterfly (large enough to be clearly visible against the white background) resting on one gently extended hand. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 3 colors: lavender body + dark purple cape/shoes + bright pink butterfly.",
+      "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg",
+      "temperature": 0.3
+    },
+    "adventurer": {
+      "filename": "type_adventurer.png",
+      "trials": [
+        {
+          "at": "2026-03-22T03:52:22.026Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, determined grin showing teeth, stick-like arms and legs with no joints.\n\nBody shape: Inverted triangle, broad at the top and narrow at the bottom. Dynamic and energetic.\nColor: solid scarlet (#EF4444) body\nExpression: determined grin, teeth showing, confident and ready to charge forward\nAccessory: small cape fluttering behind the back\nPose: leaning forward as if about to sprint, cape billowing, one leg forward in a running stance\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "adventurer-01.png",
+          "reference": "scripts/characters/explorer-flat-01.png"
+        },
+        {
+          "at": "2026-03-22T04:24:06.870Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, wide excited open-mouth smile, stick-like arms and legs with no joints.\n\nBody shape: Rounded inverted triangle, broad at the top and narrower at the bottom. Soft rounded corners, not sharp.\nColor: solid scarlet (#EF4444) body\nExpression: wide excited open-mouth smile, no teeth showing, the thrilled face of someone about to start an epic adventure\nAccessory: small cape in slightly darker red (#DC2626) fluttering behind the back, clearly distinct from the body color (#EF4444)\nPose: leaning forward as if about to sprint, cape billowing, one leg forward in a running stance\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "adventurer-02.png",
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T04:53:43.446Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, stick-like arms and legs with no joints.\n\nBody shape: Inverted teardrop — wide and puffy at the top, gradually narrowing toward the bottom. Soft rounded curves, no sharp edges. Like an upside-down water drop. Energetic and dynamic.\nColor: solid scarlet (#EF4444) body\nExpression: determined focused look, mouth firmly closed in a small resolute line, eyes looking ahead with confidence. Not smiling, but radiating courage and readiness. The look before charging into adventure.\nAccessory: small cape in slightly darker red (#DC2626) fluttering behind the back, clearly distinct from the body color (#EF4444)\nPose: leaning forward as if about to sprint, cape billowing, one leg forward in a running stance\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "adventurer-03.png",
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T06:21:42.836Z",
+          "prompt": "Headspace-style flat design character illustration. Simple geometric shape, minimal details, no sharp edges, soft rounded curves. Gender-neutral abstract character, 1 to 1.5 head-to-body ratio. Round dot eyes with white sclera, stick-like arms and legs with no joints. Body shape: Rocket shape - a round cute oval body (like a ball) with two small triangular stabilizer fins at the very bottom. The main body is round and adorable, NOT an inverted teardrop. The fins are small and subtle, just enough to give a rocket launch feeling. Color: solid scarlet red #EF4444 body. Expression: confident excited grin, mouth closed with corners turned up in a determined lets go smile. Not angry, not frowning - thrilled and confident for the adventure ahead. Accessory: small cape in slightly darker red #DC2626 fluttering behind the back, clearly distinct from the body color. Pose: leaning forward as if about to sprint, cape billowing, one leg forward in a running stance. Clean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "adventurer-04.png",
+          "temperature": 0.4,
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T06:28:26.188Z",
+          "prompt": "Headspace-style flat design character illustration. Simple geometric shape, minimal details, no sharp edges, soft rounded curves. Gender-neutral abstract character, 1 to 1.5 head-to-body ratio. Simple round dot eyes with white sclera, innocent and cute looking, stick-like arms and legs with no joints. Body shape: Rocket shape - a round cute oval body (like a ball) with two small triangular stabilizer fins at the very bottom. The main body is round and adorable, NOT an inverted teardrop. The fins are small and subtle. Color: solid scarlet red #EF4444 body. Expression: confident cute grin, mouth closed with corners turned up. A simple happy determined smile, innocent and adorable. NOT smirking, NOT suggestive - just a pure confident smile like a kid about to go on an adventure. Accessory: small cape in slightly darker red #DC2626 fluttering behind the back. Pose: leaning forward as if about to sprint, cape billowing, one leg forward in a running stance. Clean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "adventurer-05.png",
+          "temperature": 0.4,
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T08:21:20.771Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, confident excited grin with mouth closed and corners turned up.\n\nBody shape: organic blob star shape (chubby starfish). 5 soft rounded protrusions forming a star silhouette. All corners are very rounded and soft, like a puffy starfish. The protrusions are part of the body, NOT limbs. Arms and legs grow separately from the star body.\nColor: solid scarlet (#EF4444) body\nLimbs: thick short sturdy arms and legs, athletic and strong build, no joints\nBody detail: bandana/scarf tied around the neck area, slightly darker red\nExpression: confident excited grin, mouth closed with corners turned up in a determined smirk — a bold 'let's go!' smile\nAccessory: holding a visible rolled-up map in one hand\nPose: leaning forward as if about to run, dynamic energy, holding map in one hand\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "adventurer-06.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T08:25:53.711Z",
+          "prompt": "Headspace-style flat design character illustration, exactly matching the reference image style.\nClean flat vector style, solid colors, no gradients, no shadows, no textures, no black outlines, white background.\nSimple geometric shape, minimal details, soft rounded curves.\nGender-neutral abstract character, round dot eyes with white sclera.\n\nBody shape: a cute chubby starfish shape, 5 soft rounded bumps forming a star. All edges very rounded and organic. The bumps are part of the body. Arms and legs are separate thin stick limbs like the reference.\nColor: solid scarlet red (#EF4444) body, single flat color fill\nExpression: confident grin, mouth closed, corners up\nSmall bandana around neck area\nHolding a small rolled-up map in one hand\nLeaning forward with energy",
+          "output": "adventurer-07.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T08:27:33.207Z",
+          "prompt": "Headspace-style flat design character illustration, exactly matching the reference image style.\nClean flat vector style, solid colors, no gradients, no shadows, no textures, no black outlines, white background.\nSimple geometric shape, minimal details, soft rounded curves.\nGender-neutral abstract character, round dot eyes with white sclera.\n\nBody shape: a cute chubby starfish shape, 5 soft rounded bumps forming a star. All edges very rounded and organic. The bumps are part of the body. Arms and legs are separate thin stick limbs like the reference.\nColor: solid scarlet red (#EF4444) body, single flat color fill\nExpression: confident grin, mouth closed, corners turned up\nSmall red bandana tied around neck area, slightly darker red than body\nHolding a small rolled-up map in one hand\nLeaning forward with energy, about to run",
+          "output": "adventurer-08.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T09:41:16.163Z",
+          "prompt": "Headspace-style flat design character illustration with rich personality.\nThick rounded limbs with volume (NOT thin stick limbs), multiple flat color tones, clothing as part of character identity.\nGender-neutral abstract character, round dot eyes with white sclera. Arms are same color as body.\n\nBody shape: organic blob star shape (chubby starfish), 5 soft rounded protrusions forming a star silhouette. All corners very rounded and soft. The protrusions are part of the body, NOT limbs. Arms and legs grow separately from the star body.\nHead: the top protrusion of the star serves as the head (integrated with body)\nMain color: scarlet red (#EF4444) body\nLimbs: thick short sturdy arms and legs with volume, athletic build, no joints\nClothing: bandana/scarf tied around neck area in dark red\nShoes: dark red boots on feet, matching the bandana color\nColor palette: scarlet (body) / dark red (bandana + boots) / beige (rolled map)\nExpression: confident grin, mouth closed with corners turned up, bold adventurous smirk\nAccessory: holding a visible rolled-up beige map in one hand\nPose: leaning forward dynamically, about to run off on an adventure, holding map\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines. Multiple flat color tones.",
+          "output": "adventurer-09.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-22T09:56:20.098Z",
+          "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character is a chubby rounded star shape (starfish-like blob with 5 soft rounded points) with a warm coral-red color (NOT dark crimson, bright and cheerful red). Small and energetic, not bulky or intimidating. Arms and legs are separate from the star points — thick rounded limbs in the same coral-red color. Wearing round adventure goggles pushed up on top of the head (dark red frame). Dark red boots on the feet matching the goggles. Holding a rolled-up beige map in one hand. Big round eyes with a wide open-mouth cheerful laugh — the happiest most innocent smile, like shouting 'Let's go\\! This is fun\\!' NOT a smirk or grin, a genuinely joyful open smile. Running pose, leaning forward with excitement. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 2-3 colors only: coral-red body + dark red goggles/boots + beige map.",
+          "output": "adventurer-10.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-22T10:21:28.402Z",
+          "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character has a rocket/capsule body shape — round and wide at the top, tapering narrower toward the bottom (opposite of a teardrop). Warm coral-red color (#F87171, bright cheerful red, NOT dark crimson). Small and compact, not bulky. Wearing a pilot cap (aviator hat with ear flaps) in dark red on the head. A short dark red scarf around the neck. Dark red boots on the feet. Thick rounded limbs in the same coral-red as the body. Holding a rolled-up beige map in one hand, the other hand raised up punching the air like 'Let's go\\!'. The BIGGEST happiest open-mouth smile — pure innocent joy, like a kid on an adventure. Big round dot eyes (NOT white-eyed, NOT creepy). Running/leaning forward pose with excitement. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 3 colors: coral-red body + dark red cap/scarf/boots + beige map.",
+          "output": "adventurer-11.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-22T10:31:37.510Z",
+          "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character has a rocket/capsule body shape — round and wide at the top, tapering narrower toward the bottom (opposite of a teardrop). Warm coral-red color (#F87171, bright cheerful red, NOT dark crimson). Small and compact, not bulky. Wearing a pilot cap (aviator hat with ear flaps) in dark red on the head. A short dark red scarf around the neck flowing behind. Dark red boots on the feet. Thick rounded limbs in the same coral-red as the body. Holding a rolled-up beige map in one hand, the other hand raised up punching the air like 'Let's go\\!'. The BIGGEST happiest open-mouth smile — pure innocent joy. Eyes are round with WHITE SCLERA (white circles with dark pupils inside, like Headspace characters — NOT solid dot eyes). Running/leaning forward pose with excitement. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 3 colors: coral-red body + dark red cap/scarf/boots + beige map.",
+          "output": "adventurer-12.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-22T10:35:10.888Z",
+          "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character has a rocket/capsule body shape — round and wide at the top, tapering narrower toward the bottom (opposite of a teardrop). Warm coral-red color (#F87171, bright cheerful red, NOT dark crimson). Small and compact, not bulky. Wearing a pilot cap (aviator hat with ear flaps) in dark red on the head. A short dark red scarf around the neck flowing behind. Dark red boots on the feet. Thick rounded limbs in the same coral-red as the body. Holding a rolled-up beige map in one hand, the other hand raised up punching the air like 'Let's go\\!'. The BIGGEST happiest open-mouth smile — pure innocent joy. Eyes have WHITE SCLERA — white circles with dark round pupils inside, like the Headspace reference image. Running/leaning forward pose with excitement. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 3 colors: coral-red body + dark red cap/scarf/boots + beige map.",
+          "output": "adventurer-13.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-22T10:40:08.000Z",
+          "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character has a rocket/capsule body shape — round and wide at the top, tapering narrower toward the bottom. Warm coral-red color (#F87171, bright cheerful red, NOT dark crimson). Small and compact, not bulky. Wearing a pilot cap (aviator hat with ear flaps) in dark red on the head. A short dark red scarf around the neck. Dark red boots on the feet. Thick rounded limbs in the same coral-red as the body. Holding a rolled-up beige map in one hand, the other hand raised up. IMPORTANT: small simple facial features exactly like the Headspace reference — small round white eyes with tiny dark pupils, small simple curved mouth. Do NOT make the eyes or mouth big or anime-like. Keep facial features minimal and understated like the reference image. Running/leaning forward pose. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 3 colors: coral-red body + dark red cap/scarf/boots + beige map.",
+          "output": "adventurer-14.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-23T10:32:59.810Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER — MATCH REFERENCE EXACTLY:\n- Compact small coral red ROCKET-shaped body (round top, tapers at bottom). NOT round/oval. Copy the reference proportions precisely.\n- Dark red pilot cap with ear flaps\n- Dark red scarf at neck, FLUTTERING in the wind behind the character\n- Dark red boots\n- Rolled beige map in one hand\n- The OTHER hand THRUST UP HIGH in the air — fist raised, 'let's go!' energy\n\nPOSE — THE MOST IMPORTANT THING:\n- The character is RUNNING/LEANING FORWARD with dynamic energy. Body tilted forward at 15-20 degrees. Legs in a running stride, one foot forward, one back.\n- This is NOT a calm standing pose. This is 'IKUZO!' — bursting with excitement, rushing forward into adventure.\n- One hand holds the map, the other is RAISED HIGH above the head.\n- The body language screams ENERGY and MOMENTUM.\n\nSCENE:\n- Standing/running on top of fluffy white clouds\n- Coral red to warm orange SUNRISE sky above\n- Below the clouds, tiny mountains and islands visible far below\n- Plenty of white clouds for contrast against the warm sky\n\nColor palette: coral red sunrise sky, white fluffy clouds, character's coral red body harmonizes with the sunrise.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "adventurer-bg-03.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-14.png"
+        },
+        {
+          "at": "2026-03-23T12:48:55.908Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER — MATCH REFERENCE EXACTLY:\n- Coral red rocket-shaped body (round top, narrowing bottom), compact and small\n- Dark red pilot cap with ear flaps on head\n- Dark red scarf at neck, dark red boots\n- White sclera eyes with dark pupils, happy energetic smile (small facial features, Headspace-style)\n- Holding a rolled-up beige MAP clearly visible in one hand\n- Other arm raised up pointing forward energetically\n- Thick rounded limbs with volume\n\nCOMPOSITION — CRITICAL:\n- Character placed at CENTER of the image\n- Character is LARGE — filling 50% of image width\n- Character standing ON TOP of clouds, feet touching cloud surface\n- Dynamic forward-leaning pose — energy and momentum, like about to leap forward\n\nSCENE: Above the clouds at sunrise\n- Beautiful CORAL RED and WARM ORANGE sunrise sky — rich, vivid, luminous\n- Fluffy white clouds below and around the character\n- Distant mountain peaks or landscape peeking through clouds far below\n- The character stands confidently on the clouds, pointing toward the horizon\n\nCOLOR:\n- Sky: gorgeous coral red to warm orange gradient feel (flat color layers, not actual gradient)\n- Clouds: pure white, fluffy, layered\n- The coral red character should harmonize with the warm sky while remaining distinct\n- Overall mood: DAWN OF ADVENTURE — warm, exciting, brave\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "adventurer-bg-04.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-14.png"
+        },
+        {
+          "at": "2026-03-23T13:00:26.255Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER — MATCH REFERENCE EXACTLY:\n- Coral red rocket-shaped body (round top, narrowing bottom), compact and small\n- Dark red pilot cap with ear flaps on head\n- Dark red scarf at neck, dark red boots\n- White sclera eyes with dark pupils, happy energetic smile (small facial features, Headspace-style)\n- Holding a rolled-up beige MAP clearly visible in one hand\n- Other arm stretched out pointing forward toward the horizon\n- Thick rounded limbs with volume\n\nCOMPOSITION — CRITICAL:\n- Character placed at CENTER of the image\n- Character is LARGE — filling 50% of image width\n- Character STANDING on top of clouds (NOT running, NOT flying — standing upright with feet on cloud surface)\n- One arm points forward, the other holds the map\n\nSCENE: Above the clouds at sunrise — same scene as adventurer-bg-01 but with a LARGER character\n- Beautiful CORAL RED and WARM ORANGE sunrise sky — rich, vivid, luminous\n- Fluffy white clouds below and around the character\n- Distant mountain peaks AND ocean visible through gaps in the clouds far below\n- Horizon visible in the background\n\nCOLOR:\n- Sky: gorgeous coral red to warm orange (flat color layers)\n- Clouds: pure white, fluffy, layered\n- Distant landscape: tiny green mountains and blue ocean peeking through clouds\n- The coral red character should harmonize with the warm sky while remaining distinct\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "adventurer-bg-05.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-14.png"
+        },
+        {
+          "at": "2026-03-23T13:14:51.671Z",
+          "prompt": "Headspace-style flat design character illustration with rich personality details.\nSimple geometric shape but with clothing, shoes, and multiple color tones.\nThick rounded limbs with volume (NOT thin stick limbs). Gender-neutral abstract character.\nRound dot eyes with white sclera, happy energetic smile — small facial features, Headspace-style.\n\nBody shape: Rocket/capsule shape — round top, narrowing toward the bottom. Compact and small, not intimidating. The INVERSE of a teardrop (wide on top, narrow at bottom).\nHead shape: Pilot cap (aviator hat) with ear flaps — distinctive silhouette. Dark red color.\nMain color: Coral red body — bright, warm red\nLimbs: Thick and short limbs (energetic), rounded with volume, no joints\nClothing: Pilot cap (head) + SCARF at neck — dark red. THE SCARF IS FLOWING AND BLOWING IN THE WIND behind the character, NOT hanging straight down. The scarf streams horizontally backward, showing movement and energy.\nShoes: Dark red boots, matching cap and scarf\nColor palette: Coral red (body) / Dark red (cap, scarf, boots) / Beige (rolled map)\nExpression: Happy energetic smile — small eyes with white sclera and dark pupils, small mouth\nAccessory: Rolled-up beige MAP held in one hand, clearly visible\nPose: Running energetically — one fist raised up, other hand holding the map. Dynamic forward-leaning pose with legs in running position. Full of momentum and energy.\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.\nMultiple flat color tones — body, clothing, and accessories should be different colors.",
+          "output": "adventurer-15.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-14.png"
+        },
+        {
+          "at": "2026-03-23T23:26:01.957Z",
+          "prompt": "Headspace-style flat design character illustration with rich personality details.\nSimple geometric shape but with clothing, shoes, and multiple color tones.\nThick rounded limbs with volume (NOT thin stick limbs). Gender-neutral abstract character.\nRound dot eyes with white sclera, happy energetic smile — small facial features, Headspace-style.\n\nBody shape: Rocket/capsule shape — round top, narrowing toward the bottom. Compact and small, not intimidating. The INVERSE of a teardrop (wide on top, narrow at bottom).\nHead shape: Pilot cap (aviator hat) with ear flaps — distinctive silhouette. Dark red color.\nMain color: Coral red body — bright, warm red\nLimbs: Thick and short limbs (energetic), rounded with volume, no joints\nClothing: Pilot cap (head) + SCARF at neck — dark red. The scarf flows backward in the wind, with a natural scarf-like tapered end. The scarf should stay WITHIN the character's silhouette area — do NOT let it extend far out to the sides or create floating artifacts.\nShoes: Dark red boots, matching cap and scarf\nColor palette: Coral red (body) / Dark red (cap, scarf, boots) / Beige (rolled map)\nExpression: Happy energetic smile — small eyes with white sclera and dark pupils, small mouth\nAccessory: Rolled-up beige MAP held in one hand, clearly visible\nPose: Running energetically — one fist raised up high, other hand holding the map. Dynamic forward-leaning pose with legs in running position. Full of momentum and energy.\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.\nMultiple flat color tones — body, clothing, and accessories should be different colors.\nIMPORTANT: All elements must be cleanly contained within the character — no stray marks, no floating artifacts, no elements extending beyond the character boundary.",
+          "output": "adventurer-16.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-14.png"
+        },
+        {
+          "at": "2026-03-23T23:26:49.349Z",
+          "prompt": "Headspace-style flat design character illustration. Same character as reference image but with ONE change: the dark red scarf at the neck should be FLOWING BACKWARD IN THE WIND instead of hanging straight down. The scarf streams behind the character with a natural tapered scarf-like end, showing movement.\n\nKeep EVERYTHING ELSE exactly the same as the reference: same body shape, same coral red color, same pilot cap with ear flaps, same running pose, same fist raised, same map in hand, same boots, same facial expression, same proportions.\n\nONLY CHANGE: scarf direction — from hanging down to flowing backward in the wind.\n\nWhite background, clean flat vector style, bold colors, no gradients, no shadows, no black outlines.",
+          "output": "adventurer-17.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-14.png"
+        },
+        {
+          "at": "2026-03-23T23:33:11.465Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER — MATCH REFERENCE EXACTLY:\n- Coral red rocket-shaped body (round top, narrowing bottom), compact and small\n- Dark red pilot cap with ear flaps on head\n- Dark red scarf at neck — FLOWING BACKWARD IN THE WIND with a natural tapered scarf-like end, exactly as shown in the reference image\n- Dark red boots\n- White sclera eyes with dark pupils, happy energetic smile (small facial features, Headspace-style)\n- Holding a rolled-up beige MAP clearly visible in one hand\n- Other arm stretched out pointing forward toward the horizon\n- Thick rounded limbs with volume\n\nCOMPOSITION — CRITICAL:\n- Character placed at CENTER of the image\n- Character is LARGE — filling 45-50% of image width\n- Character STANDING UPRIGHT on top of clouds (NOT running, NOT flying — standing with feet on cloud surface)\n- One arm points forward, the other holds the map\n\nSCENE: Above the clouds at sunrise\n- Beautiful CORAL RED and WARM ORANGE sunrise sky — rich, vivid, luminous\n- Fluffy white clouds below and around the character\n- Distant mountain peaks AND blue ocean visible through gaps in the clouds far below\n- Horizon visible in the background\n\nCOLOR:\n- Sky: gorgeous coral red to warm orange (flat color layers)\n- Clouds: pure white, fluffy, layered\n- Distant landscape: tiny green mountains and blue ocean peeking through clouds\n- The coral red character should harmonize with the warm sky while remaining distinct\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "adventurer-bg-06.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-17.png"
+        },
+        {
+          "at": "2026-03-23T23:40:43.401Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER — MATCH REFERENCE EXACTLY:\n- Coral red rocket-shaped body (round top, narrowing bottom), compact and small\n- Dark red pilot cap with ear flaps on head\n- Dark red scarf at neck flowing backward in the wind with natural tapered end, exactly as in reference\n- Dark red boots\n- White sclera eyes with dark pupils, happy energetic smile (small Headspace-style features)\n- Holding a rolled-up beige MAP in one hand\n- Other arm stretched out pointing forward\n- Thick rounded limbs\n\nCOMPOSITION:\n- Character placed at CENTER, LARGE — filling 45% of image width\n- Standing upright on clouds, feet on cloud surface\n- One arm points forward, other holds map\n\nSCENE — MATCH THIS EXACT STYLE:\n- SIMPLE coral red sky — a single smooth warm coral-red tone filling the upper portion. NOT layered, NOT striped, NOT banded. Just one beautiful warm coral-red sky.\n- Big fluffy WHITE clouds in the lower portion, soft and round, piling up like cotton\n- The character stands ON TOP of the clouds\n- In the FAR distance, tiny mountain peaks and a hint of blue ocean peeking through a small gap in the clouds (bottom-right area, very small)\n- NO orange bands, NO horizon line, NO layered sky gradients\n- The overall feel is SIMPLE and AIRY — mostly coral sky + white clouds + character\n\nCOLOR:\n- Sky: smooth warm coral red (single tone)\n- Clouds: pure white, big and fluffy\n- Tiny distant landscape: green mountains + blue ocean (very small, far away)\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "adventurer-bg-07.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-17.png"
+        },
+        {
+          "at": "2026-03-23T23:45:16.540Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER — MATCH REFERENCE EXACTLY:\n- Coral red rocket-shaped body (round top, narrowing bottom), compact and small\n- Dark red pilot cap with ear flaps on head\n- Dark red scarf at neck flowing backward in the wind with natural tapered end\n- Dark red boots\n- EYES MUST HAVE WHITE SCLERA with dark pupils — round white circles with black dots inside. This is critical.\n- Happy energetic smile, small mouth\n- Holding a rolled-up beige MAP in one hand, clearly visible\n- Other arm stretched out pointing forward toward horizon\n- Thick rounded limbs\n\nCOMPOSITION:\n- Character at CENTER of image\n- Character is BIGGER than in the reference — filling 55% of image width. Make the character PROMINENT and DOMINANT in the frame.\n- Standing upright on clouds, feet on cloud surface\n\nSCENE — SIMPLE like adventurer-bg-01:\n- SIMPLE smooth coral red sky filling the upper portion — ONE single warm coral-red tone, NOT striped, NOT banded, NOT layered\n- Big fluffy WHITE clouds in the lower half, soft cotton-like, piling up\n- Character stands ON TOP of the highest cloud\n- Far distance bottom-right: tiny green mountain peaks and blue ocean peeking through a small gap in clouds\n- Overall: SIMPLE and AIRY — coral sky + white clouds + character. Nothing else.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "adventurer-bg-08.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-17.png"
+        },
+        {
+          "at": "2026-03-23T23:50:34.981Z",
+          "prompt": "Headspace-style flat design character illustration. Same character as reference image with ONE change only.\n\nCHANGE: The dark red scarf at the neck should flow BACKWARD IN THE WIND instead of hanging straight down. A single short scarf tail streams behind the character's neck area.\n\nIMPORTANT — NO CAPE. NO MANTLE. NO WING-LIKE SHAPES. The scarf is SHORT and SMALL — just a small piece of fabric at the neck with one end flowing backward. It should NOT look like a cape, NOT look like wings, NOT extend far from the body. Think of a short neck scarf caught in a breeze.\n\nKeep EVERYTHING ELSE exactly the same as reference: same coral red body, same rocket shape, same pilot cap with ear flaps, same running pose, same fist raised, same beige map in hand, same dark red boots, same small Headspace-style facial features with white sclera eyes, same proportions.\n\nWhite background, clean flat vector style, bold colors, no gradients, no shadows, no black outlines.",
+          "output": "adventurer-18.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-14.png"
+        },
+        {
+          "at": "2026-03-23T23:52:26.863Z",
+          "prompt": "Headspace-style flat design character illustration. Same character as reference image with ONE change only.\n\nCHANGE: The dark red scarf at the neck should flow BACKWARD IN THE WIND instead of hanging straight down. A single short scarf tail streams behind the character's head/neck area.\n\nCRITICAL — CLEAN SILHOUETTE:\n- NO cape, NO mantle, NO wing shapes, NO extra fabric anywhere\n- NO floating elements behind the arms or body\n- The ONLY fabric is the short scarf at the neck with one small tail flowing backward\n- The character's body, arms, and legs must have CLEAN edges with NO extra shapes attached\n- The arm holding the map should show ONLY the arm and the map — nothing else behind or around it\n\nKeep EVERYTHING ELSE exactly the same as reference: same coral red body, same rocket shape, same pilot cap with ear flaps, same running pose, same fist raised high, same beige rolled map in other hand, same dark red boots, same small Headspace-style facial features with white sclera eyes, same proportions.\n\nWhite background, clean flat vector style, bold colors, no gradients, no shadows, no black outlines.",
+          "output": "adventurer-19.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-14.png"
+        },
+        {
+          "at": "2026-03-23T23:54:22.390Z",
+          "prompt": "Headspace-style flat design character illustration. Same character as reference image with ONE change only.\n\nCHANGE: The dark red scarf. In the reference, the scarf hangs straight down from the neck. Change it so the scarf flows BACKWARD from the neck — the tail of the scarf should trail behind the CHARACTER'S HEAD, streaming to the LEFT side (behind the character since character faces right).\n\nThe scarf tail should be:\n- Coming from the NECK area, flowing behind the HEAD (not behind the body or arms)\n- SHORT — about the same length as the head width\n- A single clean ribbon shape, NOT split, NOT forked\n- Dark red, same color as the scarf in the reference\n- Positioned ABOVE the arms, near the head/neck — NOT near the map arm, NOT behind the body\n\nABSOLUTELY NO extra fabric, cape, mantle, or wing shapes anywhere on the body or behind the arms. The map-holding arm and area around it must be COMPLETELY CLEAN — only the arm and the beige map, nothing else.\n\nKeep EVERYTHING ELSE exactly the same as reference.\n\nWhite background, clean flat vector style, bold colors, no gradients, no shadows, no black outlines.",
+          "output": "adventurer-20.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/adventurer-14.png"
+        },
+        {
+          "at": "2026-03-23T23:59:08.420Z",
+          "prompt": "Headspace-style flat design character illustration. Same character as reference image with ONE small change.\n\nCHANGE: The dark red scarf at the neck — instead of hanging straight down, the scarf end should point backward (to the left) from the neck. Just a TINY tail, like a small flag.\n\nEXTREMELY IMPORTANT — THE CHARACTER'S BACK MUST BE COMPLETELY CLEAN:\n- There must be NOTHING behind the character's back or body\n- NO dark shapes behind the torso\n- NO cape, NO mantle, NO wings, NO flowing fabric behind the body\n- The character's back silhouette should be a smooth clean curve — just the coral red body, nothing attached\n- The ONLY place the scarf exists is at the FRONT of the neck, with a tiny tail poking out to the side\n- If you are unsure, just make the scarf exactly like the reference (hanging down) rather than adding ANY extra shapes\n\nThe background behind the character must be pure white. Any dark red shape that is NOT part of the original reference character design is WRONG.\n\nKeep everything else identical to reference: coral red body, rocket shape, pilot cap, running pose, fist up, beige map, dark red boots, white sclera eyes.\n\nWhite background, clean flat vector style, bold colors, no gradients, no shadows, no black outlines.",
+          "output": "adventurer-21.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-14.png"
+        },
+        {
+          "at": "2026-03-24T00:10:10.976Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER — MATCH REFERENCE EXACTLY:\n- Coral red rocket-shaped body, compact and small\n- Dark red pilot cap with ear flaps\n- Dark red scarf at neck — small, flowing slightly to the side in the wind. NO cape, NO mantle, NO wing shapes behind the body. Back must be clean.\n- Dark red boots\n- WHITE SCLERA eyes with dark pupils, happy energetic smile\n- Holding a rolled-up beige MAP in one hand\n- Other arm stretched out pointing forward\n- Thick rounded limbs\n\nCOMPOSITION:\n- Character at CENTER of image\n- Character is LARGE — filling 50% of image width\n- Standing upright on clouds, feet on cloud surface\n\nSCENE — MATCH adventurer-bg-01 STYLE:\n- SIMPLE smooth coral red sky — single warm tone, NOT striped or banded\n- Big fluffy WHITE clouds in the lower portion\n- Character stands ON TOP of clouds\n- Far distance: tiny green mountain peaks and blue ocean peeking through a gap in clouds\n- Overall: SIMPLE and AIRY — coral sky + white clouds + character\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "adventurer-bg-09.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-21.png"
+        },
+        {
+          "at": "2026-03-24T00:29:52.627Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER — MATCH REFERENCE EXACTLY:\n- Coral red rocket-shaped body (round top, narrowing bottom), compact and small\n- Dark red pilot cap with ear flaps\n- Dark red SHORT scarf at neck — slightly flowing to the side, NO cape, NO mantle, NO wing shapes. Clean back.\n- Dark red boots\n- White sclera eyes with dark pupils, happy smile\n- Holding rolled-up beige MAP in one hand\n- Other arm stretched out wide to the side (NOT pointing with finger — arm open, palm facing out)\n- Thick rounded limbs\n\nCOMPOSITION — MATCH adventurer-bg-01 EXACTLY:\n- Character is SMALL — about 30% of image width (NOT big, NOT dominant)\n- Character positioned in the UPPER CENTER of the image\n- Character standing on clouds with feet touching cloud surface\n- Arms spread: one pointing right, one holding map on the left\n\nSCENE — MATCH adventurer-bg-01 EXACTLY:\n- SIMPLE smooth coral red sky — single warm tone filling most of the upper area\n- Big fluffy WHITE clouds filling the bottom 50-60% of the image, soft and round, piling up like cotton candy\n- Clouds are LARGE and prominent, creating a sea of white below\n- In the far bottom-right: tiny green mountain peaks and small blue ocean peeking through a gap in the clouds\n- NO orange bands, NO stripes, NO layered gradients in the sky\n- Overall feel: AIRY, SIMPLE, DREAMY — the character stands small but brave on top of a vast cloud sea under a warm coral sky\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "adventurer-bg-10.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-21.png"
+        },
+        {
+          "at": "2026-03-24T00:30:44.947Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER — MATCH REFERENCE EXACTLY:\n- Coral red rocket-shaped body (round top, narrowing bottom), compact and small\n- Dark red pilot cap with ear flaps\n- Dark red SHORT scarf at neck, slightly flowing to the side. NO cape, NO mantle behind back.\n- Dark red boots\n- White sclera eyes with dark pupils, happy smile\n- Holding rolled-up beige MAP in one hand\n- Other arm stretched out pointing forward\n- Thick rounded limbs\n\nCOMPOSITION:\n- Character fills about 35-40% of image width\n- Character in upper-center, standing on clouds\n- One arm points right toward horizon, other holds map\n\nSCENE:\n- Simple smooth CORAL RED sky — single warm tone, no stripes, no bands\n- Large fluffy WHITE clouds in lower half, soft cotton-like\n- Character stands on top of the clouds\n- Bottom-right corner: tiny green mountains and blue ocean visible through a gap in clouds\n- Simple, airy, dreamy atmosphere\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "adventurer-bg-11.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-21.png"
+        },
+        {
+          "at": "2026-03-24T00:34:41.528Z",
+          "prompt": "Headspace-style flat design character illustration. Same character as reference image with ONE fix.\n\nFIX: The scarf at the neck has an unwanted piece hanging DOWN. Remove that downward-hanging part. The scarf should ONLY flow HORIZONTALLY BACKWARD from the neck (to the left). There should be NO part of the scarf hanging downward or dangling below.\n\nThe scarf should look like: a short dark red ribbon tied at the neck, with one end streaming horizontally to the left (backward). The bottom of the scarf must be a clean horizontal line — nothing drooping or hanging down from it.\n\nKeep EVERYTHING ELSE exactly the same as reference: same coral red body, same rocket shape, same pilot cap, same running pose, same fist raised, same beige map, same dark red boots, same white sclera eyes.\n\nWhite background, clean flat vector style, bold colors, no gradients, no shadows, no black outlines.",
+          "output": "adventurer-22.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-21.png"
+        },
+        {
+          "at": "2026-03-24T00:44:49.547Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER — MATCH REFERENCE EXACTLY:\n- Coral red rocket-shaped body, compact and small\n- Dark red pilot cap with ear flaps\n- Dark red short scarf at neck flowing horizontally backward — NO downward droop, NO cape, NO mantle\n- Dark red boots\n- White sclera eyes with dark pupils, happy smile\n- Holding rolled-up beige MAP in one hand\n- Other arm stretched out pointing forward\n- Thick rounded limbs\n\nCOMPOSITION — MATCH adventurer-bg-01:\n- Character fills about 35% of image width\n- Character in upper-center, standing on clouds\n- One arm points right, other holds map\n\nSCENE — MATCH adventurer-bg-01:\n- Simple smooth CORAL RED sky — single warm tone, no stripes, no bands\n- Large fluffy WHITE clouds in lower half, soft cotton-like, piling up\n- Character stands on top of clouds\n- Bottom-right: tiny green mountains and blue ocean through a gap in clouds\n- Simple, airy, dreamy\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "adventurer-bg-12.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-22.png"
+        },
+        {
+          "at": "2026-03-24T02:34:37.692Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER — MATCH REFERENCE EXACTLY:\n- Coral red rocket-shaped body (round top, narrowing bottom)\n- Dark red pilot cap with ear flaps\n- Dark red SHORT scarf at neck flowing horizontally backward — NO droop, NO cape, NO wing shapes. Just a small ribbon streaming to the left.\n- Dark red boots\n- White sclera eyes with dark pupils, happy energetic smile\n- Holding rolled-up beige MAP in one hand\n- Other arm outstretched wide to the side\n- Thick rounded limbs\n- Running pose with energy\n\nCOMPOSITION — MATCH adventurer-bg-01 EXACTLY:\n- Character SMALL — about 30% of image width\n- Character in the UPPER CENTER of image\n- Standing on clouds with feet on cloud surface\n- Arms spread wide: one reaching right, one holding map on left\n\nSCENE — MATCH adventurer-bg-01 EXACTLY:\n- SIMPLE smooth coral red sky — single warm tone, NO bands, NO stripes\n- Big fluffy WHITE clouds filling the bottom 50-60%, soft round cotton candy clouds\n- Character stands on top of the highest cloud\n- Far bottom-right: tiny green mountain peaks and small blue ocean peeking through gap in clouds\n- Overall: AIRY, SIMPLE, DREAMY — small brave character on vast cloud sea under warm coral sky\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "adventurer-bg-13.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-22.png"
+        },
+        {
+          "at": "2026-03-24T02:38:59.987Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a background scene.\n\nCHARACTER — Based on reference but with DIFFERENT POSE:\n- Coral red rocket-shaped body (round top, narrowing bottom)\n- Dark red pilot cap with ear flaps\n- Dark red SHORT scarf at neck flowing horizontally backward — NO droop, NO cape, NO wing. Just a small ribbon.\n- Dark red boots\n- White sclera eyes with dark pupils, happy energetic smile\n- Thick rounded limbs\n\nPOSE — MATCH adventurer-bg-01:\n- STANDING UPRIGHT on clouds — NOT running, NOT jumping\n- RIGHT ARM pointing forward toward the horizon with index finger extended\n- LEFT ARM holding a rolled-up beige MAP, arm spread out to the left side\n- Feet together or slightly apart, planted firmly on cloud surface\n- Body facing slightly right, looking toward where the right hand points\n\nCOMPOSITION — MATCH adventurer-bg-01:\n- Character SMALL — about 30% of image width\n- Character in the UPPER CENTER of image\n- Standing on top of clouds\n\nSCENE — MATCH adventurer-bg-01:\n- SIMPLE smooth coral red sky — single warm tone, NO bands, NO stripes, NO layers\n- Big fluffy WHITE clouds filling the bottom 50-60%, soft round cotton candy\n- Character stands on the highest cloud\n- Far bottom-right: tiny green mountain peaks and small blue ocean peeking through gap in clouds\n- Overall: AIRY, SIMPLE, DREAMY\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "adventurer-bg-14.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-22.png"
+        },
+        {
+          "at": "2026-03-24T02:44:24.558Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a background scene.\n\nCHARACTER — Based on reference:\n- Coral red rocket-shaped body (round top, narrowing bottom)\n- Dark red pilot cap with ear flaps\n- Dark red SHORT scarf at neck — a small ribbon flowing HORIZONTALLY backward from neck. Clean, thin, natural. NOT a blob, NOT a cape.\n- Dark red boots — THICK and ROUNDED, chunky\n- White sclera eyes with dark pupils, BIG HAPPY smile, bright cheerful expression\n- THICK ROUNDED limbs — arms and legs must be FAT and CHUNKY like the reference character, NOT thin sticks\n\nPOSE — MATCH adventurer-bg-01:\n- STANDING UPRIGHT — NOT running\n- RIGHT ARM pointing forward with finger extended toward the horizon\n- LEFT ARM spread to the side holding a rolled-up beige MAP clearly visible\n- Feet planted on cloud surface\n\nCOMPOSITION — MATCH adventurer-bg-01:\n- Character about 30% of image width, upper center\n- Standing on top of clouds\n\nSCENE — MATCH adventurer-bg-01 with beautiful details:\n- Smooth warm coral red sky — single clean tone, luminous and vivid\n- Big fluffy WHITE clouds filling bottom half, soft and round like cotton candy, layered with depth\n- Bottom-right corner: a beautiful small landscape visible through gap in clouds — vivid GREEN mountain peaks with some brown/earth tones AND bright BLUE ocean. The landscape should be detailed and colorful like a tiny jewel, not just flat shapes.\n- A few small white clouds floating in the upper sky area\n- Overall: WARM, AIRY, DREAMY, BEAUTIFUL\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no shadows.",
+          "output": "adventurer-bg-15.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-22.png"
+        },
+        {
+          "at": "2026-03-24T02:54:17.424Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a background scene.\n\nCHARACTER — Based on reference:\n- Coral red rocket-shaped body (round top, narrowing bottom)\n- Dark red pilot cap with ear flaps\n- Dark red SHORT scarf at neck — small ribbon flowing horizontally backward. NOT a blob, NOT a cape.\n- Dark red boots — THICK and ROUNDED, chunky\n- White sclera eyes with dark pupils, BIG HAPPY smile, bright cheerful expression\n- THICK ROUNDED limbs — FAT and CHUNKY, NOT thin sticks\n\nPOSE — MATCH adventurer-bg-01:\n- STANDING UPRIGHT — NOT running\n- RIGHT ARM pointing forward with finger extended\n- LEFT ARM spread to side holding rolled-up beige MAP\n- Feet planted on cloud\n\nCOMPOSITION:\n- Character about 30% of image width, upper center\n- Standing on top of the highest cloud\n\nCLOUDS — CRITICAL — MATCH adventurer-bg-01:\n- Clouds must be PILED UP with varying heights — NOT a flat horizontal line\n- Some clouds are HIGH (where character stands), some are LOWER, some overlap\n- They should look like a MOUNTAIN RANGE of fluffy cotton — big round shapes stacking on top of each other with depth and volume\n- The cloud formation should have an organic, asymmetric shape — higher on the left where the character stands, sloping down to the right\n- Clouds fill the bottom 40-50% of the image\n\nSCENE:\n- Smooth warm coral red sky — luminous and vivid\n- Bottom-right: beautiful vivid GREEN mountains with earth tones AND bright BLUE ocean visible through gap in clouds — detailed and colorful like a tiny jewel\n- A few small white clouds floating in upper sky\n- Overall: WARM, AIRY, DREAMY\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no shadows.",
+          "output": "adventurer-bg-16.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-22.png"
+        },
+        {
+          "at": "2026-03-24T02:57:09.487Z",
+          "prompt": "Headspace-style flat design illustration. This is the SAME image as the reference with TWO small fixes only.\n\nFIX 1 — SCARF: The scarf at the character's neck should flow HORIZONTALLY backward as a small clean ribbon. NO droop hanging down. Just a short tail streaming to the left.\n\nFIX 2 — NO CAPE/WINGS: Remove any cape-like or wing-like dark shapes behind the character's body. The character's back should be a clean smooth silhouette — just the coral red body, nothing extra attached.\n\nKEEP EVERYTHING ELSE EXACTLY THE SAME AS THE REFERENCE IMAGE:\n- Same coral red sky color and tone\n- Same cloud shapes, positions, heights, depth — the exact same fluffy organic cloud formation\n- Same character size, position (upper center, small)\n- Same pose: standing upright, right arm pointing forward, left arm holding map spread to side\n- Same mountain peaks and blue ocean in the bottom-right corner — same size, same position, same colors\n- Same small clouds in the upper sky\n- Same character proportions, pilot cap, boots, expression\n- Same everything except the two fixes above\n\nThis should look like the reference image with only the scarf and cape corrected.",
+          "output": "adventurer-bg-17.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/adventurer-bg-01.png"
+        },
+        {
+          "at": "2026-03-24T03:04:27.623Z",
+          "prompt": "Headspace-style flat design illustration. This is the SAME image as the reference with minimal changes.\n\nTHE ONLY CHANGE: The dark shape behind the character's neck/back area. In the reference, there is a dark flowing shape behind the character that looks like a cape or wings. REMOVE IT COMPLETELY. The character's back silhouette should be clean — just the smooth coral red body outline, nothing behind it.\n\nThe scarf at the neck should be INVISIBLE or VERY TINY — just a thin dark red line at the neck area. NO flowing fabric, NO cape, NO wing shape, NO dark shapes behind the body AT ALL.\n\nABSOLUTELY CRITICAL — KEEP IDENTICAL:\n- The coral red sky — same UNIFORM coral tone, NO orange at bottom, NO gradient shift\n- The cloud formation — same exact shapes, same heights, same organic piling, same depth\n- The character SIZE — SMALL, about 25-30% of image width, NOT bigger\n- The character POSITION — upper center, same spot\n- The character POSE — standing upright, right hand pointing, left hand holding map\n- The mountain peaks and blue ocean — same bottom-right corner, same size\n- The character proportions, face, expression, boots, cap — all identical\n- The overall composition and feel — identical to reference\n\nThink of it as: reference image minus the cape shape behind the character. Nothing else changes.",
+          "output": "adventurer-bg-18.png",
+          "temperature": 0.15,
+          "reference": "scripts/characters/adventurer-bg-01.png"
+        },
+        {
+          "at": "2026-03-24T03:15:59.785Z",
+          "prompt": "Recreate this EXACT reference image with ONE tiny change.\n\nCHANGE: Remove the dark flowing shape behind the character's neck/back. Replace it with nothing — just clean coral red sky visible behind the character. The scarf should be a tiny dark red knot at the neck only, no trailing fabric.\n\nEVERYTHING ELSE MUST BE PIXEL-PERFECT IDENTICAL TO THE REFERENCE:\n- Same sky: uniform flat coral red, same exact hue, NO orange shift at bottom, NO gradient\n- Same clouds: exact same shapes, exact same positions, exact same layering and overlap pattern\n- Same character: exact same size (SMALL, ~25% of width), exact same position, exact same pose (standing, right finger pointing, left hand map), exact same proportions (thick rounded limbs, chunky boots), exact same face (white sclera, happy smile)\n- Same landscape: exact same green mountains and blue ocean in bottom-right, same size and position\n- Same overall feel: airy, simple, dreamy\n\nThe output should be indistinguishable from the reference except the cape is gone.",
+          "output": "adventurer-bg-19.png",
+          "temperature": 0.1,
+          "reference": "scripts/characters/adventurer-bg-01.png"
+        },
+        {
+          "at": "2026-03-24T03:18:29.166Z",
+          "prompt": "This is almost the perfect image. Recreate it exactly as-is, with one single removal:\n\nDELETE the dark brown/red shape that flows behind the character's back and neck area (it looks like a cape or scarf tail). In its place, show only the coral red sky background — as if the cape was erased and the sky behind is now visible.\n\nDO NOT add anything new. DO NOT add a bow, ribbon, knot, or any replacement. Just remove the cape shape and show sky behind.\n\nDO NOT change ANYTHING else:\n- Same flat coral red sky (no orange, no gradient)\n- Same cloud shapes and positions  \n- Same tiny character in upper center (~25% width)\n- Same standing pose pointing right with map in left hand\n- Same thick limbs and chunky boots\n- Same mountains and ocean bottom-right\n- Same everything",
+          "output": "adventurer-bg-20.png",
+          "temperature": 0.1,
+          "reference": "scripts/characters/adventurer-bg-01.png"
+        },
+        {
+          "at": "2026-03-24T03:20:19.370Z",
+          "prompt": "Recreate this EXACT reference image with ONE tiny change.\n\nCHANGE: The scarf at the character's neck — the end/tip of the scarf should taper to a clean POINTED TIP, like a real scarf end blown by wind. Currently it looks like a rounded blob. Make it a natural tapered scarf tail that narrows to a point, streaming horizontally to the left.\n\nDO NOT change ANYTHING else. Same sky, same clouds, same character size and position, same pose, same mountains and ocean, same everything. Only the scarf tip shape changes.",
+          "output": "adventurer-bg-21.png",
+          "temperature": 0.1,
+          "reference": "scripts/characters/adventurer-bg-20.png"
+        },
+        {
+          "at": "2026-03-24T03:31:25.837Z",
+          "prompt": "Recreate this EXACT reference image with ONE tiny change.\n\nCHANGE: The scarf at the character's neck — the tip/end of the scarf must be a SINGLE tail, NOT forked, NOT split into two. One single piece of fabric tapering to one point, streaming horizontally to the left from the neck. Like a simple ribbon with ONE end.\n\nDO NOT make it forked. DO NOT split it into two tails. ONE single scarf tail only.\n\nDO NOT change ANYTHING else. Same sky, same clouds, same character size and position, same pose, same mountains and ocean, same everything.",
+          "output": "adventurer-bg-22.png",
+          "temperature": 0.1,
+          "reference": "scripts/characters/adventurer-bg-20.png"
+        },
+        {
+          "at": "2026-03-24T03:32:42.147Z",
+          "prompt": "Recreate this EXACT reference image with ONE tiny change.\n\nCHANGE: The scarf flowing from the character's neck to the left. The scarf tail must TAPER GRADUALLY from thick at the neck to a very thin SHARP POINT at the end. Like a long triangle shape — wide where it attaches to the neck, narrowing smoothly to a needle-thin tip at the far end. The tip should fade to almost nothing, like a real silk scarf caught in the wind.\n\nNOT blunt. NOT rounded. NOT cut off. The end must be a SHARP THIN POINT that trails off naturally.\n\nSingle tail only — NOT forked, NOT split.\n\nDO NOT change ANYTHING else. Same sky, same clouds, same character, same pose, same mountains, same everything.",
+          "output": "adventurer-bg-23.png",
+          "temperature": 0.1,
+          "reference": "scripts/characters/adventurer-bg-20.png"
+        },
+        {
+          "at": "2026-03-24T03:35:17.995Z",
+          "prompt": "Recreate this EXACT reference image with ONE tiny change.\n\nCHANGE: The scarf at the character's neck. The scarf tail should be:\n- SHORT — only about the same width as the character's head\n- Flowing to the LEFT from the neck\n- The END of the scarf should FLARE OUT SLIGHTLY — like a real fabric edge that flutters in the breeze. The tip is slightly WIDER than the middle, with a soft wavy edge. Think of a short ribbon where the cut end naturally spreads and flutters.\n- NOT sharp, NOT pointed, NOT long, NOT sword-like\n- Single piece, NOT forked\n\nThis should look like a short cute scarf caught in a gentle breeze — the end flutters open slightly.\n\nDO NOT change ANYTHING else. Same sky, same clouds, same character, same pose, same mountains, same everything.",
+          "output": "adventurer-bg-24.png",
+          "temperature": 0.1,
+          "reference": "scripts/characters/adventurer-bg-20.png"
+        },
+        {
+          "at": "2026-03-24T03:46:09.615Z",
+          "prompt": "Recreate this EXACT reference image with ONE tiny change.\n\nCHANGE: The scarf at the character's neck. The scarf tail should be:\n- SHORT — about the width of the character's head\n- Flowing to the LEFT from the neck\n- The END of the scarf has a FLAT STRAIGHT EDGE — cut at a right angle, like a piece of fabric that was cut with scissors. RECTANGULAR end, NOT pointed, NOT rounded, NOT flared, NOT tapered.\n- The scarf is a simple short RECTANGLE of fabric streaming behind — same width throughout, ending with a clean straight vertical edge.\n- Single piece, NOT forked, NOT split\n\nDO NOT change ANYTHING else. Same sky, same clouds, same character, same pose, same mountains, same everything.",
+          "output": "adventurer-bg-25.png",
+          "temperature": 0.1,
+          "reference": "scripts/characters/adventurer-bg-20.png"
+        },
+        {
+          "at": "2026-03-24T03:48:17.833Z",
+          "prompt": "Recreate this EXACT reference image with ONE tiny change.\n\nCHANGE: The scarf at the character's neck. The scarf should be:\n- VERY SHORT and THIN — a small narrow dark red ribbon trailing behind the head\n- Length: about HALF the width of the character's head, no longer\n- Width: NARROW, about 1/4 the width of the head\n- Ends with a FLAT STRAIGHT EDGE (rectangular cut, not pointed, not rounded)\n- Flows horizontally to the LEFT from the neck\n- Single piece only\n\nThink of it as a tiny rectangular flag behind the neck. Small and subtle.\n\nDO NOT change ANYTHING else.",
+          "output": "adventurer-bg-26.png",
+          "temperature": 0.1,
+          "reference": "scripts/characters/adventurer-bg-20.png"
+        },
+        {
+          "at": "2026-03-24T03:52:43.112Z",
+          "prompt": "Recreate adventurer-bg-20 scene (coral red sky, fluffy white clouds, standing on cloud pointing right, mountains and ocean bottom-right) but use THIS reference character's scarf style.\n\nThe reference character has a SOFT FABRIC scarf flowing from the neck — it CURVES gently as it flows backward, like real soft cloth caught in a breeze. The end of the scarf is a FLAT STRAIGHT CUT (rectangular edge) but the fabric itself has a gentle S-curve or wave. It is NOT rigid, NOT straight like a stick. It looks like SOFT CLOTH.\n\nSCENE DETAILS (match adventurer-bg-20):\n- Smooth coral red sky (allow slight warm shift at bottom)\n- Big fluffy white clouds in bottom half, organic shapes\n- Character standing upright on cloud, right hand pointing, left hand holding map\n- Green mountains and blue ocean bottom-right\n- Character about 35% of image width, upper center\n\nCHARACTER: Match reference exactly — coral red body, pilot cap, chunky boots, white sclera eyes, happy smile, thick limbs. The scarf is the key: soft curved cloth with flat-cut end.\n\nFlat vector style, bold colors, simple shapes.",
+          "output": "adventurer-bg-27.png",
+          "temperature": 0.1,
+          "reference": "scripts/characters/adventurer-22.png"
+        },
+        {
+          "at": "2026-03-24T03:54:52.493Z",
+          "prompt": "Recreate this EXACT reference image with ONE tiny change.\n\nCHANGE: The scarf flowing from the character's neck — make the END/TIP of the scarf SLIGHTLY BIGGER and WIDER. The scarf should still have the same gentle curve and flow, but the flat-cut end should be about 50% wider than it currently is. Like the fabric spreads open a little more at the tip.\n\nKeep the same soft fabric feel, same curve, same direction. Just make the end portion slightly larger and more visible.\n\nDO NOT change ANYTHING else. Same sky, same clouds, same character, same pose, same mountains, same everything.",
+          "output": "adventurer-bg-28.png",
+          "temperature": 0.1,
+          "reference": "scripts/characters/adventurer-bg-26.png"
+        },
+        {
+          "at": "2026-03-24T03:55:41.506Z",
+          "prompt": "Recreate this EXACT reference image with ONE tiny change.\n\nCHANGE: The scarf flowing from the character's neck — make the END/TIP of the scarf BIGGER and MORE VISIBLE. The tip should be about 50% wider and slightly longer than it currently is. Keep the same soft fabric curve and flat-cut rectangular end, just scale it up so it's more prominent.\n\nThe scarf should still look like soft cloth with a gentle curve — NOT rigid, NOT straight. Just bigger at the end.\n\nDO NOT change ANYTHING else. Same body, same pose, same colors, same everything.\n\nWhite background, clean flat vector style, bold colors, no gradients, no shadows, no black outlines.",
+          "output": "adventurer-23.png",
+          "temperature": 0.1,
+          "reference": "scripts/characters/adventurer-22.png"
+        },
+        {
+          "at": "2026-03-24T04:05:07.535Z",
+          "prompt": "Recreate this EXACT reference image with ONE tiny change.\n\nCHANGE: The scarf flowing from the character's neck — make the END TIP of the scarf SLIGHTLY BIGGER. The tip should be about 30-40% wider than it currently is, with a flat straight-cut edge. The scarf should keep its current soft fabric curve and length — just make the end portion a little wider and more visible, like the fabric opens up slightly at the end.\n\nDO NOT change ANYTHING else. Same sky, same clouds, same character size and position, same pose, same mountains and ocean, same everything.",
+          "output": "adventurer-bg-29.png",
+          "temperature": 0.1,
+          "reference": "scripts/characters/adventurer-bg-26.png"
+        }
+      ],
+      "prompt": "Recreate this EXACT reference image with ONE tiny change.\n\nCHANGE: The scarf flowing from the character's neck — make the END TIP of the scarf SLIGHTLY BIGGER. The tip should be about 30-40% wider than it currently is, with a flat straight-cut edge. The scarf should keep its current soft fabric curve and length — just make the end portion a little wider and more visible, like the fabric opens up slightly at the end.\n\nDO NOT change ANYTHING else. Same sky, same clouds, same character size and position, same pose, same mountains and ocean, same everything.",
+      "reference": "scripts/characters/adventurer-bg-26.png",
+      "temperature": 0.1
+    },
+    "craftsman": {
+      "filename": "type_craftsman.png",
+      "trials": [
+        {
+          "at": "2026-03-22T03:54:02.875Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, proud satisfied smile, stick-like arms and legs with no joints.\n\nBody shape: Trapezoid, wide at the bottom and narrower at the top. Sturdy and grounded, like a solid craftsman.\nColor: solid gold (#EAB308) body\nExpression: proud satisfied smile, the look of a master who just completed a masterpiece\nAccessory: hammer (resting on one shoulder)\nPose: standing tall with hammer on shoulder, chest out, confident power stance\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "craftsman-01.png",
+          "reference": "scripts/characters/explorer-flat-01.png"
+        },
+        {
+          "at": "2026-03-22T04:22:32.554Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, proud satisfied smile, stick-like arms and legs with no joints.\n\nBody shape: Chunky rounded square, compact and sturdy. Wider than tall, built like a solid workbench. Different from planner's tall rectangle.\nColor: solid gold (#EAB308) body\nExpression: proud satisfied smile, the look of a master who just completed a masterpiece\nAccessory: large hammer (resting on one shoulder, big enough to be recognizable in silhouette)\nPose: standing tall with hammer on shoulder, chest out, confident power stance\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "craftsman-02.png",
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T09:42:31.398Z",
+          "prompt": "Headspace-style flat design character illustration with rich personality.\nThick rounded limbs with volume (NOT thin stick limbs), multiple flat color tones, clothing as part of character identity.\nGender-neutral abstract character, round dot eyes with white sclera. Arms are same color as body.\n\nBody shape: rounded square (almost square, wider than tall), sturdy and stable, artisan weight\nHead: finger-like protrusions on top of head, prominent and visible in silhouette (like the reference image teal character head style), representing craftsman hands\nMain color: gold (#EAB308) body\nLimbs: thick sturdy rounded arms and legs with volume, powerful maker's hands, no joints\nClothing: apron on the front of body in dark gold color, craftsman style\nShoes: brown boots on feet\nColor palette: gold (body) / dark gold (apron) / brown (boots + hammer)\nExpression: proud satisfied smile, corners of mouth turned up, accomplishment\nAccessory: large hammer resting on one shoulder, big enough for clear silhouette\nPose: standing tall with hammer on shoulder, confident stance, proud\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines. Multiple flat color tones.",
+          "output": "craftsman-03.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-22T10:25:54.261Z",
+          "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character has a rounded square body shape — compact and cute, NOT bulky or intimidating. Bright lemon yellow color (#FACC15, cheerful and sunny, NOT dark gold or amber). Finger-like protrusions on top of the head (like Headspace's teal character, representing craftsman's hands). Thick sturdy rounded limbs but compact size. Wearing an apron in dark yellow/mustard color. Dark yellow shoes on the feet matching the apron. Holding a large hammer resting on one shoulder (silhouette-defining prop). Proud satisfied smile with mouth corners up — the joy of finishing a craft. Round dot eyes. The overall feeling should be sunny, warm, approachable — like a friendly artisan. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 3 colors: lemon yellow body + dark yellow apron/shoes + dark brown hammer handle only.",
+          "output": "craftsman-04.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-22T10:36:00.842Z",
+          "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character has a TALL SLIM rounded rectangle box body shape — taller than wide, NOT squat, NOT wide, NOT chubby. Bright lemon yellow color (#FACC15, cheerful and sunny like a sunflower, NOT dark gold or amber). Finger-like protrusions on top of the head (like Headspace's teal character, representing craftsman's hands). Compact sturdy rounded limbs but the character is NOT bulky — slim and cute. Wearing an apron in dark yellow/mustard color over the body. Dark yellow shoes on the feet matching the apron. Holding a large hammer resting on one shoulder with one hand, other hand on hip or making a fist. Proud satisfied smile with mouth corners up — the joy of finishing a craft. Eyes have white sclera with dark round pupils. The overall feeling should be slim, sunny, warm, approachable — NOT fat or intimidating. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 3 colors: lemon yellow body + dark yellow apron/shoes + dark brown hammer handle.",
+          "output": "craftsman-05.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        }
+      ],
+      "prompt": "A single cute Headspace-style flat-design character on a pure white background. The character has a TALL SLIM rounded rectangle box body shape — taller than wide, NOT squat, NOT wide, NOT chubby. Bright lemon yellow color (#FACC15, cheerful and sunny like a sunflower, NOT dark gold or amber). Finger-like protrusions on top of the head (like Headspace's teal character, representing craftsman's hands). Compact sturdy rounded limbs but the character is NOT bulky — slim and cute. Wearing an apron in dark yellow/mustard color over the body. Dark yellow shoes on the feet matching the apron. Holding a large hammer resting on one shoulder with one hand, other hand on hip or making a fist. Proud satisfied smile with mouth corners up — the joy of finishing a craft. Eyes have white sclera with dark round pupils. The overall feeling should be slim, sunny, warm, approachable — NOT fat or intimidating. Flat vector style, no outlines, no gradients, no shadows, no textures. Simple geometric shapes, gender-neutral. 3 colors: lemon yellow body + dark yellow apron/shoes + dark brown hammer handle.",
+      "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg",
+      "temperature": 0.3
+    },
+    "balancer": {
+      "filename": "type_balancer.png",
+      "trials": [
+        {
+          "at": "2026-03-22T03:54:45.396Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, calm peaceful smile, stick-like arms and legs with no joints.\n\nBody shape: Oval, neither round nor square. A balanced middle-ground shape, not too tall, not too wide.\nColor: solid sky blue (#0EA5E9) body\nExpression: calm peaceful smile, serene and content, everything in harmony\nAccessory: small balance scale (held lightly in one hand, both sides perfectly level)\nPose: standing on one foot, the other leg slightly raised, effortless balance\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "balancer-01.png",
+          "reference": "scripts/characters/explorer-flat-01.png"
+        },
+        {
+          "at": "2026-03-22T05:00:13.078Z",
+          "prompt": "Headspace-style flat design character illustration.\nSimple geometric shape, minimal details, no sharp edges, soft rounded curves.\nGender-neutral abstract character, 1 to 1.5 head-to-body ratio.\nRound dot eyes with white sclera, stick-like arms and legs with no joints.\n\nBody shape: Capsule (pill) shape — two perfect semicircles (top and bottom) connected by straight parallel sides. Perfectly symmetrical. Not an oval — has distinct flat sides and rounded caps. Medium size. The embodiment of balance.\nColor: solid sky blue (#0EA5E9) body\nExpression: serene closed-eyes smile, peaceful and content. Eyes gently closed with a soft smile. The only character with closed eyes — zen-like calm, everything in perfect harmony.\nAccessory: small balance scale (held lightly in one hand, both sides perfectly level)\nPose: standing on one foot, the other leg slightly raised, effortless balance\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines.",
+          "output": "balancer-02.png",
+          "reference": "scripts/characters/explorer-02.png"
+        },
+        {
+          "at": "2026-03-22T09:43:15.157Z",
+          "prompt": "Headspace-style flat design character illustration with rich personality.\nThick rounded limbs with volume (NOT thin stick limbs), multiple flat color tones, clothing as part of character identity.\nGender-neutral abstract character. Arms are same color as body.\n\nBody shape: pill/capsule shape, top and bottom are semicircles with straight middle section. Perfectly symmetrical. Embodies balance.\nHead: clean hemisphere on top, perfectly symmetrical, part of capsule shape\nMain color: sky blue (#0EA5E9) upper body\nLimbs: normal thickness rounded arms and legs with volume, balanced and centered, no joints\nClothing: horizontal sash belt around the middle of the body in dark blue. Everything below the sash is also dark blue (lower body + legs), creating a two-tone split.\nShoes: none (dark blue lower body extends to feet)\nColor palette: sky blue (upper body) / dark blue (sash + lower body + legs) / blue (balance scale)\nExpression: serene closed-eyes smile, the only character with eyes closed, zen-like harmony\nAccessory: holding a balance scale in one hand, perfectly level\nPose: standing on one foot, graceful balance, holding scale\n\nClean flat vector style, bold colors, white background, no gradients, no shadows, no black outlines. Multiple flat color tones.",
+          "output": "balancer-03.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/references/fa997687224100909f675207edb9476e.jpg"
+        },
+        {
+          "at": "2026-03-23T06:00:28.703Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — MATCH REFERENCE EXACTLY: CAPSULE/PILL shape. Semicircle top, semicircle bottom, straight sides. WIDE and SHORT — width is 80% of height. NOT thin, NOT elongated. Copy the reference body proportions precisely.\n\nCharacter: sky blue capsule body (upper half), dark blue sash belt at waist, dark blue lower half and feet. Holding BLUE scales of justice (same blue as character). Standing on one leg. Eyes closed, serene smile.\n\nCOMPOSITION:\n- Character positioned with feet at 35% from the bottom edge.\n- ENTIRE body fully visible above the water line.\n- Character is LARGE — filling 50% of image width.\n- Below the character's feet: a calm mirror lake. A very SUBTLE, FAINT reflection of the character is barely visible in the water — like a ghost image. The reflection is NOT the focus — it is just a gentle hint. Do NOT make the reflection large or prominent.\n\nCOLOR — THIS IS THE MOST IMPORTANT PART:\n- Sky: BEAUTIFUL CLEAR VIVID sky blue. Clean, bright, luminous. Like looking up at a perfect summer sky.\n- Water: SAME beautiful blue as the sky, just very slightly lighter or with a hint of white to show the horizon. The water should NOT be dark or deep blue. It should be almost the same bright beautiful blue as the sky — they nearly merge.\n- Overall: BRIGHT, AIRY, LUMINOUS. The most beautiful blue world. Crystal clear.\n- A few small white clouds.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-21.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T06:02:18.091Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — MATCH REFERENCE EXACTLY: CAPSULE/PILL shape. Semicircle top, semicircle bottom, straight sides. WIDE and SHORT — width is 80% of height. NOT thin, NOT elongated.\n\nCharacter: sky blue capsule body (upper half), dark blue sash belt at waist, dark blue lower half and feet. Holding BLUE scales of justice (same blue as character). Standing on one leg with other foot lifted behind. Eyes closed, serene smile.\n\nSCENE: A mirror lake at golden hour.\n- Horizon at 55% from top.\n- Character stands on the water, feet touching the horizon line. Full body visible above.\n- Character is LARGE — filling 50% of image width.\n\nREFLECTION:\n- Below the horizon: a visible MIRROR REFLECTION of the character in the calm lake water. The reflection shows the upside-down character in slightly lighter, softer colors.\n- The reflection should be clearly recognizable but rendered in a lighter/paler tone than the real character above.\n- The reflection extends about 60% of the character's height downward.\n\nCOLOR:\n- Sky: Beautiful vivid clear sky blue. Bright luminous summer sky with a few white clouds.\n- Water: Beautiful clear blue — NOT dark, NOT navy. Bright and luminous, similar to the sky. The reflected character should be visible against this bright water.\n- Overall: BRIGHT, AIRY, CRYSTAL CLEAR — the most beautiful blue world.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-22.png",
+          "temperature": 0.25,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T06:11:44.643Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — MATCH REFERENCE EXACTLY: CAPSULE/PILL shape. Semicircle top, semicircle bottom, straight sides. WIDE and SHORT — width is 80% of height. NOT thin, NOT elongated.\n\nCharacter: sky blue capsule body (upper half), dark blue sash belt at waist, dark blue lower half and feet. Holding BLUE scales of justice (same blue as character). Standing on one leg with other foot lifted behind. Eyes closed, serene smile.\n\nSCENE: A mirror lake under a perfect midday summer sky.\n- Horizon at 55% from top.\n- Character stands on the water, feet touching the horizon line. Full body visible above.\n- Character is LARGE — filling 50% of image width.\n\nREFLECTION:\n- Below the horizon: a visible MIRROR REFLECTION of the character in the calm lake water. The reflection shows the upside-down character in slightly lighter, softer colors.\n- The reflection should be clearly recognizable but rendered in a lighter/paler tone than the real character above.\n- The reflection extends about 60% of the character height downward.\n\nCOLOR — CRITICAL:\n- Sky: BEAUTIFUL CLEAR VIVID sky blue — bright, luminous, like a perfect MIDDAY summer sky. NO yellow, NO orange, NO warm tones. Pure clean blue.\n- Horizon: where sky meets water, use a thin line of WHITE or very pale blue. NO golden, NO yellow, NO warm gradient at all.\n- Water: Beautiful clear blue — similar brightness to the sky but very slightly different shade. NOT dark, NOT navy. The water and sky are both BRIGHT BLUE, nearly merging into one blue world.\n- The reflected character is visible against this bright blue water.\n- A few small white clouds in the sky.\n- Overall mood: BRIGHT, COOL, CRYSTAL CLEAR midday — NOT sunset, NOT golden hour.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-23.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T06:13:00.043Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — MATCH REFERENCE EXACTLY: CAPSULE/PILL shape. Semicircle top, semicircle bottom, straight sides. WIDE and SHORT — width is 80% of height. NOT thin, NOT elongated. The body proportions MUST match the reference image precisely.\n\nCharacter: sky blue capsule body (upper half), dark blue sash belt at waist, dark blue lower half and feet. Holding BLUE scales of justice (same blue as character). Standing on one leg with other foot lifted behind. Eyes closed, serene smile.\n\nLAYOUT:\n- The character is positioned in the UPPER 60% of the image. Feet touch the water line at exactly 60% from the top.\n- The ENTIRE character including both feet is FULLY ABOVE the water line. No part of the body is submerged.\n- Character fills about 45% of image width and 50% of image height.\n- Below the feet (bottom 40%): calm mirror lake with a visible reflection of the character. The reflection is upside-down, rendered in slightly lighter/paler colors. It extends about half the character's height downward.\n\nCOLOR — CRITICAL:\n- Sky: BEAUTIFUL CLEAR VIVID sky blue — bright, luminous, perfect MIDDAY summer sky. NO yellow, NO orange, NO warm tones anywhere. Pure clean blue.\n- Horizon: thin white or very pale blue line where sky meets water. NO gold, NO yellow.\n- Water: Beautiful clear bright blue — same family as the sky, just slightly different shade. NOT dark, NOT navy. Bright luminous blue.\n- A few small white clouds.\n- Overall: BRIGHT, COOL, CRYSTAL CLEAR. One continuous beautiful blue world.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-24.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T06:24:00.643Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — MATCH REFERENCE EXACTLY: CAPSULE/PILL shape. Semicircle top, semicircle bottom, straight sides. WIDE and SHORT — width is 80% of height. NOT thin, NOT elongated.\n\nCharacter: sky blue capsule body (upper half), dark blue sash belt at waist, dark blue lower half and feet. Holding BLUE scales of justice (same blue as character). Standing on one leg with other foot lifted behind. Eyes closed, serene smile.\n\nSCENE: A mirror lake under a perfect MIDDAY summer sky.\n- Horizon at 55% from top.\n- Character stands on the water, feet touching the horizon line. Full body visible above.\n- Character is LARGE — filling 50% of image width.\n\nREFLECTION:\n- Below the horizon: a visible MIRROR REFLECTION of the character in the calm lake water. The reflection shows the upside-down character in slightly lighter, softer colors.\n- The reflection should be clearly recognizable but rendered in a lighter/paler tone than the real character above.\n- The reflection extends about 60% of the character height downward.\n\nCOLOR — ABSOLUTE REQUIREMENT:\n- THE ENTIRE IMAGE MUST BE SHADES OF BLUE AND WHITE ONLY. Zero yellow. Zero orange. Zero warm tones. Zero golden colors. Not even a hint.\n- Sky: BEAUTIFUL CLEAR VIVID sky blue — bright, luminous MIDDAY summer sky.\n- Horizon line: WHITE or very pale sky blue. Absolutely NO yellow, NO gold, NO warm gradient.\n- Water: Beautiful clear blue — slightly deeper than the sky but still BRIGHT and luminous. NOT dark navy.\n- Clouds: pure white.\n- The ONLY colors in the entire image are: sky blue, dark blue, white, and the character's colors.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-25.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T06:39:55.491Z",
+          "prompt": "Reproduce this reference image EXACTLY — same character, same size, same position, same composition, same reflection, same clouds. The ONLY change: replace the yellow/golden gradient at the horizon line with a clean WHITE-to-pale-blue transition. No yellow, no warm tones anywhere. The horizon should blend from sky blue above to water blue below through a thin white band. Everything else stays identical to the reference.",
+          "output": "balancer-bg-26.png",
+          "temperature": 0.15,
+          "reference": "scripts/characters/balancer-bg-22.png"
+        },
+        {
+          "at": "2026-03-23T06:41:53.978Z",
+          "prompt": "Edit this image. Keep EVERYTHING exactly the same — the character, its size, position, pose, the reflection in the water, the clouds, the composition. Change ONLY the color of the horizon area: remove all yellow and warm tones from the horizon band. Replace the yellow-to-white gradient at the horizon with a pure white-to-light-blue gradient. The sky should transition smoothly from vivid sky blue to white at the horizon, then to water blue below. Zero yellow. Zero golden. Zero warm colors anywhere in the image.",
+          "output": "balancer-bg-27.png",
+          "temperature": 0.1,
+          "reference": "scripts/characters/balancer-bg-22.png"
+        }
+      ],
+      "prompt": "Edit this image. Keep EVERYTHING exactly the same — the character, its size, position, pose, the reflection in the water, the clouds, the composition. Change ONLY the color of the horizon area: remove all yellow and warm tones from the horizon band. Replace the yellow-to-white gradient at the horizon with a pure white-to-light-blue gradient. The sky should transition smoothly from vivid sky blue to white at the horizon, then to water blue below. Zero yellow. Zero golden. Zero warm colors anywhere in the image.",
+      "reference": "scripts/characters/balancer-bg-22.png",
+      "temperature": 0.1
+    },
+    "explorer-bg": {
+      "filename": "type_explorer-bg.png",
+      "trials": [
+        {
+          "at": "2026-03-23T01:10:58.959Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — round turquoise body, antenna on head, dark turquoise vest and boots, telescope held up to eye, excited open-mouth expression.\n\nScene: Standing on the edge of a sandy cliff overlooking a vast turquoise ocean. The character peers through the telescope at the horizon. A small island silhouette in the far distance. Simple white clouds in a pale sky. The turquoise ocean matches the character's body color — they become one.\n\nColor palette: turquoise ocean, pale sky, sandy warm cliff, the character's turquoise body blends with the sea.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+          "output": "explorer-bg-01.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/explorer-05.png"
+        },
+        {
+          "at": "2026-03-23T02:07:15.998Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — round turquoise body, antenna on head, dark turquoise vest and boots, telescope held up to eye, excited open-mouth expression.\n\nScene: Standing on the edge of a sandy cliff overlooking a vast turquoise ocean. The character peers through the telescope at the horizon. A small island silhouette in the far distance. Simple white clouds in a pale light blue sky — NOT beige or grey sky. The turquoise ocean matches the character's body color — they become one.\n\nColor palette: turquoise ocean, pale light blue sky with white clouds, sandy warm cliff. The character's turquoise body blends with the sea.\n\nCharacter's eyes should be small simple dots like Headspace style, NOT large cartoon eyes.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+          "output": "explorer-bg-02.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/explorer-05.png"
+        },
+        {
+          "at": "2026-03-23T03:48:36.120Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's EXACT design from the reference — round turquoise body, antenna on head, dark turquoise vest and boots, telescope held up to eye, excited open-mouth expression.\n\nCRITICAL: The character's eyes must have WHITE SCLERA (white circles) with dark pupils inside, exactly like the reference image. NOT simple black dots without white.\n\nScene: Standing on the edge of a sandy cliff overlooking a vast turquoise ocean. The character peers through the telescope at the horizon. A small island silhouette in the far distance. Simple white clouds in a pale light blue sky. The turquoise ocean matches the character's body color.\n\nColor palette: turquoise ocean, pale light blue sky with white clouds, sandy warm cliff.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters — but eyes MUST have white sclera.",
+          "output": "explorer-bg-03.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/explorer-05.png"
+        }
+      ],
+      "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's EXACT design from the reference — round turquoise body, antenna on head, dark turquoise vest and boots, telescope held up to eye, excited open-mouth expression.\n\nCRITICAL: The character's eyes must have WHITE SCLERA (white circles) with dark pupils inside, exactly like the reference image. NOT simple black dots without white.\n\nScene: Standing on the edge of a sandy cliff overlooking a vast turquoise ocean. The character peers through the telescope at the horizon. A small island silhouette in the far distance. Simple white clouds in a pale light blue sky. The turquoise ocean matches the character's body color.\n\nColor palette: turquoise ocean, pale light blue sky with white clouds, sandy warm cliff.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters — but eyes MUST have white sclera.",
+      "reference": "scripts/characters/explorer-05.png",
+      "temperature": 0.3
+    },
+    "planner-bg": {
+      "filename": "type_planner-bg.png",
+      "trials": [
+        {
+          "at": "2026-03-22T15:00:10.442Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — green rectangular body, checkered vest, clipboard, dark green shoes.\n\nScene: Standing under a large tree on a bright green meadow. The tree has a thick trunk and a big round canopy of dark green leaves. Dappled light falls through the leaves. The ground is bright green grass. A gentle horizon line in the distance with soft rolling hills. The character looks at the clipboard contentedly.\n\nColor palette: bright green and dark green tones for the meadow and tree, light warm yellow for the sky. The character's green body harmonizes with the natural greens around it.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+          "output": "planner-bg-01.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/planner-05.png"
+        },
+        {
+          "at": "2026-03-23T02:09:51.547Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — green rectangular rounded body, flat top head, dark green checkered vest, dark green shoes, clipboard in one hand, other hand on chin thinking.\n\nScene: Sitting comfortably at the base of a single large tree in a green meadow. The character leans against the thick brown trunk, looking at the clipboard with a content happy smile. Dappled sunlight through the leaves. Bright green grass, gentle rolling hills in the far distance. The tree has rich dark green leaves creating beautiful layers of green with the character.\n\nThe character should be LARGE, filling about 40% of the image. NOT tiny or far away.\n\nColor palette: bright greens for grass and leaves, warm brown trunk, bright pale blue sky with soft white clouds. Multiple shades of green creating depth.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+          "output": "planner-bg-02.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/planner-05.png"
+        }
+      ],
+      "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — green rectangular rounded body, flat top head, dark green checkered vest, dark green shoes, clipboard in one hand, other hand on chin thinking.\n\nScene: Sitting comfortably at the base of a single large tree in a green meadow. The character leans against the thick brown trunk, looking at the clipboard with a content happy smile. Dappled sunlight through the leaves. Bright green grass, gentle rolling hills in the far distance. The tree has rich dark green leaves creating beautiful layers of green with the character.\n\nThe character should be LARGE, filling about 40% of the image. NOT tiny or far away.\n\nColor palette: bright greens for grass and leaves, warm brown trunk, bright pale blue sky with soft white clouds. Multiple shades of green creating depth.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+      "temperature": 0.3,
+      "reference": "scripts/characters/planner-05.png"
+    },
+    "socialite-bg": {
+      "filename": "type_socialite-bg.png",
+      "trials": [
+        {
+          "at": "2026-03-22T15:06:35.411Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — tall orange bowling-pin body with brown horizontal stripes on the torso, crown-like bump on head, megaphone in one hand, other hand raised high, orange sneakers.\n\nScene: Standing on a street in a bright sunny day. Simple flat building silhouettes in the background. Colorful triangle flag bunting (garland) strung across the sky. One hot air balloon floating in the distance. Bright blue sky with a few white clouds. The character is shouting into the megaphone with the other hand raised, starting a parade.\n\nColor palette: bright blue sky, orange character pops as complementary color. Colorful flags (red, yellow, green, blue). Simple warm-toned building silhouettes.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+          "output": "socialite-bg-01.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/socialite-05.png"
+        }
+      ],
+      "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — tall orange bowling-pin body with brown horizontal stripes on the torso, crown-like bump on head, megaphone in one hand, other hand raised high, orange sneakers.\n\nScene: Standing on a street in a bright sunny day. Simple flat building silhouettes in the background. Colorful triangle flag bunting (garland) strung across the sky. One hot air balloon floating in the distance. Bright blue sky with a few white clouds. The character is shouting into the megaphone with the other hand raised, starting a parade.\n\nColor palette: bright blue sky, orange character pops as complementary color. Colorful flags (red, yellow, green, blue). Simple warm-toned building silhouettes.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+      "temperature": 0.3,
+      "reference": "scripts/characters/socialite-05.png"
+    },
+    "harmonizer-bg": {
+      "filename": "type_harmonizer-bg.png",
+      "trials": [
+        {
+          "at": "2026-03-22T15:18:45.791Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — short round pink mochi-shaped body, dark pink scarf/muffler around neck, no shoes, round stubby arms spread wide open for a hug, gentle warm smile.\n\nScene: Standing on a snowy field at winter twilight. Soft snow lightly falling. The ground has a thin layer of white snow. The sky is a beautiful blend of pink and soft lavender — a warm winter sunset. In the far distance, one small house with a glowing warm light in the window. Peaceful, quiet, warm despite the cold.\n\nColor palette: pink and lavender sky, white snow on the ground, the character's soft pink body blends with the pink sky. Warm golden light from the distant house window.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+          "output": "harmonizer-bg-01.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/harmonizer-02.png"
+        }
+      ],
+      "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — short round pink mochi-shaped body, dark pink scarf/muffler around neck, no shoes, round stubby arms spread wide open for a hug, gentle warm smile.\n\nScene: Standing on a snowy field at winter twilight. Soft snow lightly falling. The ground has a thin layer of white snow. The sky is a beautiful blend of pink and soft lavender — a warm winter sunset. In the far distance, one small house with a glowing warm light in the window. Peaceful, quiet, warm despite the cold.\n\nColor palette: pink and lavender sky, white snow on the ground, the character's soft pink body blends with the pink sky. Warm golden light from the distant house window.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+      "temperature": 0.3,
+      "reference": "scripts/characters/harmonizer-02.png"
+    },
+    "empath-bg": {
+      "filename": "type_empath-bg.png",
+      "trials": [
+        {
+          "at": "2026-03-22T15:21:17.399Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — lavender teardrop-shaped body, dark purple short cape on shoulders, dark purple shoes, pink butterfly resting on one outstretched hand, gentle tilted head with soft smile.\n\nScene: Standing in a vast lavender field at twilight magic hour. The sky transitions from soft lavender to warm pink. Several bright pink butterflies flutter gently in the air around the character. One butterfly rests on the character's hand. Soft rolling hills in the far distance. Serene, beautiful, peaceful.\n\nColor palette: lavender and soft pink tones throughout — the sky, the lavender flowers, the character all blend into one harmonious purple-pink world. Pink butterflies as accent.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters. NO NOSE.",
+          "output": "empath-bg-01.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/empath-07.png"
+        }
+      ],
+      "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — lavender teardrop-shaped body, dark purple short cape on shoulders, dark purple shoes, pink butterfly resting on one outstretched hand, gentle tilted head with soft smile.\n\nScene: Standing in a vast lavender field at twilight magic hour. The sky transitions from soft lavender to warm pink. Several bright pink butterflies flutter gently in the air around the character. One butterfly rests on the character's hand. Soft rolling hills in the far distance. Serene, beautiful, peaceful.\n\nColor palette: lavender and soft pink tones throughout — the sky, the lavender flowers, the character all blend into one harmonious purple-pink world. Pink butterflies as accent.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters. NO NOSE.",
+      "temperature": 0.3,
+      "reference": "scripts/characters/empath-07.png"
+    },
+    "adventurer-bg": {
+      "filename": "type_adventurer-bg.png",
+      "trials": [
+        {
+          "at": "2026-03-23T00:35:55.692Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — coral red rocket-shaped body, dark red pilot cap with ear flaps, dark red scarf, dark red boots, holding a rolled map, energetic running pose.\n\nScene: Standing on top of fluffy white clouds. The sky is painted in coral red and orange sunrise colors. The scarf flutters in the wind. Below the clouds, tiny mountains and islands are visible far below. The character points forward with one hand, holding the map in the other. A sense of infinite possibility and adventure.\n\nColor palette: coral red to orange sunrise sky, white fluffy clouds, the character's coral red body harmonizes with the sunrise. Tiny blue-green elements below for the land/sea.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+          "output": "adventurer-bg-01.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/adventurer-14.png"
+        },
+        {
+          "at": "2026-03-23T02:26:41.237Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — compact small coral red rocket-shaped body, dark red pilot cap with ear flaps, dark red scarf at neck, dark red boots, rolled map in one hand.\n\nScene: Flying above fluffy white clouds in a sunrise sky. The scarf is flowing and fluttering dramatically in the wind behind the character. Below the clouds, tiny mountains and small islands are visible. One hand holds a rolled map, the other points forward toward the horizon. The sky transitions from coral red to warm orange at the horizon.\n\nIMPORTANT: The character should be COMPACT and SMALL-bodied, matching the reference image exactly. NOT tall or stretched.\nIMPORTANT: Include plenty of white fluffy clouds for contrast against the warm sky — NOT all red/orange.\nIMPORTANT: The scarf should be visibly flowing in the wind, creating a sense of movement.\n\nColor palette: coral red to warm orange sky, white fluffy clouds, tiny green/blue landscape below.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+          "output": "adventurer-bg-02.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/adventurer-14.png"
+        }
+      ],
+      "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — compact small coral red rocket-shaped body, dark red pilot cap with ear flaps, dark red scarf at neck, dark red boots, rolled map in one hand.\n\nScene: Flying above fluffy white clouds in a sunrise sky. The scarf is flowing and fluttering dramatically in the wind behind the character. Below the clouds, tiny mountains and small islands are visible. One hand holds a rolled map, the other points forward toward the horizon. The sky transitions from coral red to warm orange at the horizon.\n\nIMPORTANT: The character should be COMPACT and SMALL-bodied, matching the reference image exactly. NOT tall or stretched.\nIMPORTANT: Include plenty of white fluffy clouds for contrast against the warm sky — NOT all red/orange.\nIMPORTANT: The scarf should be visibly flowing in the wind, creating a sense of movement.\n\nColor palette: coral red to warm orange sky, white fluffy clouds, tiny green/blue landscape below.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+      "temperature": 0.3,
+      "reference": "scripts/characters/adventurer-14.png"
+    },
+    "craftsman-bg": {
+      "filename": "type_craftsman-bg.png",
+      "trials": [
+        {
+          "at": "2026-03-23T00:52:52.738Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — lemon yellow tall rectangular body with finger-like bump on head, dark yellow apron, dark yellow shoes, holding a large hammer on shoulder, proud stance.\n\nScene: Standing proudly in the middle of a sunflower field. Tall bright lemon yellow sunflowers surround the character. Clear blue sky above with bright sunshine. The character and the sunflowers share the same lemon yellow — they become one unified world of golden light. Simple, joyful, radiant.\n\nColor palette: lemon yellow sunflowers matching the character's body color, bright blue sky, green stems. Color unity between character and environment is the star.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+          "output": "craftsman-bg-01.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/craftsman-05.png"
+        }
+      ],
+      "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — lemon yellow tall rectangular body with finger-like bump on head, dark yellow apron, dark yellow shoes, holding a large hammer on shoulder, proud stance.\n\nScene: Standing proudly in the middle of a sunflower field. Tall bright lemon yellow sunflowers surround the character. Clear blue sky above with bright sunshine. The character and the sunflowers share the same lemon yellow — they become one unified world of golden light. Simple, joyful, radiant.\n\nColor palette: lemon yellow sunflowers matching the character's body color, bright blue sky, green stems. Color unity between character and environment is the star.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+      "temperature": 0.3,
+      "reference": "scripts/characters/craftsman-05.png"
+    },
+    "balancer-bg": {
+      "filename": "type_balancer-bg.png",
+      "trials": [
+        {
+          "at": "2026-03-23T01:06:47.132Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — sky blue capsule-shaped body, dark blue sash belt at waist with dark blue lower half, holding a balance scale in one hand, standing on one leg, eyes closed with serene smile.\n\nScene: Standing on a perfectly still mirror-like lake surface. The sky and water merge into one continuous sky blue world — no visible horizon line. The character stands on the water, and a perfect upside-down reflection is visible below. Only a few small white clouds float in the distance. Absolute stillness and tranquility. The most zen scene of all eight characters.\n\nColor palette: sky blue everywhere — sky and water are the same color, creating an infinite blue space. White clouds as minimal accent. The character's sky blue upper body blends with the world.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+          "output": "balancer-bg-01.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T02:31:35.521Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design, color, shape, expression, and accessories from the reference — rounded pill/capsule-shaped sky blue body, dark blue sash belt dividing upper and lower body, dark blue lower half, scales of justice held in one hand, standing on one leg with eyes closed in a serene peaceful smile.\n\nScene: Standing on a perfectly mirror-like lake surface. The sky and water merge into one — you cannot tell where the sky ends and the water begins. The character stands on the water surface, and below is a perfect mirror reflection of the character. A few small white clouds float in the bright clear sky blue world. Absolute serenity and stillness.\n\nIMPORTANT: Use BRIGHT CLEAR sky blue, NOT dark or deep blue. The entire scene should feel light and airy.\nIMPORTANT: The reflection of the character in the water should also have a SERENE PEACEFUL smile, NOT a sad or frowning expression.\nIMPORTANT: The character's body should be ROUNDED pill/capsule shape, not elongated or thin.\n\nColor palette: bright clear sky blue for sky and water, white clouds, the character's sky blue upper body and dark blue lower body.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features like Headspace characters.",
+          "output": "balancer-bg-02.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T02:33:11.309Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nKeep the character's exact design from the reference — a short rounded pill/capsule body in sky blue, with a dark blue sash belt at the waist, dark blue lower half and feet, holding golden scales of justice in one hand, standing on one leg, eyes closed with a gentle serene smile.\n\nScene: A mirror lake. The entire background is LIGHT sky blue — very pale, almost white-blue. The horizon line divides the image exactly in half. Above: pale sky blue sky with 2-3 small white clouds. Below: the water perfectly mirrors everything above, including the character's reflection. The character stands right at the center on the water line.\n\nThe reflection below should be an exact upside-down copy of the character — same serene closed-eyes smile, same pose, same colors.\n\nCRITICAL: Very LIGHT, PALE sky blue (#87CEEB or lighter) for the entire background. NOT medium or dark blue.\nCRITICAL: Character must be SHORT and ROUND like a pill/capsule, NOT tall or elongated.\nCRITICAL: Both the character AND its reflection must have closed eyes with a peaceful smile.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Minimal elements — just character, reflection, clouds, and the vast sky-blue space.",
+          "output": "balancer-bg-03.png",
+          "temperature": 0.4,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T02:35:47.081Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\nCRITICAL: The character must look EXACTLY like the reference — a WIDE, SHORT, ROUNDED pill/capsule shape. The body width should be almost equal to its height. It is NOT tall or thin. Think of a medicine capsule lying on its side but standing up.\n\nThe character has: sky blue upper body, dark blue sash belt at waist, dark blue lower half, holding golden scales of justice in right hand, left hand open. Standing on one leg. Eyes closed, gentle peaceful smile.\n\nScene: Standing on perfectly still mirror-like water. Light pale sky blue background everywhere. Horizon line at exact center of image. Above the line: pale sky blue sky with a few small white clouds. Below the line: perfect mirror reflection of sky and character.\n\nThe reflection is a perfect upside-down mirror of the character. Same happy peaceful closed-eyes expression — NOT sad, NOT frowning. Mirror image.\n\nColor palette: very light pale sky blue (#B0E2FF or similar) for sky and water. White clouds. Character in sky blue and dark blue.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features.",
+          "output": "balancer-bg-04.png",
+          "temperature": 0.5,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T02:50:10.904Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCRITICAL — CHARACTER BODY SHAPE: The character is a WIDE, SHORT, ROUNDED pill/capsule shape. The body WIDTH is about 80% of its HEIGHT. It must NOT be tall, thin, or elongated. Think of a medicine capsule standing upright — wide and rounded. Match the reference image body proportions EXACTLY.\n\nCharacter details: sky blue upper body, dark blue sash belt at waist, dark blue lower half and feet. Holding golden scales of justice in right hand. Standing on one leg. Eyes closed with a serene peaceful smile.\n\nScene: Standing on a perfectly still mirror-like lake. The horizon line divides the image in half. Above: very pale light sky blue sky with a few small white clouds. Below: water reflects the sky and a SMALL, SUBTLE reflection of the character (the reflection should be faint/semi-transparent, NOT a full detailed copy).\n\nIMPORTANT: Make the character LARGE — filling 40-50% of the image width. This prevents the body from being drawn too narrow.\nIMPORTANT: Very PALE, LIGHT sky blue for the entire background. Almost white-blue.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-05.png",
+          "temperature": 0.4,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T02:58:16.741Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCRITICAL — BODY SHAPE: Copy the reference image body proportions EXACTLY. The character is a WIDE, SHORT, ROUNDED capsule/pill. Its width is almost the same as its height. NOT tall. NOT thin. NOT elongated. A chubby rounded capsule.\n\nCharacter: sky blue rounded capsule body (upper half), dark blue sash belt at waist, dark blue lower half. Holding golden scales of justice in right hand, left hand open and relaxed. Standing on one leg with the other leg lifted behind. Eyes closed, gentle serene peaceful smile.\n\nScene: The character stands on a calm lake surface. The bottom third of the image is calm pale blue water with a subtle horizontal line where water meets sky. The sky takes up two thirds — very pale, almost white sky blue with 3-4 small white clouds scattered naturally. Vast open peaceful space.\n\nNO reflection in the water. The water is simply a slightly darker shade of pale blue than the sky. Clean and minimal.\n\nThe character should be CENTERED and LARGE — filling about 45% of the image height.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features.",
+          "output": "balancer-bg-06.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T03:06:48.256Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nTHE CHARACTER BODY SHAPE IS THE MOST IMPORTANT THING: Look at the reference image. The body is a VERY WIDE, VERY SHORT rounded capsule. It looks like a fat pill. The width-to-height ratio of the body alone (excluding limbs) is approximately 1:1.3. It is CHUBBY and ROUND, not slim or elongated. COPY THIS EXACT SHAPE.\n\nCharacter: The top half of the capsule body is sky blue. A dark blue sash belt crosses the middle. The bottom half is dark blue, extending down to the feet. Right hand holds golden scales of justice. Left hand is open. Standing on one leg with the other lifted gracefully. Eyes closed in a serene peaceful smile — the only character with closed eyes.\n\nScene: Standing on a perfectly calm mirror lake. Very pale light sky blue everywhere — sky and water almost the same color, separated by a faint horizon line at the lower third. A few small white clouds float in the sky. Subtle semi-transparent reflection in the water below. Absolute calm and stillness.\n\nCharacter should be LARGE and CENTERED — body fills about 35-40% of the image width.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows. Small simple facial features.",
+          "output": "balancer-bg-07.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T03:59:00.847Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY SHAPE — MATCH THE REFERENCE EXACTLY: The body is a WIDE OVAL EGG shape, almost as wide as it is tall. NOT narrow. NOT elongated. A chubby, round, egg-like capsule. Copy the reference proportions precisely.\n\nCharacter: sky blue wide oval body (upper half), dark blue sash belt at waist, dark blue lower half. Holding golden scales of justice in right hand. Standing on one leg. Eyes closed, serene peaceful smile.\n\nCOMPOSITION: The character is positioned in the UPPER 60% of the image, drawn LARGE — filling about 50% of the image width. The horizon/water line is at the LOWER 40% of the image. Below the water line, the character's mirror REFLECTION is visible but partially cut off by the bottom edge of the image — only the top portion of the upside-down reflection is shown. This means the reflection does NOT need to show the full body.\n\nBackground: Very pale light sky blue sky above, slightly darker pale blue water below. A few small white clouds. Serene, still, minimal.\n\nThe reflection should show the same serene closed-eyes smile.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-08.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T04:06:41.297Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY: EXACTLY like the reference. A VERY WIDE, SHORT, ROUNDED body — like a fat egg or a sideways oval. The body width is about 85% of its height. Chubby, round, cute. NOT slim, NOT elongated, NOT tall.\n\nCharacter: sky blue wide round body (upper half), dark blue sash belt at waist, dark blue lower half. Holding golden scales of justice in right hand. Left hand open. Standing on one leg with other leg lifted behind. Eyes closed, serene peaceful smile.\n\nCOMPOSITION: Character in the upper half, LARGE (filling 55% of image width). Water line at the lower third. Below: mirror reflection partially visible, cut off by the bottom edge. Only the head and upper body of the reflection are shown upside-down in the water.\n\nBackground: Very pale pastel sky blue. A few small white clouds. Calm, serene, vast open space. The water is a slightly deeper shade of pale blue than the sky.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-09.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T04:10:41.789Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY: EXACTLY like the reference. A VERY WIDE, SHORT, ROUNDED body — like a fat egg. The body width is about 85% of its height. Chubby, round, cute.\n\nCharacter: sky blue wide round body (upper half), dark blue sash belt at waist, dark blue lower half and feet. Holding golden scales of justice in right hand. Left hand open. Standing on one leg with other leg lifted behind. Eyes closed, serene peaceful smile.\n\nCOMPOSITION — CRITICAL:\n- The character stands ON TOP of the water surface. The ENTIRE character including feet is FULLY VISIBLE above the water line. Nothing is submerged or cut off.\n- The water line is at the lower 30% of the image.\n- Below the water line, a mirror reflection of the character is visible in the water (partially cut off at the bottom edge of the image is OK).\n- The character's feet rest exactly on the water surface.\n\nBackground: Very pale pastel sky blue sky. A few small white clouds. The water is a slightly deeper shade of pale blue. Calm, serene, vast open space.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-10.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T04:15:05.579Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — COPY THE REFERENCE IMAGE EXACTLY: The body is a CAPSULE/PILL shape — the top is a perfect semicircle, the bottom is a perfect semicircle, and the middle section is straight vertical sides. Like a medicine capsule standing upright. It is NOT an egg (not tapered at bottom). NOT elongated or thin. The width-to-height ratio matches the reference.\n\nCharacter: sky blue capsule body (upper half), dark blue sash belt at waist, dark blue lower half and feet. Holding golden scales of justice in right hand. Left hand open. Standing on one leg with other leg lifted behind. Eyes closed, serene peaceful smile.\n\nCOMPOSITION:\n- The character stands ON TOP of the water surface. The ENTIRE body including feet is FULLY VISIBLE above the water line.\n- The water line is at the lower 30% of the image.\n- Below the water line, the character's mirror reflection is visible in the water, partially cut off at the bottom edge.\n- The character's feet rest exactly on the water surface.\n\nBackground: Very pale pastel sky blue sky. A few small white clouds. The water is a slightly deeper shade of pale blue. Calm, serene, vast open space.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-11.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T04:25:46.230Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — COPY THE REFERENCE IMAGE EXACTLY: The body is a CAPSULE/PILL shape — the top is a perfect semicircle, the bottom is a perfect semicircle, and the middle section is straight vertical sides. Like a medicine capsule standing upright. The width-to-height ratio matches the reference.\n\nCharacter: sky blue capsule body (upper half), dark blue sash belt at waist, dark blue lower half and feet. Holding BLUE scales of justice in right hand — the scales are the SAME BLUE color as the character, NOT gold or yellow. Left hand open. Standing on one leg with other leg lifted behind. Eyes closed, serene peaceful smile.\n\nCOMPOSITION:\n- The character stands ON TOP of the water surface. The ENTIRE body including feet is FULLY VISIBLE above the water line.\n- The water line is at the lower 30% of the image.\n- Below the water line, the character's mirror reflection is visible in the water, partially cut off at the bottom edge.\n- The character's feet rest exactly on the water surface.\n\nIMPORTANT: The scales of justice must be BLUE, matching the character's sky blue color. NOT gold, NOT yellow.\n\nBackground: Very pale pastel sky blue sky. A few small white clouds. The water is a slightly deeper shade of pale blue. Calm, serene, vast open space.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-12.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T04:51:39.361Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — COPY THE REFERENCE IMAGE EXACTLY: The body is a CAPSULE/PILL shape — the top is a perfect semicircle, the bottom is a perfect semicircle, and the middle section is straight vertical sides. The width-to-height ratio matches the reference.\n\nCharacter: sky blue capsule body (upper half), dark blue sash belt at waist, dark blue lower half and feet. Holding BLUE scales of justice in right hand — the scales are the SAME BLUE color as the character, NOT gold, NOT yellow. Left hand open. Standing on one leg with other leg lifted behind. Eyes closed, serene peaceful smile.\n\nCOMPOSITION:\n- The character stands ON TOP of the water surface. The ENTIRE body including feet is FULLY VISIBLE above the water line.\n- The water line is at the lower 25% of the image.\n- Below the water line, the character's mirror reflection is visible in the water, partially cut off at the bottom edge.\n- The character should be LARGE — filling about 60% of the image height and 50% of the image width. Draw the character BIG and prominent.\n\nBackground: Very pale pastel sky blue sky. A few small white clouds. The water is a slightly deeper shade of pale blue. Calm, serene, vast open space.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-13.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T05:00:36.792Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — COPY THE REFERENCE IMAGE EXACTLY: The body is a CAPSULE/PILL shape — semicircle top, semicircle bottom, straight vertical sides in the middle. The width-to-height ratio matches the reference.\n\nCharacter: sky blue capsule body (upper half), dark blue sash belt at waist, dark blue lower half and feet. Holding BLUE scales of justice in right hand — same blue as the character, NOT gold, NOT yellow. Left hand open. Standing on one leg with other leg lifted behind. Eyes closed, serene peaceful smile.\n\nCOMPOSITION:\n- The character is positioned in the UPPER portion of the image, feet touching the water line at about 40% from the bottom.\n- The ENTIRE body including feet is FULLY VISIBLE above the water line.\n- Below the water line (bottom 40% of image), the character's mirror reflection is clearly visible — a beautiful upside-down reflection in the calm water. The reflection should be prominent and beautiful, showing most of the reflected body.\n- Character should be LARGE — filling about 55% of the image height.\n\nCOLOR — CRITICAL:\n- The sky must be a BEAUTIFUL, CLEAR, PRISTINE sky blue — like a perfect cloudless summer day. Think #7EC8E3 or similar — vivid, clean, luminous blue. NOT grey-blue, NOT dull, NOT washed out.\n- The water should be a slightly deeper but equally BEAUTIFUL clear blue.\n- A few small white clouds for accent.\n- The overall feeling should be RADIANT and CRYSTAL CLEAR — the most beautiful blue you can imagine.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-14.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T05:02:29.295Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — MATCH REFERENCE: CAPSULE/PILL shape. Semicircle top, semicircle bottom, straight sides. WIDE and SHORT — width is 80% of height. NOT thin, NOT elongated.\n\nCharacter: sky blue capsule body (upper half), dark blue sash belt at waist, dark blue lower half and feet. Holding BLUE scales of justice (same blue as character). Standing on one leg. Eyes closed, serene smile.\n\nCOMPOSITION:\n- Character positioned with feet at 35% from the bottom edge.\n- ENTIRE body fully visible above the water line.\n- Character is LARGE — filling 50% of image width.\n- Below the water line: mirror reflection visible, partially cut off at bottom.\n\nCOLOR — THIS IS THE MOST IMPORTANT PART:\n- Sky: BEAUTIFUL CLEAR VIVID sky blue. Clean, bright, luminous. Like looking up at a perfect summer sky.\n- Water: SAME beautiful blue as the sky, just very slightly lighter or with a hint of white to show the horizon. The water should NOT be dark or deep blue. It should be almost the same bright beautiful blue as the sky — they nearly merge.\n- Overall: BRIGHT, AIRY, LUMINOUS. The most beautiful blue world. Crystal clear.\n- A few small white clouds.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-15.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T05:13:09.253Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — MATCH REFERENCE: CAPSULE/PILL shape. Semicircle top, semicircle bottom, straight sides. WIDE and SHORT — width is 80% of height. NOT thin, NOT elongated.\n\nCharacter: sky blue capsule body (upper half), dark blue sash belt at waist, dark blue lower half and feet. Holding BLUE scales of justice (same blue as character, NOT gold). Standing on one leg. Eyes closed, serene smile.\n\nCOMPOSITION:\n- The horizon/water line divides the image at 45% from the top.\n- Character stands on the water surface with feet at the water line. ENTIRE body fully visible above.\n- Below the water line: a CLEAR, BEAUTIFUL mirror reflection of the character — prominent and detailed, showing most of the upside-down body. The reflection is the highlight of this image.\n- Character is LARGE — filling 45% of image width.\n\nCOLOR:\n- Sky: BEAUTIFUL CLEAR VIVID sky blue — bright, luminous summer sky.\n- Water: ALSO beautiful clear blue — NOT dark, NOT deep navy. The water should be a BRIGHT, LUMINOUS blue, only very slightly different from the sky. Sky and water nearly merge into one beautiful blue world.\n- The reflection in the water should be clearly visible against this bright blue water.\n- A few small white clouds.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-16.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T05:22:28.854Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — MATCH REFERENCE: Wide short capsule pill shape. Width is 80% of height. NOT thin or elongated.\n\nCharacter: sky blue wide capsule body, dark blue sash belt and lower half. BLUE scales of justice (NOT gold). One leg standing. Eyes closed, peaceful smile.\n\nSCENE: A mirror lake at dawn. The character stands on glass-like water.\n\nLAYOUT: Horizon at image center (50%). Character above, reflection below. Full body visible above water. Character fills 45% of image width.\n\nTHE MOST IMPORTANT THING — COLOR:\nSky = PALE LIGHT sky blue, almost white-blue, very bright and airy\nWater = ALMOST THE SAME pale light blue as the sky. The water is NOT darker than the sky. Sky and water are nearly identical in brightness. The only way to tell them apart is a thin subtle horizon line.\nThe reflection appears as a slightly transparent mirror image in this pale bright water.\nThink of the lightest, most ethereal sky blue possible — like #B5E4F7.\nWhite clouds in the sky, and their reflections in the water too.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-17.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T05:26:39.988Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — MATCH REFERENCE: Wide short capsule pill shape. Width is 80% of height. NOT thin or elongated. CHUBBY and ROUND.\n\nCharacter: sky blue wide capsule body, dark blue sash belt and lower half. BLUE scales of justice (NOT gold). One leg standing. Eyes closed, peaceful smile.\n\nCOMPOSITION — LIKE A PLAYING CARD:\n- Horizon line at the exact CENTER of the image (50%).\n- Character stands on the water, feet at the center line. Full body visible in the upper half.\n- In the lower half: an upside-down reflection of the character, like a playing card mirror. The reflection is rendered in LIGHTER, SOFTER, slightly faded colors — as if seen through clear pale blue water. NOT dark. The reflection is a pale, ghostly, beautiful mirror image.\n- Character fills about 45% of image width.\n\nCOLOR — CRITICAL:\n- Sky (upper half): Beautiful vivid clear sky blue. Bright and luminous with white clouds.\n- Water (lower half): SAME beautiful blue as the sky but just SLIGHTLY more saturated. NOT dark. NOT navy. The water is BRIGHT blue, almost as light as the sky. \n- The reflection in the water is rendered in slightly LIGHTER/PALER versions of the character's colors — like looking through crystal clear water.\n\nThe overall image should feel like ONE CONTINUOUS BEAUTIFUL BLUE WORLD with the character and its pale reflection at the center.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-18.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T05:28:53.871Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — THE MOST IMPORTANT RULE: The body MUST be a FAT, WIDE, SHORT capsule. Imagine a capsule lying almost sideways. The body is VERY WIDE — almost as wide as it is tall. Do NOT make the body narrow or tall. Look at the reference image — the body is CHUBBY and ROUND. If the body looks thin or elongated, you have failed.\n\nCharacter: sky blue FAT WIDE capsule body, dark blue sash belt and lower half. BLUE scales of justice (NOT gold). One leg standing. Eyes closed, peaceful smile.\n\nCOMPOSITION:\n- Horizon at image center (50%).\n- Character stands on water, feet at center. Full body in upper half.\n- Lower half: upside-down reflection in BRIGHT blue water. The reflection is slightly paler/softer than the original.\n- Character fills 50% of image width — draw it BIG and WIDE.\n\nCOLOR:\n- Sky: bright vivid sky blue with white clouds.\n- Water: bright sky blue, only slightly more saturated than sky. NOT dark, NOT navy.\n- One beautiful continuous blue world.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-19.png",
+          "temperature": 0.2,
+          "reference": "scripts/characters/balancer-03.png"
+        },
+        {
+          "at": "2026-03-23T05:30:09.587Z",
+          "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — MATCH REFERENCE: FAT, WIDE, SHORT capsule. Almost as wide as tall. CHUBBY and ROUND. NOT thin.\n\nCharacter: sky blue FAT WIDE capsule body, dark blue sash belt at waist center, dark blue lower half. BLUE scales of justice (NOT gold). One leg standing. Eyes closed, peaceful smile.\n\nCOMPOSITION:\n- Horizon at image center (50%).\n- Character on water, feet at center. Full body in upper half. Character fills 50% of image width.\n- Lower half: upside-down mirror reflection in bright blue water.\n\nCRITICAL — REFLECTION EXPRESSION: The reflection is a mirror image. When mirrored upside-down, the character's peaceful smile with upward-curved mouth will appear as a downward curve. To AVOID this looking sad, the reflection should show the SAME HAPPY peaceful expression. The reflection mouth should curve DOWNWARD (which when viewed upside-down appears as a smile). Do NOT draw a frown on the reflection.\n\nCOLOR:\n- Sky: bright vivid sky blue with white clouds.\n- Water: bright sky blue, slightly more saturated. NOT dark, NOT navy.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+          "output": "balancer-bg-20.png",
+          "temperature": 0.3,
+          "reference": "scripts/characters/balancer-03.png"
+        }
+      ],
+      "prompt": "Headspace-style flat design illustration with background scene.\nSame character as the reference image, placed in a scene.\n\nCHARACTER BODY — MATCH REFERENCE: FAT, WIDE, SHORT capsule. Almost as wide as tall. CHUBBY and ROUND. NOT thin.\n\nCharacter: sky blue FAT WIDE capsule body, dark blue sash belt at waist center, dark blue lower half. BLUE scales of justice (NOT gold). One leg standing. Eyes closed, peaceful smile.\n\nCOMPOSITION:\n- Horizon at image center (50%).\n- Character on water, feet at center. Full body in upper half. Character fills 50% of image width.\n- Lower half: upside-down mirror reflection in bright blue water.\n\nCRITICAL — REFLECTION EXPRESSION: The reflection is a mirror image. When mirrored upside-down, the character's peaceful smile with upward-curved mouth will appear as a downward curve. To AVOID this looking sad, the reflection should show the SAME HAPPY peaceful expression. The reflection mouth should curve DOWNWARD (which when viewed upside-down appears as a smile). Do NOT draw a frown on the reflection.\n\nCOLOR:\n- Sky: bright vivid sky blue with white clouds.\n- Water: bright sky blue, slightly more saturated. NOT dark, NOT navy.\n\nFlat vector style, bold colors, simple shapes, no realistic textures, no gradients, no shadows.",
+      "temperature": 0.3,
+      "reference": "scripts/characters/balancer-03.png"
+    }
+  }
+}

@@ -1,0 +1,863 @@
+{
+  "description": "初期バージョン — Nano Banana Pro で生成したオリジナルデザイン",
+  "createdAt": "2026-03-18",
+  "config": {
+    "model": "gemini-3-pro-image-preview",
+    "aspectRatio": "1:1",
+    "imageSize": "1K",
+    "outputMimeType": "image/jpeg",
+    "temperature": 1,
+    "topP": 0.95
+  },
+  "commonPrefix": "flat minimal icon, simple geometric shapes, limited color palette 3-4 colors, NO people NO humans NO characters, NO text NO words NO letters NO writing, solid pastel background, vector art style,",
+  "images": {
+    "openness_high_01": {
+      "filename": "openness_high_01.jpg",
+      "descriptionJa": "カラフルな絵の具がはねたアートキャンバスと筆",
+      "prompt": "art canvas with colorful paint splashes and two paintbrushes, vibrant pastel colors, soft blue background, flat design, centered composition, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T15:46:21.632Z",
+          "prompt": "art canvas with colorful paint splashes and two paintbrushes, vibrant pastel colors, soft blue background, flat design, centered composition, no text",
+          "output": "scripts\\swipe\\openness_high_01-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "openness_high_02": {
+      "filename": "openness_high_02.jpg",
+      "descriptionJa": "星と銀河を見つめる望遠鏡、宇宙探索",
+      "prompt": "telescope pointing at stars and galaxies, space exploration"
+    },
+    "openness_high_03": {
+      "filename": "openness_high_03.jpg",
+      "descriptionJa": "魔法の要素が飛び出す開いた本、想像力",
+      "prompt": "open book with magical elements floating out, imagination"
+    },
+    "openness_high_04": {
+      "filename": "openness_high_04.jpg",
+      "descriptionJa": "飛行機ルート付きの世界地図、旅と冒険",
+      "prompt": "simple globe with a small paper airplane flying around it, pastel blue and green, soft light blue background, flat design, centered, minimal, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T15:52:16.192Z",
+          "prompt": "simple globe with a small paper airplane flying around it, pastel blue and green, soft light blue background, flat design, centered, minimal, no text",
+          "output": "scripts\\swipe\\openness_high_04-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "openness_high_05": {
+      "filename": "openness_high_05.jpg",
+      "descriptionJa": "ヴィンテージカメラとフィルム、新しい視点を捉える",
+      "prompt": "retro film camera with a film roll beside it, pastel warm yellow background, flat design without outlines, soft rounded shapes, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T14:36:34.595Z",
+          "prompt": "simple vintage camera with a single film roll beside it, nostalgic and charming",
+          "output": "scripts\\swipe\\openness_high_05-01.jpg",
+          "resizedTo": 512
+        },
+        {
+          "at": "2026-03-28T15:53:29.395Z",
+          "prompt": "retro film camera with a film roll beside it, pastel warm yellow background, flat design without outlines, soft rounded shapes, centered, no text",
+          "output": "scripts\\swipe\\openness_high_05-02.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "openness_high_06": {
+      "filename": "openness_high_06.jpg",
+      "descriptionJa": "カラフルな音符が舞うピアノの鍵盤、創造的表現",
+      "prompt": "piano keys with colorful musical notes, creative expression"
+    },
+    "openness_high_07": {
+      "filename": "openness_high_07.jpg",
+      "descriptionJa": "風に舞うカラフルな凧、自由と遊び",
+      "prompt": "colorful kite flying in the wind, freedom and play"
+    },
+    "openness_high_08": {
+      "filename": "openness_high_08.jpg",
+      "descriptionJa": "蝶の標本コレクション、変態と発見",
+      "prompt": "three butterflies in different sizes flying upward, caterpillar at the bottom transforming into butterfly, pastel teal background, flat design, centered square composition, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T15:55:42.838Z",
+          "prompt": "three butterflies in different sizes flying upward, caterpillar at the bottom transforming into butterfly, pastel teal background, flat design, centered square composition, no text",
+          "output": "scripts\\swipe\\openness_high_08-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "openness_low_01": {
+      "filename": "openness_low_01.jpg",
+      "descriptionJa": "伝統的な急須と湯呑み、古典的で普遍的",
+      "prompt": "traditional teapot and cup, classic and timeless"
+    },
+    "openness_low_02": {
+      "filename": "openness_low_02.jpg",
+      "descriptionJa": "白いフェンスの家、郊外の安心感",
+      "prompt": "home with white picket fence, suburban comfort"
+    },
+    "openness_low_03": {
+      "filename": "openness_low_03.jpg",
+      "descriptionJa": "レシピ本とキッチン道具、いつもの日課",
+      "prompt": "open recipe book with a wooden spoon and whisk crossed on top, small herbs and spices around, pastel blue background, flat design, no text lines on pages, centered, minimal",
+      "trials": [
+        {
+          "at": "2026-03-28T15:59:38.878Z",
+          "prompt": "open recipe book with a wooden spoon and whisk crossed on top, small herbs and spices around, pastel blue background, flat design, no text lines on pages, centered, minimal",
+          "output": "scripts\\swipe\\openness_low_03-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "openness_low_04": {
+      "filename": "openness_low_04.jpg",
+      "descriptionJa": "家族写真の額縁と時計、大切な思い出",
+      "prompt": "picture frame with a simple house landscape inside, and a round wall clock next to it, warm pastel peach background, flat design, cozy nostalgic feeling, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T16:00:56.235Z",
+          "prompt": "picture frame with a simple house landscape inside, and a round wall clock next to it, warm pastel peach background, flat design, cozy nostalgic feeling, centered, no text",
+          "output": "scripts\\swipe\\openness_low_04-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "openness_low_05": {
+      "filename": "openness_low_05.jpg",
+      "descriptionJa": "ふかふかスリッパと暖炉、ぬくもりと快適さ",
+      "prompt": "cozy fireplace with small flames inside and a pair of fluffy slippers in front, pastel mint background, flat front-facing view, warm colors, no 3D or isometric, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T16:05:17.270Z",
+          "prompt": "cozy fireplace with small flames inside and a pair of fluffy slippers in front, pastel mint background, flat front-facing view, warm colors, no 3D or isometric, centered, no text",
+          "output": "scripts\\swipe\\openness_low_05-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "openness_low_06": {
+      "filename": "openness_low_06.jpg",
+      "descriptionJa": "きちんと並んだ花壇、秩序ある自然",
+      "prompt": "small neat square garden plot in the center with rows of colorful flowers and a tiny fence around it, soft pastel blue background, flat design, minimal, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T16:06:14.563Z",
+          "prompt": "neatly arranged flower garden seen from above, geometric rows of colorful tulips and small bushes, pastel green and blue background, flat top-down view, orderly pattern, centered, no text",
+          "output": "scripts\\swipe\\openness_low_06-01.jpg",
+          "resizedTo": 512
+        },
+        {
+          "at": "2026-03-28T16:07:11.988Z",
+          "prompt": "small neat square garden plot in the center with rows of colorful flowers and a tiny fence around it, soft pastel blue background, flat design, minimal, centered, no text",
+          "output": "scripts\\swipe\\openness_low_06-02.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "openness_low_07": {
+      "filename": "openness_low_07.jpg",
+      "descriptionJa": "古い鍵と鍵付き日記帳、大事なものを守る",
+      "prompt": "locked diary with a small key beside it, pastel teal background, flat design without borders or frames, soft colors, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T16:08:19.384Z",
+          "prompt": "locked diary with a small key beside it, pastel teal background, flat design without borders or frames, soft colors, centered, no text",
+          "output": "scripts\\swipe\\openness_low_07-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "openness_low_08": {
+      "filename": "openness_low_08.jpg",
+      "descriptionJa": "ヴィンテージラジオとロッキングチェア、懐かしさと安心",
+      "prompt": "simple vintage radio with a small rocking chair next to it, soft pastel gray-blue background, flat design, no crosshatch patterns, rounded shapes, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T16:10:13.361Z",
+          "prompt": "simple vintage radio with a small rocking chair next to it, soft pastel gray-blue background, flat design, no crosshatch patterns, rounded shapes, centered, no text",
+          "output": "scripts\\swipe\\openness_low_08-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "conscientiousness_high_01": {
+      "filename": "conscientiousness_high_01.jpg",
+      "descriptionJa": "カレンダーとチェックリストが置かれた整理されたデスク",
+      "prompt": "wall calendar with colorful checkmarks on dates, no text no numbers, soft pastel yellow background, flat design, organized and planned feeling, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T01:29:35.811Z",
+          "prompt": "wall calendar with colorful checkmarks on dates, no text no numbers, soft pastel yellow background, flat design, organized and planned feeling, centered, no text",
+          "output": "scripts\\swipe\\conscientiousness_high_01-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "conscientiousness_high_02": {
+      "filename": "conscientiousness_high_02.jpg",
+      "descriptionJa": "ラベル付きフォルダがきれいに並んだ本棚",
+      "prompt": "neat bookshelf with color-sorted books in rows, no labels no text, soft pastel green background, flat design, organized and tidy, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T01:30:58.074Z",
+          "prompt": "neat bookshelf with color-sorted books in rows, no labels no text, soft pastel green background, flat design, organized and tidy, centered, no text",
+          "output": "scripts\\swipe\\conscientiousness_high_02-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "conscientiousness_high_03": {
+      "filename": "conscientiousness_high_03.jpg",
+      "descriptionJa": "時計とスケジュール帳、時間管理",
+      "prompt": "hourglass with completed task checkmark above it, small stack of finished papers beside, soft pastel blue background, flat design, discipline and time management, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T14:38:08.241Z",
+          "prompt": "hourglass timer next to a neat stack of completed tasks, discipline and time management",
+          "output": "scripts\\swipe\\conscientiousness_high_03-01.jpg",
+          "resizedTo": 512
+        },
+        {
+          "at": "2026-03-29T01:33:45.801Z",
+          "prompt": "hourglass with completed task checkmark above it, small stack of finished papers beside, soft pastel blue background, flat design, discipline and time management, centered, no text",
+          "output": "scripts\\swipe\\conscientiousness_high_03-02.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "conscientiousness_high_04": {
+      "filename": "conscientiousness_high_04.jpg",
+      "descriptionJa": "トロフィーとメダル、達成と目標完遂",
+      "prompt": "trophy and medal, achievement and goal completion"
+    },
+    "conscientiousness_high_05": {
+      "filename": "conscientiousness_high_05.jpg",
+      "descriptionJa": "的の中心に刺さった矢、精密さと集中",
+      "prompt": "target with arrow hitting bullseye, precision and focus"
+    },
+    "conscientiousness_high_06": {
+      "filename": "conscientiousness_high_06.jpg",
+      "descriptionJa": "きれいに整頓された工具箱、すべて定位置",
+      "prompt": "neatly organized toolbox, everything in its place"
+    },
+    "conscientiousness_high_07": {
+      "filename": "conscientiousness_high_07.jpg",
+      "descriptionJa": "昇順に積まれたコイン、着実な進歩",
+      "prompt": "three stacks of coins increasing in height from left to right, small plant growing from the tallest stack, soft pastel warm yellow background, flat design, growth and accumulation, no arrows, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T01:43:50.849Z",
+          "prompt": "three stacks of coins increasing in height from left to right, small plant growing from the tallest stack, soft pastel warm yellow background, flat design, growth and accumulation, no arrows, centered, no text",
+          "output": "scripts\\swipe\\conscientiousness_high_07-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "conscientiousness_high_08": {
+      "filename": "conscientiousness_high_08.jpg",
+      "descriptionJa": "コンパスとルート付きの折り畳み地図、先を見据えた計画",
+      "prompt": "compass with colorful needle pointing north, small folded map underneath, soft pastel beige background, flat design, direction and planning, warm colors, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T01:47:00.292Z",
+          "prompt": "compass with colorful needle pointing north, small folded map underneath, soft pastel beige background, flat design, direction and planning, warm colors, centered, no text",
+          "output": "scripts\\swipe\\conscientiousness_high_08-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "conscientiousness_low_01": {
+      "filename": "conscientiousness_low_01.jpg",
+      "descriptionJa": "画材が散らかったアーティストのデスク、創造的カオス",
+      "prompt": "messy artist desk from above with scattered paint tubes, brushes, colorful paint splatters, crumpled paper, soft pastel pink background, flat design, creative chaos, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T01:48:38.610Z",
+          "prompt": "messy artist desk from above with scattered paint tubes, brushes, colorful paint splatters, crumpled paper, soft pastel pink background, flat design, creative chaos, centered, no text",
+          "output": "scripts\\swipe\\conscientiousness_low_01-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "conscientiousness_low_02": {
+      "filename": "conscientiousness_low_02.jpg",
+      "descriptionJa": "標識のない曲がりくねった道、即興の旅",
+      "prompt": "winding road with no signs, spontaneous journey"
+    },
+    "conscientiousness_low_03": {
+      "filename": "conscientiousness_low_03.jpg",
+      "descriptionJa": "ギターと自由に浮かぶ音符、即興演奏",
+      "prompt": "guitar and music notes floating freely, improvisation"
+    },
+    "conscientiousness_low_04": {
+      "filename": "conscientiousness_low_04.jpg",
+      "descriptionJa": "サイコロとトランプ、運試し",
+      "prompt": "pair of dice and playing cards scattered, soft pastel purple background, pastel colored dice and cards instead of red and black, flat design, playful and spontaneous, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T01:50:47.760Z",
+          "prompt": "pair of dice and playing cards scattered, soft pastel purple background, pastel colored dice and cards instead of red and black, flat design, playful and spontaneous, centered, no text",
+          "output": "scripts\\swipe\\conscientiousness_low_04-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "conscientiousness_low_05": {
+      "filename": "conscientiousness_low_05.jpg",
+      "descriptionJa": "ヤシの木の間のハンモック、リラックス",
+      "prompt": "hammock between two palm trees, relaxation"
+    },
+    "conscientiousness_low_06": {
+      "filename": "conscientiousness_low_06.jpg",
+      "descriptionJa": "ビーチに立てかけたサーフボード、波に乗る",
+      "prompt": "surfboard leaning on beach, riding the moment"
+    },
+    "conscientiousness_low_07": {
+      "filename": "conscientiousness_low_07.jpg",
+      "descriptionJa": "カラフルなウィールのスケートボード、フリースタイル",
+      "prompt": "skateboard with colorful wheels and flame sticker, small ramp below, soft pastel orange background, flat design, rebellious and free spirit, no arrows, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T02:17:17.593Z",
+          "prompt": "skateboard with colorful wheels and flame sticker, small ramp below, soft pastel orange background, flat design, rebellious and free spirit, no arrows, centered, no text",
+          "output": "scripts\\swipe\\conscientiousness_low_07-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "conscientiousness_low_08": {
+      "filename": "conscientiousness_low_08.jpg",
+      "descriptionJa": "自由に飛ぶ紙飛行機、気ままな精神",
+      "prompt": "paper airplane flying freely, carefree spirit"
+    },
+    "extraversion_high_01": {
+      "filename": "extraversion_high_01.jpg",
+      "descriptionJa": "風船と紙吹雪、お祝いパーティー",
+      "prompt": "balloons and confetti, celebration party"
+    },
+    "extraversion_high_02": {
+      "filename": "extraversion_high_02.jpg",
+      "descriptionJa": "マイクとステージライト、パフォーマンス",
+      "prompt": "retro microphone on a stand with spotlight beams behind it, musical notes floating around, soft pastel warm yellow background, flat design, performing and outgoing, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T02:22:19.771Z",
+          "prompt": "retro microphone on a stand with spotlight beams behind it, musical notes floating around, soft pastel warm yellow background, flat design, performing and outgoing, centered, no text",
+          "output": "scripts\\swipe\\extraversion_high_02-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "extraversion_high_03": {
+      "filename": "extraversion_high_03.jpg",
+      "descriptionJa": "並んだコーヒーカップ、社交的な集まり",
+      "prompt": "coffee cups together, social gathering"
+    },
+    "extraversion_high_04": {
+      "filename": "extraversion_high_04.jpg",
+      "descriptionJa": "花火とお祭りの飾り、ワクワク",
+      "prompt": "fireworks and festival decorations, excitement"
+    },
+    "extraversion_high_05": {
+      "filename": "extraversion_high_05.jpg",
+      "descriptionJa": "音波付きのメガホン、大きくて表現豊か",
+      "prompt": "megaphone with sound waves, loud and expressive"
+    },
+    "extraversion_high_06": {
+      "filename": "extraversion_high_06.jpg",
+      "descriptionJa": "カラフルな光のミラーボール、ダンスと楽しさ",
+      "prompt": "sparkling disco mirror ball hanging from above, colorful light rays radiating in all directions, small star shapes scattered, soft pastel dark purple background, flat design, party and excitement, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T02:25:16.087Z",
+          "prompt": "sparkling disco mirror ball hanging from above, colorful light rays radiating in all directions, small star shapes scattered, soft pastel dark purple background, flat design, party and excitement, centered, no text",
+          "output": "scripts\\swipe\\extraversion_high_06-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "extraversion_high_07": {
+      "filename": "extraversion_high_07.jpg",
+      "descriptionJa": "椅子の輪に囲まれたキャンプファイヤー、みんなで集まる",
+      "prompt": "large warm campfire with dancing flames, circle of log seats around it, cozy gathering",
+      "trials": [
+        {
+          "at": "2026-03-28T14:41:51.374Z",
+          "prompt": "large warm campfire with dancing flames, circle of log seats around it, cozy gathering",
+          "output": "scripts\\swipe\\extraversion_high_07-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "extraversion_high_08": {
+      "filename": "extraversion_high_08.jpg",
+      "descriptionJa": "ジェットコースターのループ、スリルと興奮",
+      "prompt": "roller coaster track loops, thrill and excitement"
+    },
+    "extraversion_low_01": {
+      "filename": "extraversion_low_01.jpg",
+      "descriptionJa": "本とランプのある居心地のいい肘掛け椅子、静かな読書",
+      "prompt": "cozy armchair with book and lamp, quiet reading"
+    },
+    "extraversion_low_02": {
+      "filename": "extraversion_low_02.jpg",
+      "descriptionJa": "静かな部屋の一本のキャンドル、瞑想",
+      "prompt": "single candle in peaceful room, meditation"
+    },
+    "extraversion_low_03": {
+      "filename": "extraversion_low_03.jpg",
+      "descriptionJa": "日記帳とペンとお茶、内省",
+      "prompt": "open journal diary with a cup of tea beside it, steam rising from the cup, soft pastel warm beige background, flat design without reflections or shadows, cozy and introspective, centered, no text on the diary pages",
+      "trials": [
+        {
+          "at": "2026-03-29T02:33:04.506Z",
+          "prompt": "open journal diary with a cup of tea beside it, steam rising from the cup, soft pastel warm beige background, flat design without reflections or shadows, cozy and introspective, centered, no text on the diary pages",
+          "output": "scripts\\swipe\\extraversion_low_03-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "extraversion_low_04": {
+      "filename": "extraversion_low_04.jpg",
+      "descriptionJa": "ヘッドホンと音楽プレーヤー、自分だけの空間",
+      "prompt": "headphones and music player, personal space"
+    },
+    "extraversion_low_05": {
+      "filename": "extraversion_low_05.jpg",
+      "descriptionJa": "雨粒のついた窓、穏やかなひとりの時間",
+      "prompt": "window with raindrops on the glass, a steaming cup on the windowsill, grey rainy view outside, soft pastel blue-grey background, flat design, quiet solitude, no people no silhouettes, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T03:04:53.411Z",
+          "prompt": "window with raindrops on the glass, a steaming cup on the windowsill, grey rainy view outside, soft pastel blue-grey background, flat design, quiet solitude, no people no silhouettes, centered, no text",
+          "output": "scripts\\swipe\\extraversion_low_05-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "extraversion_low_06": {
+      "filename": "extraversion_low_06.jpg",
+      "descriptionJa": "ふかふかクッションの上で眠る猫、静かな心地よさ",
+      "prompt": "sleeping cat on soft cushion, quiet comfort"
+    },
+    "extraversion_low_07": {
+      "filename": "extraversion_low_07.jpg",
+      "descriptionJa": "窓辺の一鉢の植物、やさしいケア",
+      "prompt": "small potted succulent on a windowsill with curtains, sunlight streaming in, soft pastel green background, flat design, quiet and peaceful, no watering can, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T03:22:22.285Z",
+          "prompt": "small potted succulent on a windowsill with curtains, sunlight streaming in, soft pastel green background, flat design, quiet and peaceful, no watering can, centered, no text",
+          "output": "scripts\\swipe\\extraversion_low_07-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "extraversion_low_08": {
+      "filename": "extraversion_low_08.jpg",
+      "descriptionJa": "ミニチュアの世界が入ったスノードーム、静かな小さな世界",
+      "prompt": "large snow globe with a tiny house and tree inside, snowflakes falling, wooden base, soft pastel light blue background, flat design, own little world, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T03:23:21.378Z",
+          "prompt": "large snow globe with a tiny house and tree inside, snowflakes falling, wooden base, soft pastel light blue background, flat design, own little world, centered, no text",
+          "output": "scripts\\swipe\\extraversion_low_08-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "agreeableness_high_01": {
+      "filename": "agreeableness_high_01.jpg",
+      "descriptionJa": "ハート型を作る手、思いやりと愛情",
+      "prompt": "two heart shapes intertwined together, soft pink and coral colors, pastel lavender background, flat design, no hands no people, love and connection symbol, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T01:04:50.525Z",
+          "prompt": "two heart shapes intertwined together, soft pink and coral colors, pastel lavender background, flat design, no hands no people, love and connection symbol, centered, no text",
+          "output": "scripts\\swipe\\agreeableness_high_01-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "agreeableness_high_02": {
+      "filename": "agreeableness_high_02.jpg",
+      "descriptionJa": "リボン付きギフトボックス、贈り物と寛大さ",
+      "prompt": "gift box with ribbon, giving and generosity"
+    },
+    "agreeableness_high_03": {
+      "filename": "agreeableness_high_03.jpg",
+      "descriptionJa": "ぴったり合うパズルピース、チームワーク",
+      "prompt": "puzzle pieces fitting together, teamwork"
+    },
+    "agreeableness_high_04": {
+      "filename": "agreeableness_high_04.jpg",
+      "descriptionJa": "鳩とオリーブの枝、平和と調和",
+      "prompt": "white dove carrying an olive branch, soft pastel sky blue background with light clouds, gentle warm colors, flat design, peaceful and hopeful, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T01:15:05.004Z",
+          "prompt": "white dove carrying an olive branch, soft pastel sky blue background with light clouds, gentle warm colors, flat design, peaceful and hopeful, centered, no text",
+          "output": "scripts\\swipe\\agreeableness_high_04-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "agreeableness_high_05": {
+      "filename": "agreeableness_high_05.jpg",
+      "descriptionJa": "花に水をやるジョウロ、育てることと成長",
+      "prompt": "watering can pouring on flowers, nurturing and growth"
+    },
+    "agreeableness_high_06": {
+      "filename": "agreeableness_high_06.jpg",
+      "descriptionJa": "枝に並んで止まる小鳥たち、一緒にいること",
+      "prompt": "two small birds sitting close together on a branch, togetherness, no frame no border no rectangle, soft pastel mint background filling the entire image",
+      "trials": [
+        {
+          "at": "2026-03-29T03:41:38.468Z",
+          "prompt": "two small birds sitting close together on a branch, togetherness, no frame no border no rectangle, soft pastel mint background filling the entire image",
+          "output": "scripts\\swipe\\agreeableness_high_06-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "agreeableness_high_07": {
+      "filename": "agreeableness_high_07.jpg",
+      "descriptionJa": "両岸をつなぐ橋、つながりを築く",
+      "prompt": "simple arched bridge connecting two green hills, peaceful connection",
+      "trials": [
+        {
+          "at": "2026-03-28T14:46:48.381Z",
+          "prompt": "simple arched bridge connecting two green hills, peaceful connection",
+          "output": "scripts\\swipe\\agreeableness_high_07-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "agreeableness_high_08": {
+      "filename": "agreeableness_high_08.jpg",
+      "descriptionJa": "あたたかいニットのマフラーとミトン、ぬくもりと思いやり",
+      "prompt": "warm knitted scarf being shared, two ends flowing in opposite directions, soft pastel pink background, cozy and caring feeling, flat design, warmth and togetherness, centered, no text, no people",
+      "trials": [
+        {
+          "at": "2026-03-29T01:16:06.056Z",
+          "prompt": "warm knitted scarf being shared, two ends flowing in opposite directions, soft pastel pink background, cozy and caring feeling, flat design, warmth and togetherness, centered, no text, no people",
+          "output": "scripts\\swipe\\agreeableness_high_08-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "agreeableness_low_01": {
+      "filename": "agreeableness_low_01.jpg",
+      "descriptionJa": "戦略的に配置されたチェスの駒、競争",
+      "prompt": "chess pieces in strategic position, competition, no outline no stroke, pure flat design, soft pastel blue background filling the entire image",
+      "trials": [
+        {
+          "at": "2026-03-29T03:55:56.112Z",
+          "prompt": "chess pieces in strategic position, competition, no outline no stroke, pure flat design, soft pastel blue background filling the entire image",
+          "output": "scripts\\swipe\\agreeableness_low_01-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "agreeableness_low_02": {
+      "filename": "agreeableness_low_02.jpg",
+      "descriptionJa": "旗の立った山頂、単独での達成",
+      "prompt": "mountain peak with flag, solo achievement"
+    },
+    "agreeableness_low_03": {
+      "filename": "agreeableness_low_03.jpg",
+      "descriptionJa": "ボクシンググローブ、闘志",
+      "prompt": "red boxing gloves hanging from a hook, soft pastel coral background, flat design without thick outlines, competitive spirit, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T01:18:18.329Z",
+          "prompt": "red boxing gloves hanging from a hook, soft pastel coral background, flat design without thick outlines, competitive spirit, centered, no text",
+          "output": "scripts\\swipe\\agreeableness_low_03-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "agreeableness_low_04": {
+      "filename": "agreeableness_low_04.jpg",
+      "descriptionJa": "王冠と玉座、リーダーシップと権威",
+      "prompt": "golden crown with jewels sitting on a red velvet cushion, soft pastel purple background, flat design, royal and independent feeling, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T01:19:36.608Z",
+          "prompt": "golden crown with jewels sitting on a red velvet cushion, soft pastel purple background, flat design, royal and independent feeling, centered, no text",
+          "output": "scripts\\swipe\\agreeableness_low_04-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "agreeableness_low_05": {
+      "filename": "agreeableness_low_05.jpg",
+      "descriptionJa": "打ち上がるロケット、単独の野心",
+      "prompt": "rocket launching upward, solo ambition"
+    },
+    "agreeableness_low_06": {
+      "filename": "agreeableness_low_06.jpg",
+      "descriptionJa": "交差した剣と盾、強さと防御",
+      "prompt": "sword and round shield, no frame no border no rectangle, soft pastel mint green background filling the entire image, flat design, simple geometric shapes, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T01:22:50.022Z",
+          "prompt": "medieval sword and round shield crossed, soft pastel teal background, flat design without thick black outlines, bold and strong, centered, no text",
+          "output": "scripts\\swipe\\agreeableness_low_06-01.jpg",
+          "resizedTo": 512
+        },
+        {
+          "at": "2026-03-29T01:26:35.899Z",
+          "prompt": "sword and round shield, no frame no border no rectangle, soft pastel mint green background filling the entire image, flat design, simple geometric shapes, centered, no text",
+          "output": "scripts\\swipe\\agreeableness_low_06-02.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "agreeableness_low_07": {
+      "filename": "agreeableness_low_07.jpg",
+      "descriptionJa": "月に吠えるオオカミのシルエット、孤高の独立",
+      "prompt": "wolf silhouette howling at moon, lone independence"
+    },
+    "agreeableness_low_08": {
+      "filename": "agreeableness_low_08.jpg",
+      "descriptionJa": "落ちる稲妻、大胆でパワフル",
+      "prompt": "bright yellow lightning bolt striking down from a dark cloud, electric sparks, soft pastel dark blue background, flat design, powerful energy, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T01:28:45.464Z",
+          "prompt": "bright yellow lightning bolt striking down from a dark cloud, electric sparks, soft pastel dark blue background, flat design, powerful energy, centered, no text",
+          "output": "scripts\\swipe\\agreeableness_low_08-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "neuroticism_high_01": {
+      "filename": "neuroticism_high_01.jpg",
+      "descriptionJa": "雨雲と傘、メランコリーな気分",
+      "prompt": "rain cloud with gentle raindrops and a bright yellow umbrella below, soft pastel blue background, flat design, centered, minimal, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T16:57:17.538Z",
+          "prompt": "rain cloud with gentle raindrops and a bright yellow umbrella below, soft pastel blue background, flat design, centered, minimal, no text",
+          "output": "scripts\\swipe\\neuroticism_high_01-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "neuroticism_high_02": {
+      "filename": "neuroticism_high_02.jpg",
+      "descriptionJa": "嵐の中の繊細な花、はかなさ",
+      "prompt": "single delicate flower bending in gentle wind, resilient yet fragile",
+      "trials": [
+        {
+          "at": "2026-03-28T14:47:29.845Z",
+          "prompt": "single delicate flower bending in gentle wind, resilient yet fragile",
+          "output": "scripts\\swipe\\neuroticism_high_02-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "neuroticism_high_03": {
+      "filename": "neuroticism_high_03.jpg",
+      "descriptionJa": "絡まった毛糸や紐、複雑さ",
+      "prompt": "small kaleidoscope disc in the center, delicate geometric patterns inside the circle, soft pastel lavender background, flat design, minimal",
+      "trials": [
+        {
+          "at": "2026-03-28T14:11:53.337Z",
+          "prompt": "kaleidoscope with delicate colorful patterns, intricate beauty",
+          "output": "scripts\\swipe\\neuroticism_high_03-01.jpg",
+          "resizedTo": 512
+        },
+        {
+          "at": "2026-03-28T15:25:10.314Z",
+          "prompt": "small kaleidoscope disc in the center, delicate geometric patterns inside the circle, soft pastel lavender background, flat design, minimal",
+          "output": "scripts\\swipe\\neuroticism_high_03-02.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "neuroticism_high_04": {
+      "filename": "neuroticism_high_04.jpg",
+      "descriptionJa": "割れた鏡の破片、敏感さ",
+      "prompt": "delicate glass vase with a single flower inside, light rays shining through the glass creating colorful refractions, soft pastel green background, flat design, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T14:12:32.229Z",
+          "prompt": "delicate glass sculpture, fragile and beautiful",
+          "output": "scripts\\swipe\\neuroticism_high_04-01.jpg",
+          "resizedTo": 512
+        },
+        {
+          "at": "2026-03-28T14:14:33.200Z",
+          "prompt": "delicate blown glass vase with thin cracks, light shining through colored glass pieces, fragile beauty",
+          "output": "scripts\\swipe\\neuroticism_high_04-02.jpg",
+          "resizedTo": 512
+        },
+        {
+          "at": "2026-03-28T17:02:10.950Z",
+          "prompt": "delicate glass vase with a single flower inside, light rays shining through the glass creating colorful refractions, soft pastel green background, flat design, centered, no text",
+          "output": "scripts\\swipe\\neuroticism_high_04-03.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "neuroticism_high_05": {
+      "filename": "neuroticism_high_05.jpg",
+      "descriptionJa": "岩に打ちつける波、激しさと荒々しさ",
+      "prompt": "beautiful curling ocean wave with foam, pastel blue and teal colors, soft mint background, flat design without thick outlines, flowing curved shapes, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T14:48:12.036Z",
+          "prompt": "ocean wave curling gracefully, foam and spray, powerful yet beautiful sea",
+          "output": "scripts\\swipe\\neuroticism_high_05-01.jpg",
+          "resizedTo": 512
+        },
+        {
+          "at": "2026-03-28T17:16:39.793Z",
+          "prompt": "beautiful curling ocean wave with foam, pastel blue and teal colors, soft mint background, flat design without thick outlines, flowing curved shapes, centered, no text",
+          "output": "scripts\\swipe\\neuroticism_high_05-02.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "neuroticism_high_06": {
+      "filename": "neuroticism_high_06.jpg",
+      "descriptionJa": "暖かい面の上で溶ける氷、はかなくて繊細",
+      "prompt": "ice cube melting in warm sunlight, water drops forming a small puddle, golden sun rays from above, soft pastel peach background, flat design, gentle and poetic mood, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T17:18:07.533Z",
+          "prompt": "ice cube melting in warm sunlight, water drops forming a small puddle, golden sun rays from above, soft pastel peach background, flat design, gentle and poetic mood, centered, no text",
+          "output": "scripts\\swipe\\neuroticism_high_06-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "neuroticism_high_07": {
+      "filename": "neuroticism_high_07.jpg",
+      "descriptionJa": "砂が落ちる砂時計、時間への不安",
+      "prompt": "elegant hourglass with golden sand flowing, small butterfly resting on top, soft pastel blue background, flat design, delicate and graceful, centered, no text, no clock hands",
+      "trials": [
+        {
+          "at": "2026-03-28T17:20:11.985Z",
+          "prompt": "elegant hourglass with golden sand flowing, small butterfly resting on top, soft pastel blue background, flat design, delicate and graceful, centered, no text, no clock hands",
+          "output": "scripts\\swipe\\neuroticism_high_07-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "neuroticism_high_08": {
+      "filename": "neuroticism_high_08.jpg",
+      "descriptionJa": "水面に波紋を作る一滴の涙、深い感情",
+      "prompt": "bright rainbow arc after rain, small raindrops in the air, hopeful and gentle mood",
+      "trials": [
+        {
+          "at": "2026-03-28T14:13:08.056Z",
+          "prompt": "rainbow reflected in rain puddle, beauty after rain",
+          "output": "scripts\\swipe\\neuroticism_high_08-01.jpg",
+          "resizedTo": 512
+        },
+        {
+          "at": "2026-03-28T14:17:08.055Z",
+          "prompt": "bright rainbow arc after rain, small raindrops in the air, hopeful and gentle mood",
+          "output": "scripts\\swipe\\neuroticism_high_08-02.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "neuroticism_low_01": {
+      "filename": "neuroticism_low_01.jpg",
+      "descriptionJa": "夕日の静かな海、穏やかさ",
+      "prompt": "calm ocean with sunset, tranquility"
+    },
+    "neuroticism_low_02": {
+      "filename": "neuroticism_low_02.jpg",
+      "descriptionJa": "バランスのとれた禅の石、安定",
+      "prompt": "balanced zen stones, stability"
+    },
+    "neuroticism_low_03": {
+      "filename": "neuroticism_low_03.jpg",
+      "descriptionJa": "錨と安定した船、信頼性",
+      "prompt": "large anchor in the center with a small sailboat on top, calm ocean waves at the base, pastel navy blue and coral accents, soft light blue background, flat design, bold and stable feeling, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-28T17:37:16.792Z",
+          "prompt": "anchor and small sailboat, calm flat sea below, soft pastel light blue background, flat design without thick outlines or circle badge, simple shapes, centered, no text",
+          "output": "scripts\\swipe\\neuroticism_low_03-01.jpg",
+          "resizedTo": 512
+        },
+        {
+          "at": "2026-03-28T17:38:12.803Z",
+          "prompt": "large anchor in the center with a small sailboat on top, calm ocean waves at the base, pastel navy blue and coral accents, soft light blue background, flat design, bold and stable feeling, centered, no text",
+          "output": "scripts\\swipe\\neuroticism_low_03-02.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "neuroticism_low_04": {
+      "filename": "neuroticism_low_04.jpg",
+      "descriptionJa": "雲がひとつ浮かぶ青空、明瞭さ",
+      "prompt": "three fluffy white clouds floating in a vast pastel blue sky, a small yellow bird flying above the clouds, no frame no border no rectangle, flat design, simple and serene, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T00:43:43.565Z",
+          "prompt": "wide open blue sky with fluffy white clouds, a single small bird flying freely, soft pastel blue gradient background, flat design, open and peaceful composition without circular frame, centered, no text",
+          "output": "scripts\\swipe\\neuroticism_low_04-01.jpg",
+          "resizedTo": 512
+        },
+        {
+          "at": "2026-03-29T00:44:29.653Z",
+          "prompt": "three fluffy white clouds floating in a vast pastel blue sky, a small yellow bird flying above the clouds, no frame no border no rectangle, flat design, simple and serene, centered, no text",
+          "output": "scripts\\swipe\\neuroticism_low_04-02.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "neuroticism_low_05": {
+      "filename": "neuroticism_low_05.jpg",
+      "descriptionJa": "水面に映る静かな山の湖、完全な静けさ",
+      "prompt": "calm mountain lake with perfect mirror reflection of snowy peaks, pastel pink and blue sky at dawn, flat design with layered shapes, serene and still, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T00:55:11.547Z",
+          "prompt": "calm mountain lake with perfect mirror reflection of snowy peaks, pastel pink and blue sky at dawn, flat design with layered shapes, serene and still, centered, no text",
+          "output": "scripts\\swipe\\neuroticism_low_05-01.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "neuroticism_low_06": {
+      "filename": "neuroticism_low_06.jpg",
+      "descriptionJa": "穏やかな霧の中の灯台の光、揺るがない導き",
+      "prompt": "lighthouse beam in gentle fog, steady guidance"
+    },
+    "neuroticism_low_07": {
+      "filename": "neuroticism_low_07.jpg",
+      "descriptionJa": "深い根を張った大きな木、地に足がついた強さ",
+      "prompt": "large tree with round green canopy and deep brown roots spreading below ground, ground line dividing above and below, no frame no border, soft pastel sage green background, flat design, minimal, centered, no text",
+      "trials": [
+        {
+          "at": "2026-03-29T00:57:21.703Z",
+          "prompt": "single large tree with visible deep roots underground, simple symmetric design, green canopy above and brown roots below, soft pastel green background, flat design, stable and grounded feeling, centered, no text",
+          "output": "scripts\\swipe\\neuroticism_low_07-01.jpg",
+          "resizedTo": 512
+        },
+        {
+          "at": "2026-03-29T01:03:07.839Z",
+          "prompt": "large tree with round green canopy and deep brown roots spreading below ground, ground line dividing above and below, no frame no border, soft pastel sage green background, flat design, minimal, centered, no text",
+          "output": "scripts\\swipe\\neuroticism_low_07-02.jpg",
+          "resizedTo": 512
+        }
+      ]
+    },
+    "neuroticism_low_08": {
+      "filename": "neuroticism_low_08.jpg",
+      "descriptionJa": "穏やかな地平線に昇る朝日、新鮮なスタート",
+      "prompt": "sunrise over peaceful horizon, fresh new start"
+    }
+  }
+}

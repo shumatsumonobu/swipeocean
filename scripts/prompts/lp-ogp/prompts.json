@@ -1,0 +1,115 @@
+{
+  "description": "LP OGP image (8 characters top + copy bottom, inverted layout vs top OGP)",
+  "createdAt": "2026-04-01",
+  "defaultConfig": {
+    "width": 1200,
+    "height": 630,
+    "bgColor": "#0a0a1f",
+    "charSize": 120,
+    "charStride": 120,
+    "charY": 80,
+    "heroOpacity": 0.2,
+    "textSvgTop": 350
+  },
+  "trials": [
+    {
+      "at": "2026-04-01T10:15:10.151Z",
+      "output": "scripts\\ogp\\about\\about-ja-02.png",
+      "lang": "ja",
+      "heroBg": true,
+      "charSize": 120,
+      "charStride": 120,
+      "charY": 80
+    },
+    {
+      "at": "2026-04-01T10:16:08.757Z",
+      "output": "scripts\\ogp\\about\\about-en-02.png",
+      "lang": "en",
+      "heroBg": true,
+      "charSize": 120,
+      "charStride": 120,
+      "charY": 80
+    },
+    {
+      "at": "2026-04-01T10:33:36.833Z",
+      "output": "scripts\\ogp\\about\\about-ja-03.png",
+      "lang": "ja",
+      "heroBg": true,
+      "charSize": 150,
+      "charStride": 120,
+      "charY": 50
+    },
+    {
+      "at": "2026-04-01T10:35:33.423Z",
+      "output": "scripts\\ogp\\about\\about-ja-04.png",
+      "lang": "ja",
+      "heroBg": true,
+      "charSize": 150,
+      "charStride": 120,
+      "charY": 50
+    },
+    {
+      "at": "2026-04-01T10:36:12.510Z",
+      "output": "scripts\\ogp\\about\\about-ja-05.png",
+      "lang": "ja",
+      "heroBg": true,
+      "charSize": 150,
+      "charStride": 120,
+      "charY": 50
+    },
+    {
+      "at": "2026-04-01T10:37:48.026Z",
+      "output": "scripts\\ogp\\about\\about-ja-06.png",
+      "lang": "ja",
+      "heroBg": true,
+      "charSize": 160,
+      "charStride": 130,
+      "charY": 30
+    },
+    {
+      "at": "2026-04-01T10:37:48.489Z",
+      "output": "scripts\\ogp\\about\\about-ja-07.png",
+      "lang": "ja",
+      "heroBg": true,
+      "charSize": 170,
+      "charStride": 135,
+      "charY": 20
+    },
+    {
+      "at": "2026-04-01T10:40:39.473Z",
+      "output": "scripts\\ogp\\about\\about-en-03.png",
+      "lang": "en",
+      "heroBg": true,
+      "charSize": 160,
+      "charStride": 130,
+      "charY": 30
+    },
+    {
+      "at": "2026-04-01T10:40:49.296Z",
+      "output": "public\\images\\ogp\\about-ja.png",
+      "lang": "ja",
+      "heroBg": true,
+      "charSize": 160,
+      "charStride": 130,
+      "charY": 30
+    },
+    {
+      "at": "2026-04-01T10:40:49.739Z",
+      "output": "public\\images\\ogp\\about-en.png",
+      "lang": "en",
+      "heroBg": true,
+      "charSize": 160,
+      "charStride": 130,
+      "charY": 30
+    },
+    {
+      "at": "2026-06-04T08:34:15.465Z",
+      "output": "public\\images\\ogp\\about-ja.png",
+      "lang": "ja",
+      "heroBg": true,
+      "charSize": 120,
+      "charStride": 120,
+      "charY": 80
+    }
+  ]
+}

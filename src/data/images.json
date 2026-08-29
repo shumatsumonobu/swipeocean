@@ -1,0 +1,482 @@
+[
+  {
+    "id": "img_o_h_01",
+    "src": "openness_high_01.jpg",
+    "trait": "openness",
+    "direction": "high"
+  },
+  {
+    "id": "img_o_h_02",
+    "src": "openness_high_02.jpg",
+    "trait": "openness",
+    "direction": "high"
+  },
+  {
+    "id": "img_o_h_03",
+    "src": "openness_high_03.jpg",
+    "trait": "openness",
+    "direction": "high"
+  },
+  {
+    "id": "img_o_h_04",
+    "src": "openness_high_04.jpg",
+    "trait": "openness",
+    "direction": "high"
+  },
+  {
+    "id": "img_o_h_05",
+    "src": "openness_high_05.jpg",
+    "trait": "openness",
+    "direction": "high"
+  },
+  {
+    "id": "img_o_h_06",
+    "src": "openness_high_06.jpg",
+    "trait": "openness",
+    "direction": "high"
+  },
+  {
+    "id": "img_o_h_07",
+    "src": "openness_high_07.jpg",
+    "trait": "openness",
+    "direction": "high"
+  },
+  {
+    "id": "img_o_h_08",
+    "src": "openness_high_08.jpg",
+    "trait": "openness",
+    "direction": "high"
+  },
+  {
+    "id": "img_o_l_01",
+    "src": "openness_low_01.jpg",
+    "trait": "openness",
+    "direction": "low"
+  },
+  {
+    "id": "img_o_l_02",
+    "src": "openness_low_02.jpg",
+    "trait": "openness",
+    "direction": "low"
+  },
+  {
+    "id": "img_o_l_03",
+    "src": "openness_low_03.jpg",
+    "trait": "openness",
+    "direction": "low"
+  },
+  {
+    "id": "img_o_l_04",
+    "src": "openness_low_04.jpg",
+    "trait": "openness",
+    "direction": "low"
+  },
+  {
+    "id": "img_o_l_05",
+    "src": "openness_low_05.jpg",
+    "trait": "openness",
+    "direction": "low"
+  },
+  {
+    "id": "img_o_l_06",
+    "src": "openness_low_06.jpg",
+    "trait": "openness",
+    "direction": "low"
+  },
+  {
+    "id": "img_o_l_07",
+    "src": "openness_low_07.jpg",
+    "trait": "openness",
+    "direction": "low"
+  },
+  {
+    "id": "img_o_l_08",
+    "src": "openness_low_08.jpg",
+    "trait": "openness",
+    "direction": "low"
+  },
+  {
+    "id": "img_c_h_01",
+    "src": "conscientiousness_high_01.jpg",
+    "trait": "conscientiousness",
+    "direction": "high"
+  },
+  {
+    "id": "img_c_h_02",
+    "src": "conscientiousness_high_02.jpg",
+    "trait": "conscientiousness",
+    "direction": "high"
+  },
+  {
+    "id": "img_c_h_03",
+    "src": "conscientiousness_high_03.jpg",
+    "trait": "conscientiousness",
+    "direction": "high"
+  },
+  {
+    "id": "img_c_h_04",
+    "src": "conscientiousness_high_04.jpg",
+    "trait": "conscientiousness",
+    "direction": "high"
+  },
+  {
+    "id": "img_c_h_05",
+    "src": "conscientiousness_high_05.jpg",
+    "trait": "conscientiousness",
+    "direction": "high"
+  },
+  {
+    "id": "img_c_h_06",
+    "src": "conscientiousness_high_06.jpg",
+    "trait": "conscientiousness",
+    "direction": "high"
+  },
+  {
+    "id": "img_c_h_07",
+    "src": "conscientiousness_high_07.jpg",
+    "trait": "conscientiousness",
+    "direction": "high"
+  },
+  {
+    "id": "img_c_h_08",
+    "src": "conscientiousness_high_08.jpg",
+    "trait": "conscientiousness",
+    "direction": "high"
+  },
+  {
+    "id": "img_c_l_01",
+    "src": "conscientiousness_low_01.jpg",
+    "trait": "conscientiousness",
+    "direction": "low"
+  },
+  {
+    "id": "img_c_l_02",
+    "src": "conscientiousness_low_02.jpg",
+    "trait": "conscientiousness",
+    "direction": "low"
+  },
+  {
+    "id": "img_c_l_03",
+    "src": "conscientiousness_low_03.jpg",
+    "trait": "conscientiousness",
+    "direction": "low"
+  },
+  {
+    "id": "img_c_l_04",
+    "src": "conscientiousness_low_04.jpg",
+    "trait": "conscientiousness",
+    "direction": "low"
+  },
+  {
+    "id": "img_c_l_05",
+    "src": "conscientiousness_low_05.jpg",
+    "trait": "conscientiousness",
+    "direction": "low"
+  },
+  {
+    "id": "img_c_l_06",
+    "src": "conscientiousness_low_06.jpg",
+    "trait": "conscientiousness",
+    "direction": "low"
+  },
+  {
+    "id": "img_c_l_07",
+    "src": "conscientiousness_low_07.jpg",
+    "trait": "conscientiousness",
+    "direction": "low"
+  },
+  {
+    "id": "img_c_l_08",
+    "src": "conscientiousness_low_08.jpg",
+    "trait": "conscientiousness",
+    "direction": "low"
+  },
+  {
+    "id": "img_e_h_01",
+    "src": "extraversion_high_01.jpg",
+    "trait": "extraversion",
+    "direction": "high"
+  },
+  {
+    "id": "img_e_h_02",
+    "src": "extraversion_high_02.jpg",
+    "trait": "extraversion",
+    "direction": "high"
+  },
+  {
+    "id": "img_e_h_03",
+    "src": "extraversion_high_03.jpg",
+    "trait": "extraversion",
+    "direction": "high"
+  },
+  {
+    "id": "img_e_h_04",
+    "src": "extraversion_high_04.jpg",
+    "trait": "extraversion",
+    "direction": "high"
+  },
+  {
+    "id": "img_e_h_05",
+    "src": "extraversion_high_05.jpg",
+    "trait": "extraversion",
+    "direction": "high"
+  },
+  {
+    "id": "img_e_h_06",
+    "src": "extraversion_high_06.jpg",
+    "trait": "extraversion",
+    "direction": "high"
+  },
+  {
+    "id": "img_e_h_07",
+    "src": "extraversion_high_07.jpg",
+    "trait": "extraversion",
+    "direction": "high"
+  },
+  {
+    "id": "img_e_h_08",
+    "src": "extraversion_high_08.jpg",
+    "trait": "extraversion",
+    "direction": "high"
+  },
+  {
+    "id": "img_e_l_01",
+    "src": "extraversion_low_01.jpg",
+    "trait": "extraversion",
+    "direction": "low"
+  },
+  {
+    "id": "img_e_l_02",
+    "src": "extraversion_low_02.jpg",
+    "trait": "extraversion",
+    "direction": "low"
+  },
+  {
+    "id": "img_e_l_03",
+    "src": "extraversion_low_03.jpg",
+    "trait": "extraversion",
+    "direction": "low"
+  },
+  {
+    "id": "img_e_l_04",
+    "src": "extraversion_low_04.jpg",
+    "trait": "extraversion",
+    "direction": "low"
+  },
+  {
+    "id": "img_e_l_05",
+    "src": "extraversion_low_05.jpg",
+    "trait": "extraversion",
+    "direction": "low"
+  },
+  {
+    "id": "img_e_l_06",
+    "src": "extraversion_low_06.jpg",
+    "trait": "extraversion",
+    "direction": "low"
+  },
+  {
+    "id": "img_e_l_07",
+    "src": "extraversion_low_07.jpg",
+    "trait": "extraversion",
+    "direction": "low"
+  },
+  {
+    "id": "img_e_l_08",
+    "src": "extraversion_low_08.jpg",
+    "trait": "extraversion",
+    "direction": "low"
+  },
+  {
+    "id": "img_a_h_01",
+    "src": "agreeableness_high_01.jpg",
+    "trait": "agreeableness",
+    "direction": "high"
+  },
+  {
+    "id": "img_a_h_02",
+    "src": "agreeableness_high_02.jpg",
+    "trait": "agreeableness",
+    "direction": "high"
+  },
+  {
+    "id": "img_a_h_03",
+    "src": "agreeableness_high_03.jpg",
+    "trait": "agreeableness",
+    "direction": "high"
+  },
+  {
+    "id": "img_a_h_04",
+    "src": "agreeableness_high_04.jpg",
+    "trait": "agreeableness",
+    "direction": "high"
+  },
+  {
+    "id": "img_a_h_05",
+    "src": "agreeableness_high_05.jpg",
+    "trait": "agreeableness",
+    "direction": "high"
+  },
+  {
+    "id": "img_a_h_06",
+    "src": "agreeableness_high_06.jpg",
+    "trait": "agreeableness",
+    "direction": "high"
+  },
+  {
+    "id": "img_a_h_07",
+    "src": "agreeableness_high_07.jpg",
+    "trait": "agreeableness",
+    "direction": "high"
+  },
+  {
+    "id": "img_a_h_08",
+    "src": "agreeableness_high_08.jpg",
+    "trait": "agreeableness",
+    "direction": "high"
+  },
+  {
+    "id": "img_a_l_01",
+    "src": "agreeableness_low_01.jpg",
+    "trait": "agreeableness",
+    "direction": "low"
+  },
+  {
+    "id": "img_a_l_02",
+    "src": "agreeableness_low_02.jpg",
+    "trait": "agreeableness",
+    "direction": "low"
+  },
+  {
+    "id": "img_a_l_03",
+    "src": "agreeableness_low_03.jpg",
+    "trait": "agreeableness",
+    "direction": "low"
+  },
+  {
+    "id": "img_a_l_04",
+    "src": "agreeableness_low_04.jpg",
+    "trait": "agreeableness",
+    "direction": "low"
+  },
+  {
+    "id": "img_a_l_05",
+    "src": "agreeableness_low_05.jpg",
+    "trait": "agreeableness",
+    "direction": "low"
+  },
+  {
+    "id": "img_a_l_06",
+    "src": "agreeableness_low_06.jpg",
+    "trait": "agreeableness",
+    "direction": "low"
+  },
+  {
+    "id": "img_a_l_07",
+    "src": "agreeableness_low_07.jpg",
+    "trait": "agreeableness",
+    "direction": "low"
+  },
+  {
+    "id": "img_a_l_08",
+    "src": "agreeableness_low_08.jpg",
+    "trait": "agreeableness",
+    "direction": "low"
+  },
+  {
+    "id": "img_n_h_01",
+    "src": "neuroticism_high_01.jpg",
+    "trait": "neuroticism",
+    "direction": "high"
+  },
+  {
+    "id": "img_n_h_02",
+    "src": "neuroticism_high_02.jpg",
+    "trait": "neuroticism",
+    "direction": "high"
+  },
+  {
+    "id": "img_n_h_03",
+    "src": "neuroticism_high_03.jpg",
+    "trait": "neuroticism",
+    "direction": "high"
+  },
+  {
+    "id": "img_n_h_04",
+    "src": "neuroticism_high_04.jpg",
+    "trait": "neuroticism",
+    "direction": "high"
+  },
+  {
+    "id": "img_n_h_05",
+    "src": "neuroticism_high_05.jpg",
+    "trait": "neuroticism",
+    "direction": "high"
+  },
+  {
+    "id": "img_n_h_06",
+    "src": "neuroticism_high_06.jpg",
+    "trait": "neuroticism",
+    "direction": "high"
+  },
+  {
+    "id": "img_n_h_07",
+    "src": "neuroticism_high_07.jpg",
+    "trait": "neuroticism",
+    "direction": "high"
+  },
+  {
+    "id": "img_n_h_08",
+    "src": "neuroticism_high_08.jpg",
+    "trait": "neuroticism",
+    "direction": "high"
+  },
+  {
+    "id": "img_n_l_01",
+    "src": "neuroticism_low_01.jpg",
+    "trait": "neuroticism",
+    "direction": "low"
+  },
+  {
+    "id": "img_n_l_02",
+    "src": "neuroticism_low_02.jpg",
+    "trait": "neuroticism",
+    "direction": "low"
+  },
+  {
+    "id": "img_n_l_03",
+    "src": "neuroticism_low_03.jpg",
+    "trait": "neuroticism",
+    "direction": "low"
+  },
+  {
+    "id": "img_n_l_04",
+    "src": "neuroticism_low_04.jpg",
+    "trait": "neuroticism",
+    "direction": "low"
+  },
+  {
+    "id": "img_n_l_05",
+    "src": "neuroticism_low_05.jpg",
+    "trait": "neuroticism",
+    "direction": "low"
+  },
+  {
+    "id": "img_n_l_06",
+    "src": "neuroticism_low_06.jpg",
+    "trait": "neuroticism",
+    "direction": "low"
+  },
+  {
+    "id": "img_n_l_07",
+    "src": "neuroticism_low_07.jpg",
+    "trait": "neuroticism",
+    "direction": "low"
+  },
+  {
+    "id": "img_n_l_08",
+    "src": "neuroticism_low_08.jpg",
+    "trait": "neuroticism",
+    "direction": "low"
+  }
+]

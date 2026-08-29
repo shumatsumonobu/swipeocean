@@ -1,0 +1,589 @@
+{
+  "description": "Trait icons",
+  "createdAt": "2026-03-24",
+  "config": {
+    "model": "gemini-3-pro-image-preview",
+    "aspectRatio": "1:1",
+    "outputMimeType": "image/png",
+    "temperature": 0.3,
+    "topP": 0.85
+  },
+  "icons": {
+    "agreeableness": {
+      "filename": "trait_agreeableness.png",
+      "trials": [
+        {
+          "at": "2026-03-24T12:31:49.074Z",
+          "prompt": "A plump rounded pink heart character with a cute face, Headspace meditation app illustration style. The heart is solid pink (#ec4899), very chunky, puffy, and balloon-like — all edges rounded, even the bottom tip is soft and curved. The heart has a simple adorable face: two round white eyes with small black pupils, and a gentle happy smile drawn as a small curved line in a darker pink color. The face is centered slightly above the middle of the heart. No body, no arms, no legs — just the heart shape with a face. Flat design: no shadows, no gradients, no outlines, no 3D effects, no highlights, no gloss. Transparent background. The heart fills most of the square canvas. Warm, cute, friendly, organic, like a little companion character.",
+          "output": "agreeableness-01.png",
+          "temperature": 0.3
+        },
+        {
+          "at": "2026-03-24T12:34:10.735Z",
+          "prompt": "A plump rounded pink heart character with a cute face, Headspace meditation app illustration style. The heart is solid pink (#ec4899), very chunky, puffy, and balloon-like — all edges rounded, even the bottom tip is soft and curved. The heart has a simple adorable face positioned in the CENTER of the heart, slightly above middle: two round white eyes (each about 8% of heart width) with black pupils looking slightly to one side, and a gentle happy smile drawn as a small curved line in darker pink. The face takes up about 25-30% of the heart. No body, no arms, no legs — just the heart shape with a face. Flat design: no shadows, no gradients, no outlines, no 3D effects. Transparent background. The heart fills most of the square canvas. Warm, cute, friendly, like a little companion character from Headspace.",
+          "output": "agreeableness-02.png",
+          "temperature": 0.3
+        }
+      ],
+      "prompt": "A plump rounded pink heart character with a cute face, Headspace meditation app illustration style. The heart is solid pink (#ec4899), very chunky, puffy, and balloon-like — all edges rounded, even the bottom tip is soft and curved. The heart has a simple adorable face positioned in the CENTER of the heart, slightly above middle: two round white eyes (each about 8% of heart width) with black pupils looking slightly to one side, and a gentle happy smile drawn as a small curved line in darker pink. The face takes up about 25-30% of the heart. No body, no arms, no legs — just the heart shape with a face. Flat design: no shadows, no gradients, no outlines, no 3D effects. Transparent background. The heart fills most of the square canvas. Warm, cute, friendly, like a little companion character from Headspace.",
+      "temperature": 0.3
+    },
+    "openness": {
+      "filename": "trait_openness.png",
+      "trials": [
+        {
+          "at": "2026-03-24T12:34:57.562Z",
+          "prompt": "A plump rounded purple star character with a cute face, Headspace meditation app illustration style. The star is solid purple (#a855f7), a chunky 4-pointed star shape with very rounded puffy tips — like a plus sign with fat bulging arms. The star has a simple adorable face in the center: two round white eyes with black pupils looking slightly upward with wonder, and a small round open mouth in darker purple (an 'oh\\!' of discovery expression). No body, no arms, no legs — just the star shape with a face. Flat design: no shadows, no gradients, no outlines, no 3D effects. Transparent background. The star fills most of the square canvas. Cute, curious, friendly, like a little companion character from Headspace.",
+          "output": "openness-01.png",
+          "temperature": 0.3,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T12:36:53.347Z",
+          "prompt": "A plump rounded purple 4-pointed star character with a cute face, Headspace meditation app illustration style. The star is solid flat purple (#a855f7) with exactly 4 rounded points arranged top, bottom, left, right — like a fat plus sign with bulging rounded tips. The color is perfectly uniform flat purple with NO variation. The star has a simple adorable face in the center: two round white eyes with black pupils looking slightly upward, and a small round open mouth in darker purple (a curious 'oh\\!' expression). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO shine, NO highlights, NO gloss, NO 3D effects, NO outlines. Transparent background. Fills most of the canvas. Same flat style as the reference pink heart character.",
+          "output": "openness-02.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T13:04:33.095Z",
+          "prompt": "A cute purple 4-pointed star character with a face, Headspace meditation app style. Solid flat purple (#a855f7). The star has exactly 4 equal-sized rounded puffy points — one pointing up, one down, one left, one right — perfectly symmetrical in all directions. Each point is fat, chunky, and rounded at the tip like a balloon. The star has an adorable face in the center: two round white eyes with black pupils looking slightly upward with curiosity, and a small round open mouth in darker purple (a cute surprised 'oh\\!' expression). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO shine, NO 3D effects. Transparent background. The star fills most of the square canvas evenly. Same style as the reference pink heart character.",
+          "output": "openness-03.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T13:06:31.442Z",
+          "prompt": "A cute purple sparkle character with a face, Headspace meditation app flat illustration. Solid flat purple (#a855f7). Shape: imagine a fat plus sign (+) rotated 0 degrees — 4 identical thick rounded lobes pointing up, down, left, right. All 4 lobes are EXACTLY the same size and shape. Each lobe is a thick puffy oval/petal that bulges outward. The shape is perfectly symmetrical horizontally AND vertically. The character has an adorable face in the very center where the lobes meet: two round white eyes with black pupils looking upward with wonder, and a small round open mouth in darker purple ('oh\\!' of discovery). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO shine, NO 3D, NO color variation. Transparent background. Fills most of the canvas. Same flat cute style as the reference heart.",
+          "output": "openness-04.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T14:13:17.223Z",
+          "prompt": "A cute purple 4-petal flower character with a face, Headspace meditation app style. Solid flat purple (#a855f7). The shape has exactly 4 identical round puffy petals — one at top, one at bottom, one left, one right — arranged like a 4-leaf clover. Each petal is the SAME size round oval. The petals overlap slightly at the center. The character has an adorable face at the center where petals meet: two round white eyes with black pupils looking upward with wonder and curiosity, and a small round open mouth in darker purple (a cute 'oh\\!' of discovery). No body, no arms, no legs, no stem. Completely flat: NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas. Same cute flat style as the reference pink heart.",
+          "output": "openness-05.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T14:29:37.350Z",
+          "prompt": "A cute purple 4-leaf clover character with a face, Headspace meditation app style. Solid flat purple (#a855f7) — the color must be exactly this medium-dark purple, not light lavender. The shape is a symmetrical 4-leaf clover: 4 identical perfectly round puffy lobes, one pointing up, down, left, right. All 4 lobes are EXACTLY the same size and perfectly symmetrical. The character has an adorable face at the center: two round white eyes with black pupils looking upward with wonder, and a small round open mouth in darker purple (#7c3aed). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO 3D, NO color variation. Transparent background. Fills most of canvas. Same cute flat style as the reference pink heart.",
+          "output": "openness-06.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T16:02:15.021Z",
+          "prompt": "A cute purple sparkle character with a face, Headspace meditation app flat design. Solid flat purple (#a855f7). The shape is a 4-pointed sparkle/twinkle star — like a diamond shape with 4 pointed tips (top, bottom, left, right). The points are elongated and tapered but with slightly rounded tips, NOT sharp needles. The center is wider and bulges outward slightly. This is clearly a STAR/SPARKLE shape, NOT a flower — no round petals. The character has an adorable face in the center: two round white eyes with black pupils looking upward with wonder, and a small round open mouth in darker purple (#7c3aed) showing curiosity. No body, arms, legs. NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas. Same cute flat style as reference heart.",
+          "output": "openness-07.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T16:03:33.865Z",
+          "prompt": "A cute purple 4-pointed sparkle star character, Headspace flat design. Solid flat purple (#a855f7). A twinkle/sparkle shape with 4 points — top, bottom, left, right. The points are chubby and tapered with rounded tips, NOT needle-sharp. The center area is wide and puffy. Think of a fat puffy twinkle star shape. The character has an adorable face in the center: two round white eyes with black pupils looking upward with wonder, and a small round open mouth in darker purple (#7c3aed). No body, arms, legs. Uniform flat color — NO shadows, NO gradients, NO 3D, NO shading, NO color variation. Transparent background. Fills most of canvas. Same cute flat style as reference heart.",
+          "output": "openness-08.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T16:08:38.680Z",
+          "prompt": "A cute purple 4-pointed sparkle star character, Headspace flat design. Solid flat purple (#a855f7). A perfectly symmetrical twinkle star with 4 chubby points — the top and bottom points are the same size, the left and right points are the same size. The center is wide and puffy. Each point tapers gently with a rounded tip. The shape is symmetrical both horizontally AND vertically. The character has an adorable face in the exact center: two round white eyes with black pupils looking upward with curiosity, and a small round open mouth in darker purple (#7c3aed). No body, arms, legs. Uniform flat color — NO shadows, NO gradients, NO 3D, NO shading. Transparent background. Fills most of canvas. Same cute flat style as reference heart.",
+          "output": "openness-09.png",
+          "temperature": 0.1,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T16:09:48.977Z",
+          "prompt": "A cute purple 4-pointed sparkle star character, Headspace flat design. Solid flat purple (#a855f7). CRITICAL: all 4 points must be EXACTLY the same length and width. The shape fits perfectly inside a square — top point touches top edge, bottom touches bottom, left touches left, right touches right. The 4 points are chubby with rounded tips, the center is puffy and wide. Think of a rotated square with bulging sides. Perfectly symmetrical in ALL directions. Adorable face in exact center: two round white eyes with black pupils looking up with wonder, small round open mouth in #7c3aed. No body, arms, legs. Uniform flat color — NO shadows, NO gradients, NO 3D, NO shading, NO color variation anywhere. Transparent background. Same cute flat style as reference heart.",
+          "output": "openness-10.png",
+          "temperature": 0.1,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T16:11:12.905Z",
+          "prompt": "A cute purple 5-pointed star character with a face, Headspace meditation app flat design. Solid flat purple (#a855f7). A classic 5-pointed star shape (like the star emoji) but chunky and puffy — the points are wide and have rounded tips, not sharp. The center area is thick. The star is perfectly symmetrical with one point at the top. The character has an adorable face in the center: two round white eyes with black pupils looking upward with wonder and curiosity, and a small round open mouth in darker purple (#7c3aed). No body, arms, legs. Uniform flat color — NO shadows, NO gradients, NO 3D, NO shading. Transparent background. Fills most of canvas. Same cute flat style as reference heart.",
+          "output": "openness-11.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T16:16:29.793Z",
+          "prompt": "A cute purple 5-pointed star character with a face, Headspace meditation app flat design. Solid flat purple (#a855f7). A classic 5-pointed star (one point at top) but very chunky and puffy with wide rounded tips. The star is symmetrical and fills the canvas. Adorable face in center: two round white eyes with black pupils looking upward with wonder, small round open mouth in darker purple (#7c3aed). No body, arms, legs. PERFECTLY uniform flat purple color everywhere — NO shadows, NO gradients, NO 3D, NO shading, NO darker or lighter areas anywhere on the shape. Transparent background. Same cute flat style as reference heart.",
+          "output": "openness-12.png",
+          "temperature": 0.1,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T16:34:49.353Z",
+          "prompt": "A cute purple 5-pointed star character with a face, Headspace meditation app flat design. Solid flat purple (#a855f7). A classic chunky 5-pointed star with one point at top. The points are wide and have very rounded tips. The star is puffy and thick. Adorable face in center: two round white eyes with black pupils looking upward with wonder, small round open mouth in darker purple (#7c3aed). No body, arms, legs. The purple color must be PERFECTLY UNIFORM everywhere — absolutely NO shadows, NO shading, NO darker areas, NO lighter areas, NO gradients, NO 3D effects, NO ambient occlusion. Every pixel of the star is exactly the same purple. Transparent background. Fills most of canvas. Same cute flat style as reference heart.",
+          "output": "openness-13.png",
+          "temperature": 0.1,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T16:36:43.431Z",
+          "prompt": "A cute purple 5-pointed star character with a face. Flat vector illustration, Headspace meditation app style. The star is solid flat purple (#a855f7) with absolutely uniform color — like a vector shape filled with one color. Classic 5-pointed star with one point at top, chunky wide points with rounded tips. Puffy thick center. Adorable face in center: two round white eyes with black pupils looking upward with wonder, small round open mouth in darker purple (#7c3aed). No body, arms, legs. This is a VECTOR-STYLE flat shape: ONE single uniform color, NO shadows, NO shading, NO highlights, NO gradients, NO 3D, NO depth. Like an SVG icon filled with one color. Transparent background. Fills most of canvas.",
+          "output": "openness-14.png",
+          "temperature": 0.1,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T16:53:38.425Z",
+          "prompt": "Flat 2D icon of a cute purple star character. The star is a simple 5-pointed star shape, one point at top, with rounded chunky tips. Filled with a single solid color purple #a855f7. The star has a cute face: two white circle eyes with black dot pupils looking up, and a small dark purple circle mouth. No outlines. No shading. No lighting effects. No depth. Completely flat like a sticker or emoji. PNG with transparent background. The star shape fills the image.",
+          "output": "openness-15.png",
+          "temperature": 0.3,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T16:59:24.464Z",
+          "prompt": "A plump rounded purple star character with a cute face, Headspace meditation app illustration style. The star is solid purple (#a855f7), a classic 5-pointed star shape with one point at top, very chunky, puffy, and balloon-like — all tips are soft and rounded. The star has a simple adorable face positioned in the CENTER of the star, slightly above middle: two round white eyes (each about 8% of star width) with black pupils looking slightly upward with curiosity, and a small round open mouth drawn in darker purple. The face takes up about 25-30% of the star. No body, no arms, no legs — just the star shape with a face. Flat design: no shadows, no gradients, no outlines, no 3D effects. Transparent background. The star fills most of the square canvas. Warm, cute, friendly, like a little companion character from Headspace.",
+          "output": "openness-16.png",
+          "temperature": 0.3,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T22:59:42.784Z",
+          "prompt": "A plump rounded purple star character with a cute face, Headspace meditation app illustration style. The star is solid purple (#a855f7), a classic 5-pointed star shape with one point at top, very chunky, puffy, and balloon-like — all tips are soft and rounded. The star has a simple adorable face positioned in the CENTER of the star: two round white eyes with black pupils looking slightly upward with curiosity, and a small round open mouth drawn in darker purple. No body, no arms, no legs — just the star shape with a face. Flat design: no shadows, no gradients, no outlines, no 3D effects. Transparent background. The star fills most of the square canvas. Cute, friendly, like a little companion character from Headspace.",
+          "output": "openness-17.png",
+          "temperature": 0.5,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T23:01:17.588Z",
+          "prompt": "A plump rounded purple star character with a cute face, Headspace meditation app illustration style. The star is solid purple (#a855f7), a classic 5-pointed star shape with one point at top, very chunky, puffy, and balloon-like — all tips are soft and rounded. The star has a simple adorable face positioned in the CENTER: two round white eyes with black pupils looking slightly upward with curiosity, and a small round open mouth drawn in darker purple. No body, no arms, no legs. Flat design: no shadows, no gradients, no outlines, no 3D effects. Transparent background. The star fills most of the square canvas. Cute, friendly, Headspace style.",
+          "output": "openness-18.png",
+          "temperature": 0.3,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T23:04:44.492Z",
+          "prompt": "A cute purple rounded star character, Headspace flat illustration. Solid flat purple (#a855f7). A 5-pointed star but EXTREMELY rounded — the indentations between the points are very shallow, almost like a circle with 5 gentle bumps. Think of a starfish shape, very puffy and round. The whole shape is filled with ONE perfectly uniform flat purple color. Face in center: two round white eyes with black pupils looking up with wonder, small round open mouth in #7c3aed. No body, arms, legs. CRITICAL: the purple must be 100% uniform — same exact shade everywhere, like a filled vector shape. NO shadows, NO shading, NO gradients, NO darker areas between points, NO 3D. Transparent background. Fills canvas.",
+          "output": "openness-19.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T23:07:44.898Z",
+          "prompt": "A cute purple rounded star character, Headspace flat illustration. Solid flat purple (#a855f7). A 5-pointed star but EXTREMELY rounded — the indentations between the points are very shallow, almost like a circle with 5 gentle bumps. Very puffy and round like a starfish. ONE perfectly uniform flat purple color everywhere. Face in center: two round white eyes with black pupils looking up with wonder, small round open mouth in #7c3aed. No body, arms, legs. The purple must be 100% uniform — same exact shade everywhere, like a filled vector shape. NO shadows NO shading NO gradients NO darker areas NO lighter areas NO 3D. Transparent background. Fills canvas.",
+          "output": "openness-20.png",
+          "temperature": 0.1,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T01:02:14.515Z",
+          "prompt": "A cute purple star character with a face, Headspace meditation app style. Solid flat purple (#a855f7). A chunky rounded 5-pointed star — one point at top, two at sides, two at bottom. All points are very rounded and puffy. The whole shape is soft and pillowy. All one uniform flat purple — no shading, no color variation. Face in center: two SMALL round white eyes with tiny black dot pupils looking upward with curiosity (same small eye size as the reference heart), and a small round open mouth in darker purple (#7c3aed) — a cute 'oh\\!' of discovery. The eyes and mouth are compact and close together, centered on the star. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas. Chunky, puffy, cute.",
+          "output": "openness-21.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        }
+      ],
+      "prompt": "A cute purple star character with a face, Headspace meditation app style. Solid flat purple (#a855f7). A chunky rounded 5-pointed star — one point at top, two at sides, two at bottom. All points are very rounded and puffy. The whole shape is soft and pillowy. All one uniform flat purple — no shading, no color variation. Face in center: two SMALL round white eyes with tiny black dot pupils looking upward with curiosity (same small eye size as the reference heart), and a small round open mouth in darker purple (#7c3aed) — a cute 'oh\\!' of discovery. The eyes and mouth are compact and close together, centered on the star. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas. Chunky, puffy, cute.",
+      "temperature": 0.2,
+      "reference": "scripts/trait-icons/agreeableness-02.png"
+    },
+    "conscientiousness": {
+      "filename": "trait_conscientiousness.png",
+      "trials": [
+        {
+          "at": "2026-03-24T12:38:16.866Z",
+          "prompt": "A plump rounded green leaf character with a cute face, Headspace meditation app illustration style. A single large round leaf shape in solid flat green (#22c55e). The leaf is very round and puffy like a balloon — not a pointed or realistic leaf, more like a soft oval/circle with a tiny stem at the bottom. The leaf has a simple adorable face in the center: two round white eyes with black pupils, and a proud satisfied smile drawn as a small curved line in darker green. No body, no arms, no legs, no leaf veins — just the round leaf shape with a face. Completely flat: NO shadows, NO gradients, NO shine, NO 3D effects. Transparent background. Fills most of the canvas. Same flat style as the reference pink heart character.",
+          "output": "conscientiousness-01.png",
+          "temperature": 0.3,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T14:38:33.081Z",
+          "prompt": "A cute green leaf character with a face, Headspace meditation app style. A single round puffy leaf in solid flat green (#22c55e). The leaf has a distinctive leaf shape: round and plump like a water drop lying on its side, with a small pointed tip on one side and a short stubby stem on the opposite side. The leaf tip and stem make it clearly recognizable as a leaf, not a balloon. A single simple leaf vein line runs from stem to tip in slightly darker green. The character has an adorable face in the center of the leaf: two round white eyes with black pupils, and a proud satisfied little smile in darker green (#16a34a). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas. Same cute flat style as the reference pink heart.",
+          "output": "conscientiousness-02.png",
+          "temperature": 0.25,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T16:18:16.232Z",
+          "prompt": "A cute green leaf character with a face, Headspace meditation app flat design. Solid flat green (#22c55e). A single plump puffy leaf shape — very round and balloon-like, wider at one end and gently tapering to a soft rounded point at the other. A short cute stubby stem sticks out from the narrow end. The leaf is VERY puffy and round, almost like a mango or avocado shape. A single simple curved line from stem to tip suggests a leaf vein, drawn in slightly darker green (#16a34a). The character has an adorable face in the center of the wide part: two round white eyes with black pupils, and a proud satisfied smile in darker green (#16a34a). No body, arms, legs. Uniform flat color — NO shadows, NO gradients, NO 3D, NO shading. Transparent background. Fills most of canvas. Same cute flat style as reference heart.",
+          "output": "conscientiousness-03.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T16:23:48.096Z",
+          "prompt": "A cute green leaf character with a face, Headspace flat design. Solid flat green (#22c55e). A single very round puffy leaf — shaped like a fat teardrop lying slightly tilted, with a short stubby stem at the narrow end. The leaf is extremely plump and round. A thin subtle curved vein line runs from stem to tip in slightly darker green. The face is positioned in the CENTER of the leaf (not near the top): two round white eyes with black pupils, and a gentle proud smile in darker green (#16a34a). The face takes about 25% of the leaf area. No body, arms, legs. Uniform flat color — NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas. Same cute flat style as reference heart.",
+          "output": "conscientiousness-04.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T23:34:21.221Z",
+          "prompt": "A cute green leaf character with a face, Headspace meditation app flat illustration style. A single plump rounded leaf shape in solid flat green (#22c55e). The leaf is very puffy and round — like a balloon leaf. It has a short small stem at the bottom. The leaf is smooth and clean — NO veins, NO lines, NO markings on the leaf surface at all. Just pure solid green. The leaf has an adorable face: two round white eyes with black pupils, and a proud happy closed-mouth smile in darker green (#16a34a). The face is centered on the leaf. No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO 3D, NO color variation. Transparent background. Fills most of canvas. Same cute chunky style as the reference heart.",
+          "output": "conscientiousness-05.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        }
+      ],
+      "prompt": "A cute green leaf character with a face, Headspace meditation app flat illustration style. A single plump rounded leaf shape in solid flat green (#22c55e). The leaf is very puffy and round — like a balloon leaf. It has a short small stem at the bottom. The leaf is smooth and clean — NO veins, NO lines, NO markings on the leaf surface at all. Just pure solid green. The leaf has an adorable face: two round white eyes with black pupils, and a proud happy closed-mouth smile in darker green (#16a34a). The face is centered on the leaf. No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO 3D, NO color variation. Transparent background. Fills most of canvas. Same cute chunky style as the reference heart.",
+      "temperature": 0.15,
+      "reference": "scripts/trait-icons/agreeableness-02.png"
+    },
+    "extraversion": {
+      "filename": "trait_extraversion.png",
+      "trials": [
+        {
+          "at": "2026-03-24T12:40:52.899Z",
+          "prompt": "A plump rounded orange sun character with a cute face, Headspace meditation app illustration style. A round sun in solid flat orange (#f97316) with 8 short chunky rounded rays connected to the center circle, forming one continuous shape. The rays have rounded tips and are evenly spaced. The sun has a simple adorable face in the center circle: two round white eyes with black pupils, and a big open-mouth laugh drawn in darker orange (a wide happy grin showing excitement). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO shine, NO 3D effects. Transparent background. Fills most of the canvas. Same flat style as the reference pink heart character.",
+          "output": "extraversion-01.png",
+          "temperature": 0.3,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T12:51:35.423Z",
+          "prompt": "A plump rounded orange sun character with a cute face, Headspace meditation app illustration style. A round sun in solid flat orange (#f97316) with 8 short fat chunky rounded bumps around the edge — like a chubby gear with very rounded teeth. Each bump is thick and puffy with a round tip. The bumps are connected to the center, forming one continuous solid shape. The sun has a simple adorable face in the center: two round white eyes with black pupils, and a big happy open-mouth laugh drawn in darker orange. No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO shine, NO 3D effects. Transparent background. Fills most of the canvas. Same flat style as the reference pink heart character.",
+          "output": "extraversion-02.png",
+          "temperature": 0.25,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T12:55:03.255Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. A large round circle in solid flat orange (#f97316), with small rounded bumps around the edge like gentle waves — the bumps are very subtle, short, and rounded. The overall shape is still mainly circular but with a bumpy/wavy edge that says 'sun'. The sun has a sweet face in the center: two round white eyes with black pupils, and a big joyful open-mouth smile in darker orange. No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO shine, NO 3D. Transparent background. Fills most of the canvas. Same flat style as the reference pink heart.",
+          "output": "extraversion-03.png",
+          "temperature": 0.25,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T14:43:59.460Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. A round sun in solid flat orange (#f97316). The sun has 8 very short, fat, stubby rounded bumps around the edge — more like gentle rounded scallops than rays. Each bump is extremely short (about 10% of the circle radius) and very wide and round. The overall shape is like a chunky cookie with rounded bumps. The sun has an adorable face in the center: two round white eyes with black pupils, and a big joyful open-mouth smile in darker orange (#ea580c) showing excitement and energy. No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas. Same cute flat style as the reference pink heart.",
+          "output": "extraversion-04.png",
+          "temperature": 0.25,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T14:48:01.586Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. A round sun in solid flat orange (#f97316). The sun has exactly 6 short fat rounded bumps evenly spaced around the edge. Each bump is very short and wide — like a gentle hill, not a spike. The bumps are soft and rounded. The overall shape is clearly a sun but chunky and adorable. The sun has an adorable face in the center: two round white eyes with black pupils, and a big joyful open-mouth smile in darker orange (#ea580c). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas. Same cute flat style as the reference pink heart.",
+          "output": "extraversion-05.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T14:49:12.735Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. Solid flat orange (#f97316). The shape is a large circle with 6 big soft rounded triangular rays sticking out evenly around it — like a child's drawing of a sun. The rays are wide at the base and have very rounded tips. The rays are the same orange color as the circle, forming one continuous shape. The sun has an adorable face in the center: two round white eyes with black pupils, and a big happy open-mouth grin in darker orange (#ea580c). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO 3D, NO outlines. Transparent background. Fills most of canvas. Same cute flat style as the reference pink heart.",
+          "output": "extraversion-06.png",
+          "temperature": 0.25,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T15:00:03.613Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. Solid flat orange (#f97316). ONE single continuous shape — a circle with 6 wide rounded triangular points growing out from the circle edge, like a simplified sun or a 6-pointed rounded star. The points are wide at the base and round at the tip. There must be NO gap between the circle and the points — they are one solid connected shape, all the same orange color. The sun has an adorable face in the center: two round white eyes with black pupils, and a big happy open-mouth grin in darker orange (#ea580c). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO 3D, NO outlines, NO white lines or gaps. Transparent background. Fills most of canvas. Same cute flat style as the reference pink heart.",
+          "output": "extraversion-07.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T15:07:56.342Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. Solid flat orange (#f97316). ONE single continuous shape — a circle with 6 wide rounded bumps growing out from the circle edge. Each bump is very wide at the base and has a VERY rounded soft tip — like a petal, not a triangle. The bumps are short and chubby. There must be NO gap between the circle and the bumps — one solid connected shape, all the same flat orange. The sun has an adorable face in the center: two round white eyes with black pupils, and a big happy open-mouth grin in darker orange (#ea580c). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO 3D, NO outlines. Transparent background. Fills most of canvas. Same cute flat style as the reference pink heart.",
+          "output": "extraversion-08.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T15:10:23.228Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. Solid flat orange (#f97316). The shape is like a 7-pointed rounded star — a large circle with exactly 7 wide rounded rays evenly spaced. Each ray is wide at the base where it connects to the circle, and has a softly rounded tip (not pointed). The rays are chunky and short. Everything is one solid connected shape, same flat orange color. The sun has an adorable face in the center: two round white eyes with black pupils, and a big happy open-mouth grin in darker orange (#ea580c). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas. Same cute flat style as the reference pink heart.",
+          "output": "extraversion-09.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T15:15:48.752Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. Solid flat orange (#f97316). The shape is a large round circle with exactly 8 short fat rounded bumps evenly spaced around the edge. Each bump is identical: wide at base, very short, and perfectly rounded at tip. The bumps are like gentle hills on the circle's edge. Everything is one solid connected shape, same flat orange. IMPORTANT: all 8 bumps must be the same size and evenly distributed. The sun has an adorable face in the center: two round white eyes with black pupils, and a big happy open-mouth grin in darker orange (#ea580c). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO 3D, NO color variation. Transparent background. Fills most of canvas. Same cute flat style as the reference pink heart.",
+          "output": "extraversion-10.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T15:17:03.402Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app flat illustration. Solid flat orange (#f97316). Shape: a large circle with 8 triangular rays pointing outward. The rays are wide at the base and taper to a softly rounded point. The rays are evenly spaced and all the same size. Circle and rays are one solid continuous shape, same flat orange, no gaps. The sun has an adorable face in the center: two round white eyes with black pupils looking slightly to one side, and a big wide happy open-mouth smile in darker orange (#ea580c), showing joy and energy. No body, no arms, no legs. NO shadows, NO gradients, NO shading, NO 3D effects, NO highlights, NO darker edges. Perfectly uniform flat color everywhere. Transparent background. Fills most of canvas. Same cute flat style as the reference pink heart.",
+          "output": "extraversion-11.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T15:30:06.692Z",
+          "prompt": "A cute chunky orange sun character, Headspace meditation app flat design. The entire sun is ONE solid flat orange (#f97316) shape — no gaps, no outlines, no separate parts. Think of it as a fat 8-pointed star with rounded tips, or a gear with very rounded teeth. The center is a large circle, and 8 short wide rounded protrusions grow from the edge seamlessly. Each protrusion tapers slightly and has a rounded tip. All protrusions are the same size and evenly spaced. The sun has an adorable face in the center: two round white eyes with black pupils, and a big joyful open-mouth smile in darker orange (#ea580c). No body, no arms, no legs. Perfectly uniform flat color — NO shadows, NO gradients, NO 3D, NO outlines, NO white gaps. Transparent background. Fills most of canvas. Same style as the reference heart character.",
+          "output": "extraversion-12.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T15:31:14.252Z",
+          "prompt": "A cute orange sun character, Headspace flat design. ONE solid shape in flat orange (#f97316). The sun looks like a thick 8-pointed star: a large central circle with 8 identical short wide triangular points growing from the edge. CRITICAL: all 8 points must be the EXACT same size and shape, perfectly evenly spaced around the circle, like a compass rose. Each point is wide at base, short, with a slightly rounded tip. The shape is perfectly symmetrical in all directions. Face in the center: two round white eyes with black pupils, big happy open-mouth smile in #ea580c. No body, arms, legs. NO shadows, NO gradients, NO 3D, NO outlines, NO gaps. Uniform flat color. Transparent background. Fills most of canvas. Same style as reference heart.",
+          "output": "extraversion-13.png",
+          "temperature": 0.1,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T15:46:27.209Z",
+          "prompt": "A cute orange sun character, Headspace meditation app flat design. Solid flat orange (#f97316). The shape is a simple sun: a large round circle with exactly 5 short wide rounded bumps around the edge, evenly spaced like a starfish but rounder. Each bump is a small fat semicircle growing from the circle edge. All 5 bumps are identical and symmetrically placed. The whole thing is ONE solid shape, same flat orange color, no gaps. The sun has a sweet face in the center: two round white eyes with black pupils, and a wide joyful open-mouth grin in darker orange (#ea580c). No body, no arms, no legs. NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas. Same cute flat style as reference heart.",
+          "output": "extraversion-14.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T15:49:35.040Z",
+          "prompt": "A cute orange sunflower-shaped character with a face, Headspace meditation app flat design. Solid flat orange (#f97316). The shape is like a simple flower with 8 round puffy petals arranged evenly around a center area, but it represents a SUN — all petals and center are the SAME flat orange color, forming one solid shape. Each petal is a round oval, all the same size. The character has an adorable face in the center: two round white eyes with black pupils, and a big joyful open-mouth grin in darker orange (#ea580c). No body, no arms, no legs, no stem. NO shadows, NO gradients, NO 3D, NO color variation. Transparent background. Fills most of canvas. Same cute flat style as the reference heart.",
+          "output": "extraversion-15.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T15:52:05.902Z",
+          "prompt": "A cute orange sun character, Headspace meditation app flat design. Solid flat orange (#f97316). The shape has a medium-sized round center circle with 8 long rounded oblong rays radiating outward. Each ray is a thick rounded rectangle with very rounded ends, like a popsicle stick. The rays are longer than the radius of the center circle. All 8 rays are the same length and width, evenly spaced. Center and rays are one connected solid shape, same flat orange. The sun has a sweet face in the center: two round white eyes with black pupils, and a big happy open-mouth smile in darker orange (#ea580c). No body, arms, legs. NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas. Same cute flat style as reference heart.",
+          "output": "extraversion-16.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T15:55:15.066Z",
+          "prompt": "A cute orange sun character, Headspace flat design. Solid flat orange (#f97316). A medium round center circle with exactly 8 long thick rounded rays radiating outward like a compass rose — one pointing up, one down, one left, one right, and 4 diagonals. Each ray is a thick rounded rectangle (like a popsicle stick or finger) with rounded ends. All rays are the SAME length and width. Center circle and rays form one connected solid shape, same flat orange color. The sun has a cute face in the center: two round white eyes with black pupils, big happy open-mouth grin in #ea580c. No body, arms, legs. NO shadows, NO gradients, NO 3D, NO outlines. Transparent background. Fills canvas. Same style as reference heart.",
+          "output": "extraversion-17.png",
+          "temperature": 0.1,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T15:57:52.558Z",
+          "prompt": "A cute orange sun character, Headspace flat design. Solid flat orange (#f97316). A round center with 8 thick fat rounded rays radiating outward. Each ray is wide and thick like a fat finger — NOT thin sticks. The rays taper slightly from base to tip but remain chunky. Tips are rounded. All 8 rays are the same size, evenly spaced. The center and rays are one solid connected shape, same flat orange. The face is in the center: two round white eyes with black pupils, big joyful open-mouth grin in #ea580c. No body, arms, legs. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas. Cute chunky Headspace style like the reference heart.",
+          "output": "extraversion-18.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T23:22:43.782Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app flat design. Solid flat orange (#f97316). A large round center circle with exactly 8 short thick rounded rays evenly spaced around it. Each ray is a wide stubby rounded rectangle — very short and fat, like a thumb. The rays and center are all one connected solid shape, same flat orange color. The sun has an adorable face in the center: two round white eyes with black pupils, and a big joyful open-mouth smile in darker orange (#ea580c). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO 3D, NO color variation. Every pixel of the sun is the exact same orange. Transparent background. Fills most of canvas. Same cute flat chunky style as the reference pink heart.",
+          "output": "extraversion-19.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T23:25:54.158Z",
+          "prompt": "A cute orange sun character, Headspace meditation app flat design. The sun is ONE single connected solid shape in flat orange (#f97316). It has a round center with 8 wide rounded bumps growing directly from the edge of the center circle. The bumps are NOT separate — they are part of the same shape, connected to the circle like hills on a round planet. Each bump is short, wide, and perfectly rounded at the tip. Think of it like a gear with very rounded teeth, or a cookie with bumpy edges. The whole sun silhouette is one unbroken outline. Face in center: two round white eyes with black pupils, big happy open-mouth grin in darker orange (#ea580c). NO separate rays. NO gaps between center and rays. NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas.",
+          "output": "extraversion-20.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T23:27:04.479Z",
+          "prompt": "A cute orange sun character, Headspace flat illustration style. ONE single connected shape in solid flat orange (#f97316). A round center with exactly 6 large rounded bumps evenly spaced around the edge. Each bump is very wide and rounded — like a big round hill. The bumps are large, taking up about 1/3 of the center circle's radius. The overall shape looks like a chubby cartoon sun or a round cookie with 6 big scalloped edges. All one solid connected silhouette. Adorable face in center: two round white eyes with black pupils, big joyful open-mouth grin in darker orange (#ea580c). NO thin rays. NO spikes. NO separate pieces. NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas. Chunky, puffy, cute.",
+          "output": "extraversion-21.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T23:28:03.783Z",
+          "prompt": "A cute orange sun character, Headspace flat illustration. ONE single solid shape in flat orange (#f97316). A medium round center with 8 thick elongated rounded rays radiating outward. Each ray is connected to the center — no gaps. The rays are longer than they are wide, with rounded ends like fat fingers or sausages. The rays point outward evenly like a classic sun drawing. The ENTIRE shape — center and all rays — is the EXACT SAME flat orange with absolutely NO color variation, NO shading, NO inner circles, NO darker or lighter areas. Face in center: two round white eyes with black pupils, big happy open-mouth grin in darker orange (#ea580c). NO shadows, NO gradients, NO 3D. Transparent background. Fills canvas.",
+          "output": "extraversion-22.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T23:30:28.689Z",
+          "prompt": "A cute cartoon sun character, Headspace meditation app flat illustration. ONE single connected solid shape in flat orange (#f97316). A LARGE round center circle taking up about 60% of the total width. From this large circle, exactly 8 short thick rounded rays grow outward, evenly spaced. Each ray is like a stubby rounded tongue — wider at the base where it connects to the circle, and rounded at the tip. The rays are SHORT — only about 20% of the circle radius. The whole shape is perfectly symmetrical. EVERY part is the exact same flat orange — no shading, no inner lines, no variation. Face in the large center: two round white eyes with black pupils, big happy open-mouth grin in darker orange (#ea580c). NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas. Chunky, puffy, adorable.",
+          "output": "extraversion-23.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T23:31:46.090Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app flat design. Solid flat orange (#f97316). A round center with 10 thick rounded rays radiating outward, all connected to the center as one single shape. CRITICAL: all 10 rays must be the EXACT SAME length and thickness, perfectly evenly spaced like a clock face. Each ray is a fat rounded stick with a rounded tip. The rays are thick — about 1/4 the width of the center circle. The entire sun is one flat solid color with NO variation. Adorable face in center: two round white eyes with black pupils, big happy open-mouth grin in darker orange (#ea580c). NO shadows, NO gradients, NO 3D, NO shading. Transparent background. Fills most of canvas. Chunky, puffy, cute, warm.",
+          "output": "extraversion-24.png",
+          "temperature": 0.1,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T23:43:53.711Z",
+          "prompt": "A cute orange sun character, Headspace meditation app flat illustration. The sun is ONE chunky solid blob shape in flat orange (#f97316). Imagine a round circle with 8 wide rounded bumps merged into its edge — like a sunflower silhouette or a round cookie with scalloped edges. The bumps are very wide at the base and rounded at the top — they look like gentle hills, NOT like thin sticks or rays. The bumps are SHORT — each bump is about as tall as it is wide. The whole shape is one continuous fat blob — no gaps, no thin parts. EVERY part is the EXACT same flat orange — no inner circle visible, no shading, no color variation at all. Face in center: two round white eyes with black pupils (same size as reference heart's eyes), big joyful open-mouth grin in darker orange (#ea580c). NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas. Same chunky puffy style as reference heart.",
+          "output": "extraversion-25.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T23:44:47.929Z",
+          "prompt": "Flat 2D sticker of a cute orange sun character. ONE single solid shape, like a round cookie with scalloped edges. The shape has a large round center with about 10 small rounded bumps around the edge. The ENTIRE shape is filled with one single flat color orange #f97316 — absolutely no shading, no lighter center, no darker edges, no color variation at all. Like a flat paper cutout. Cute face in center: two white circle eyes with black dot pupils, big happy open mouth with darker orange #ea580c. No outlines. No depth. No 3D. No gradients. Completely flat like a sticker. PNG transparent background. Fills the image.",
+          "output": "extraversion-26.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T23:56:00.180Z",
+          "prompt": "A cute orange sun character, Headspace meditation app flat illustration. ONE solid shape in flat orange (#f97316). A round center with exactly 6 LARGE rounded bumps evenly spaced. Each bump is a big semicircle — as wide as 1/3 of the center circle diameter. The bumps are clearly visible and make the shape look like a cartoon sun. All one continuous shape, same flat orange everywhere — NO inner circle, NO shading, NO color difference between center and bumps. Think of the emoji sun but chubbier and cuter. Face in center: two round white eyes with small black pupils, big joyful open-mouth grin in darker orange (#ea580c). NO shadows, NO gradients, NO 3D. Transparent background. Fills most of canvas.",
+          "output": "extraversion-27.png",
+          "temperature": 0.25,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T00:01:44.428Z",
+          "prompt": "A cute orange character shaped like a simple cartoon sun, Headspace flat design. The shape is like an 8-pointed rounded star — imagine 8 fat rounded petals or lobes arranged in a circle, overlapping at center. There is NO separate center circle — the petals themselves form the center by overlapping. Every part is the exact same flat orange #f97316. The character has a cute face: two round white eyes with black pupils, and a big happy open-mouth smile in darker orange #ea580c. This looks like a chunky orange flower or sun. Completely flat — NO shadows, NO inner details, NO shading, NO outlines. One solid color throughout. Transparent PNG background. Fills most of canvas.",
+          "output": "extraversion-28.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T00:10:47.857Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app flat design style. Solid flat orange (#f97316). The sun has 8 wide rounded triangular points arranged evenly around a center, forming a classic chunky cartoon sun shape. The points are wide at the base and slightly rounded at the tips — NOT sharp, NOT thin. The entire sun is one solid connected shape filled with one uniform flat orange color. No inner circle visible. The sun has an adorable face: two round white eyes with small black pupils, and a big happy open-mouth smile in darker orange (#ea580c). No body, no arms, no legs. Completely flat: NO shadows, NO gradients, NO 3D, NO color variation. Transparent background. Fills most of canvas. Cute, chunky, warm.",
+          "output": "extraversion-29.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T00:24:28.686Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. Solid flat orange (#f97316). The shape has 8 rounded petal-like points arranged in a circle, like a daisy but in orange. Each point is wide and rounded. The points overlap at center forming one solid connected shape. The ENTIRE shape — all points and center — is filled with ONE single uniform flat orange. There is absolutely NO visible circle in the center, NO darker areas, NO lighter areas. Like a flat paper cutout of a sun. Face: two round white eyes with black pupils (slightly half-closed lids in darker orange for a cheerful squinting look), and a big wide open-mouth grin in darker orange (#ea580c). NO shadows NO gradients NO 3D NO shading. Transparent background. Fills canvas.",
+          "output": "extraversion-30.png",
+          "temperature": 0.3,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T00:25:59.155Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. Solid flat orange (#f97316). The shape is an 8-pointed rounded star — like a compass rose but chunky and cute. All 8 points are the same size, evenly spaced, wide at base and rounded at tip. The whole shape is perfectly symmetrical. EVERY part is the EXACT same flat orange — no inner circle, no shading, no color variation. Like a flat paper cutout. Face in center: two round white eyes with small black dot pupils (wide open, looking slightly upward), and a big happy open-mouth grin in darker orange (#ea580c). The mouth shows a darker orange interior. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas. Chunky, puffy, warm, cute.",
+          "output": "extraversion-31.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T00:30:08.959Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. Solid flat orange (#f97316). The shape is a chunky rounded sun — a fat round center with 8 short wide bumps around the edge. Each bump has a VERY rounded tip — like a fat thumb or a small hill. The bumps are wide at base and rounded on top, NOT pointed, NOT triangular. The whole shape looks soft and puffy, like a plush toy sun. EVERY part is the EXACT same flat orange — no shading, no inner circle, no color variation. Face in center: two round white eyes with small black dot pupils, and a happy open-mouth smile in darker orange (#ea580c). The mouth is small — about the same width as the space between the two eyes. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas.",
+          "output": "extraversion-32.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T00:31:45.640Z",
+          "prompt": "A cute orange sun character with a face, Headspace flat design. Solid flat orange (#f97316). An 8-pointed star shape but with ALL tips rounded — like a star cookie cutter with rounded corners. The 8 points are evenly spaced, all the same size. Each point is wide at base and has a rounded bulbous tip, NOT sharp. The whole shape is symmetrical and balanced. EVERY part is one uniform flat orange — no inner details, no shading. Face in center: two round white eyes with small black pupils looking upward, and a happy open-mouth smile in darker orange (#ea580c). The face is compact — eyes close together, mouth small. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas. Same cute style as reference.",
+          "output": "extraversion-33.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T00:54:09.129Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. Solid flat orange (#f97316). An 8-pointed star shape with ALL tips very rounded and bulbous — like a puffy plush toy star. The tips are rounded like bubbles, NOT pointed or triangular. The whole shape is soft and pillowy. EVERY part is one uniform flat orange — no shading, no inner details. Face in center: two small round white eyes with tiny black dot pupils (same small size as the reference heart's eyes), and a BIG wide open-mouth laughing grin showing darker orange (#ea580c) inside — the mouth is wide, about 1.5x the space between the eyes. This is an energetic laughing face, full of joy. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas.",
+          "output": "extraversion-34.png",
+          "temperature": 0.25,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T00:55:37.060Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. Solid flat orange (#f97316). A chunky 8-pointed rounded star shape — all 8 points are the same size, evenly spaced, with very rounded bulbous tips. The shape is perfectly symmetrical. Looks like a cartoon sun or a puffy star cookie. All one uniform flat orange color — no shading, no inner details, no color variation. Face in center: two small round white eyes with tiny black dot pupils, and a BIG wide open-mouth laughing grin in darker orange (#ea580c). The mouth is wide and expressive — this is an energetic, joyful, laughing face. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas. Chunky, puffy, warm, cute.",
+          "output": "extraversion-35.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T01:16:06.823Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. Solid flat orange (#f97316). The shape is a perfectly symmetrical 8-pointed rounded star. IMPORTANT: all 8 points must be IDENTICAL in size and shape, evenly distributed like numbers on a clock face (at 0, 45, 90, 135, 180, 225, 270, 315 degrees). Each point is wide at base, rounded at tip. The shape is chunky and puffy like a plush toy. All one uniform flat orange — no shading, no color variation. Face in center: two small round white eyes with tiny black dot pupils, and a BIG wide open-mouth laughing grin in darker orange (#ea580c) — energetic joyful expression. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas.",
+          "output": "extraversion-36.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T01:17:43.054Z",
+          "prompt": "A cute orange sun character with a face, Headspace meditation app style. Solid flat orange (#f97316). A chunky puffy 8-pointed star shape — perfectly symmetrical, all 8 points identical and evenly spaced. Each point has a VERY rounded bulbous tip, NOT sharp — like fat bubbles growing from a round center. The whole shape is soft and pillowy. All one uniform flat orange — no shading, no color variation. Face in center: two round white eyes with black dot pupils (same size as reference heart's eyes), and a BIG wide open-mouth laughing grin in darker orange (#ea580c). The face is positioned slightly above center. Energetic, joyful expression. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas.",
+          "output": "extraversion-37.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T01:20:46.420Z",
+          "prompt": "A cute orange character shaped exactly like a gear or cog with rounded teeth, Headspace meditation app flat style. Solid flat orange (#f97316). A round center with exactly 8 perfectly identical semicircular bumps arranged evenly around the edge. Each bump is a perfect half-circle — wide and rounded, NOT pointed. The bumps and center form one solid connected shape. Think of it as a round flower with 8 identical round petals, but in orange. EVERY part is the EXACT same flat orange — absolutely no shading, no inner circle visible. Face in center: two round white eyes with black dot pupils, and a BIG wide open-mouth laughing grin in darker orange (#ea580c). Joyful energetic expression. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas.",
+          "output": "extraversion-38.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T01:22:32.225Z",
+          "prompt": "A cute orange sun character, Headspace flat design. ONE solid shape in flat orange (#f97316). Imagine the neuroticism flower icon (5 round petals in a circle) but with 8 round petals instead of 5, and in orange instead of blue. Eight identical perfectly round bumps arranged in a circle, overlapping at center. All bumps the SAME size. The whole shape is one flat color — no inner circle, no shading. Face in center: two round white eyes with black dot pupils, and a BIG wide laughing open mouth in darker orange (#ea580c). Joyful energetic face. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas.",
+          "output": "extraversion-39.png",
+          "temperature": 0.15,
+          "reference": "scripts/trait-icons/neuroticism-02.png"
+        },
+        {
+          "at": "2026-03-25T01:33:38.555Z",
+          "prompt": "A cute orange sun character, Headspace flat design. Solid flat orange (#f97316). A round center with 8 thick rounded rays growing outward. Each ray is wide and has a rounded tip. IMPORTANT: there must be clear V-shaped gaps between each ray — the rays do NOT touch each other at their bases. The gaps go inward toward the center but stop before reaching it. This makes the shape clearly a SUN, not a flower. The rays radiate outward like sunbeams. All one uniform flat orange — no shading, no color variation, no inner circle. Face in center: two round white eyes with black dot pupils, and a BIG wide laughing open mouth in darker orange (#ea580c). Joyful energetic expression. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas.",
+          "output": "extraversion-40.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T01:35:21.755Z",
+          "prompt": "A cute orange sun character, Headspace flat design. Solid flat orange (#f97316). A large round center circle with exactly 6 thick short rounded triangular rays. Each ray is wide at the base (attached to circle) and rounded at the tip. The rays point outward at equal intervals. There are clear gaps between each ray — you can see the transparent background between them. The rays are THICK and SHORT — about as wide as they are tall. All one flat orange color. Face in center circle: two round white eyes with black dot pupils, and a BIG wide laughing open mouth in darker orange (#ea580c). This clearly looks like a cartoon sun — not a flower, not a gear. NO shadows NO gradients NO 3D. Transparent background. Fills most of canvas. Chunky, puffy, warm.",
+          "output": "extraversion-41.png",
+          "temperature": 0.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T01:40:34.464Z",
+          "prompt": "Headspace-style flat illustration, transparent background. An orange sun character (#f97316) — large round center circle with a cute face (white round eyes with black pupils, BIG wide open laughing mouth in darker orange). Around the circle, 8 SHORT THICK ROUNDED rays — each ray is a fat stubby rounded rectangle/pill shape with fully rounded ends, separated from the center circle by a small gap. Rays should be CHUNKY and PUFFY like the other icons. Completely flat uniform solid orange color, absolutely NO gradient NO shadow NO shine NO 3D. Same cute chunky style as the reference heart icon. The sun fills most of the canvas. Square 1024x1024.",
+          "output": "extraversion-42.png",
+          "temperature": 1.2,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T01:41:35.645Z",
+          "prompt": "Headspace-style flat illustration, transparent background. Orange sun character (#f97316). Large round circle center with cute face: white round eyes with black pupils, BIG wide open laughing mouth in darker orange shade. 8 THICK SHORT rounded pill-shape rays around the circle, each ray separated by a small gap from center. Rays must be FAT and STUBBY — width should be about 1/3 of their length. All ends perfectly rounded. CRITICAL: completely FLAT UNIFORM SOLID orange color throughout — the entire sun (circle + rays) must be exactly the same shade of orange with ZERO color variation, NO gradient, NO shadow, NO highlight, NO shine, NO darker center, NO lighter edge. Think of it as a flat paper cutout. Same style as reference heart. Fills most of canvas. Square 1024x1024.",
+          "output": "extraversion-43.png",
+          "temperature": 1,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T01:44:51.872Z",
+          "prompt": "Flat paper cutout style illustration, transparent background. An orange sun (#f97316) — one large circle in the center with a face (two small white circles with black dots for eyes, one big open smiling mouth in dark orange). 8 short fat rounded-rectangle rays evenly spaced around the circle, separated by small gaps. IMPORTANT: the ENTIRE illustration must be ONE flat uniform solid color — imagine it is cut from a single sheet of orange paper. There must be absolutely NO shading, NO gradient, NO color variation, NO darker areas, NO lighter areas, NO shadow, NO highlights anywhere. Every pixel of the sun (circle and rays) is exactly the same flat orange. Cute and chunky like Headspace characters. The sun fills most of the square canvas. 1024x1024.",
+          "output": "extraversion-44.png",
+          "temperature": 0.8,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T02:06:38.572Z",
+          "prompt": "Headspace-style flat illustration, transparent background. An orange sun character (#f97316) as ONE SINGLE connected silhouette — a large round center body with 8 triangular rays extending outward, all connected to the body as one unified shape. Like an 8-pointed star-burst sun shape. Rays are triangular and slightly pointed at tips (like a real sun icon). Cute face in center: white round eyes with black pupils SAME SIZE as the reference heart icon, BIG wide open laughing mouth in darker orange. The face should be positioned in the center of the body. CRITICAL: completely flat uniform solid orange — NO gradient, NO shadow, NO color variation, NO highlight, NO darker center. One single flat paper cutout shape. Fills most of canvas. Square 1024x1024.",
+          "output": "extraversion-45.png",
+          "temperature": 1,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T02:11:05.097Z",
+          "prompt": "Headspace-style flat illustration, transparent background. An orange sun character (#f97316) as ONE SINGLE connected silhouette — a chunky round center body with 8 SHORT WIDE triangular bumps extending outward. The bumps are wide at the base and taper slightly toward the tip. Tips can be slightly pointed but not sharp — soft points. The overall shape is like a chubby star-burst or comic-book explosion shape, but cute and puffy. Cute face in center: white round eyes with black pupils SAME SIZE as the reference heart, BIG wide open laughing mouth in darker orange. CRITICAL: completely flat uniform solid orange — NO gradient, NO shadow, NO color variation. One flat paper cutout shape. Fills most of canvas. Square 1024x1024.",
+          "output": "extraversion-46.png",
+          "temperature": 1,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-25T02:14:42.193Z",
+          "prompt": "Flat paper cutout style, transparent background. An orange (#f97316) sun character — one single connected shape. A round chunky body with 8 short wide triangular rays, same style as this reference image. Face in center: two white circle eyes with black dot pupils (slightly bigger than reference), BIG wide open laughing mouth in dark orange. IMPORTANT: the ENTIRE shape must be ONE completely uniform flat solid color — imagine cutting this from a single sheet of orange paper. Absolutely NO shading, NO gradient, NO circular highlight, NO darker or lighter areas anywhere. Every single pixel of orange must be the exact same shade. Square 1024x1024.",
+          "output": "extraversion-47.png",
+          "temperature": 0.8,
+          "reference": "scripts/trait-icons/extraversion-36.png"
+        }
+      ],
+      "prompt": "Flat paper cutout style, transparent background. An orange (#f97316) sun character — one single connected shape. A round chunky body with 8 short wide triangular rays, same style as this reference image. Face in center: two white circle eyes with black dot pupils (slightly bigger than reference), BIG wide open laughing mouth in dark orange. IMPORTANT: the ENTIRE shape must be ONE completely uniform flat solid color — imagine cutting this from a single sheet of orange paper. Absolutely NO shading, NO gradient, NO circular highlight, NO darker or lighter areas anywhere. Every single pixel of orange must be the exact same shade. Square 1024x1024.",
+      "temperature": 0.8,
+      "reference": "scripts/trait-icons/extraversion-36.png"
+    },
+    "neuroticism": {
+      "filename": "trait_neuroticism.png",
+      "trials": [
+        {
+          "at": "2026-03-24T12:41:53.087Z",
+          "prompt": "A plump rounded blue flower character with a cute face, Headspace meditation app illustration style. A simple flower in solid flat blue (#3b82f6) with 5 round puffy petals arranged evenly around the center. Each petal is a chunky round oval. The flower has a simple adorable face in the center: two round white eyes with black pupils looking slightly downward (gentle, calm expression), and a small soft smile drawn as a tiny curved line in darker blue. No body, no arms, no legs, no stem. Completely flat: NO shadows, NO gradients, NO shine, NO 3D effects. Transparent background. Fills most of the canvas. Same flat style as the reference pink heart character.",
+          "output": "neuroticism-01.png",
+          "temperature": 0.3,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        },
+        {
+          "at": "2026-03-24T12:50:22.288Z",
+          "prompt": "A plump rounded blue flower character with a cute face, Headspace meditation app illustration style. A simple flower in solid flat blue (#3b82f6) with 5 round puffy petals arranged evenly around a center area. IMPORTANT: The entire flower — petals AND center — is the SAME flat blue color, no darker center circle. The flower has a simple adorable face where the petals meet: two round white eyes with black pupils looking gently downward (calm, serene expression), and a small soft smile drawn as a tiny curved line in darker blue. No body, no arms, no legs, no stem. Completely flat: NO shadows, NO gradients, NO shine, NO 3D effects, NO color variation. Transparent background. Fills most of the canvas. Same flat style as the reference pink heart character.",
+          "output": "neuroticism-02.png",
+          "temperature": 0.25,
+          "reference": "scripts/trait-icons/agreeableness-02.png"
+        }
+      ],
+      "prompt": "A plump rounded blue flower character with a cute face, Headspace meditation app illustration style. A simple flower in solid flat blue (#3b82f6) with 5 round puffy petals arranged evenly around a center area. IMPORTANT: The entire flower — petals AND center — is the SAME flat blue color, no darker center circle. The flower has a simple adorable face where the petals meet: two round white eyes with black pupils looking gently downward (calm, serene expression), and a small soft smile drawn as a tiny curved line in darker blue. No body, no arms, no legs, no stem. Completely flat: NO shadows, NO gradients, NO shine, NO 3D effects, NO color variation. Transparent background. Fills most of the canvas. Same flat style as the reference pink heart character.",
+      "temperature": 0.25,
+      "reference": "scripts/trait-icons/agreeableness-02.png"
+    }
+  }
+}

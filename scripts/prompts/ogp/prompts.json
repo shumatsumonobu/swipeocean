@@ -1,0 +1,131 @@
+{
+  "description": "OGP wide background scenes",
+  "createdAt": "2026-03-25",
+  "config": {
+    "model": "gemini-3-pro-image-preview",
+    "aspectRatio": "16:9",
+    "outputMimeType": "image/png",
+    "temperature": 0.5,
+    "topP": 0.9
+  },
+  "scenes": {
+    "explorer": {
+      "filename": "explorer.png",
+      "trials": [
+        {
+          "at": "2026-03-25T08:42:42.643Z",
+          "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A turquoise explorer character with telescope on a sandy island, looking out at the ocean with clouds in the sky. Expand the scene horizontally: extend the ocean and sky to the left and right, making the world feel wider and more expansive. The character should be positioned slightly left of center. Keep the flat vector style: bold colors, simple shapes, no gradients, no shadows, no realistic textures, no text.",
+          "output": "explorer-01.png",
+          "temperature": 0.5,
+          "reference": "scripts/characters/explorer-bg-04.png"
+        }
+      ],
+      "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A turquoise explorer character with telescope on a sandy island, looking out at the ocean with clouds in the sky. Expand the scene horizontally: extend the ocean and sky to the left and right, making the world feel wider and more expansive. The character should be positioned slightly left of center. Keep the flat vector style: bold colors, simple shapes, no gradients, no shadows, no realistic textures, no text.",
+      "temperature": 0.5,
+      "reference": "scripts/characters/explorer-bg-04.png"
+    },
+    "planner": {
+      "filename": "planner.png",
+      "trials": [
+        {
+          "at": "2026-03-25T08:49:52.868Z",
+          "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A green rectangular planner character sitting under a large tree on a grassy hill, leaning against the trunk, holding a clipboard. Expand the scene horizontally: extend the rolling green hills and sky to the left and right, with distant blue mountains and white clouds. The character should be positioned slightly left of center under the tree. Keep the flat vector style: bold colors, simple shapes, no gradients, no shadows, no realistic textures, no text.",
+          "output": "planner-01.png",
+          "reference": "scripts/characters/planner-bg-02.png"
+        }
+      ],
+      "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A green rectangular planner character sitting under a large tree on a grassy hill, leaning against the trunk, holding a clipboard. Expand the scene horizontally: extend the rolling green hills and sky to the left and right, with distant blue mountains and white clouds. The character should be positioned slightly left of center under the tree. Keep the flat vector style: bold colors, simple shapes, no gradients, no shadows, no realistic textures, no text.",
+      "reference": "scripts/characters/planner-bg-02.png"
+    },
+    "socialite": {
+      "filename": "socialite.png",
+      "trials": [
+        {
+          "at": "2026-03-25T09:31:18.034Z",
+          "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. An orange character with striped shirt holding a yellow megaphone, one arm raised, standing in a festive town street with colorful triangle bunting flags, buildings on both sides, and a hot air balloon in the blue sky. Expand the scene horizontally: extend the street, buildings, and sky to the left and right, making the town feel wider and more lively. The character should be positioned slightly left of center. Keep the flat vector style: bold colors, simple shapes, no gradients, no shadows, no realistic textures, no text.",
+          "output": "socialite-01.png",
+          "reference": "scripts/characters/socialite-bg-01.png"
+        }
+      ],
+      "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. An orange character with striped shirt holding a yellow megaphone, one arm raised, standing in a festive town street with colorful triangle bunting flags, buildings on both sides, and a hot air balloon in the blue sky. Expand the scene horizontally: extend the street, buildings, and sky to the left and right, making the town feel wider and more lively. The character should be positioned slightly left of center. Keep the flat vector style: bold colors, simple shapes, no gradients, no shadows, no realistic textures, no text.",
+      "reference": "scripts/characters/socialite-bg-01.png"
+    },
+    "harmonizer": {
+      "filename": "harmonizer.png",
+      "trials": [
+        {
+          "at": "2026-03-25T09:53:32.756Z",
+          "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A round pink character wearing a magenta scarf, arms spread open, standing in a snowy landscape with a pink-purple gradient sky and gently falling snowflakes. A small cozy house in the background. Expand the scene horizontally: extend the snowy ground and gradient sky to the left and right, adding more snowflakes and a sense of peaceful winter expanse. The character should be positioned slightly left of center. Keep the flat vector style: bold colors, simple shapes, no gradients except the sky, no shadows, no realistic textures, no text.",
+          "output": "harmonizer-01.png",
+          "reference": "scripts/characters/harmonizer-bg-01.png"
+        },
+        {
+          "at": "2026-03-25T10:48:28.501Z",
+          "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A round pink character wearing a magenta scarf, arms spread open, standing in a snowy landscape with a pink-purple gradient sky and gently falling snowflakes. Expand the scene horizontally: extend the snowy ground and gradient sky to the left and right. Add a few snowy trees or bushes on both sides to fill the scene naturally, and scatter more snowflakes across the wide sky. A small cozy house visible in the background. The character should be positioned at center. Keep the flat vector style: bold colors, simple shapes, no shadows, no realistic textures, no text.",
+          "output": "harmonizer-02.png",
+          "reference": "scripts/characters/harmonizer-bg-01.png"
+        }
+      ],
+      "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A round pink character wearing a magenta scarf, arms spread open, standing in a snowy landscape with a pink-purple gradient sky and gently falling snowflakes. Expand the scene horizontally: extend the snowy ground and gradient sky to the left and right. Add a few snowy trees or bushes on both sides to fill the scene naturally, and scatter more snowflakes across the wide sky. A small cozy house visible in the background. The character should be positioned at center. Keep the flat vector style: bold colors, simple shapes, no shadows, no realistic textures, no text.",
+      "reference": "scripts/characters/harmonizer-bg-01.png"
+    },
+    "empath": {
+      "filename": "empath.png",
+      "trials": [
+        {
+          "at": "2026-03-25T09:55:24.020Z",
+          "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A purple teardrop-shaped character wearing a dark purple cape, standing in a lavender flower field at sunset, with pink butterflies fluttering around. A pink-purple gradient sky with distant mountains and a warm horizon glow. Expand the scene horizontally: extend the lavender field and sunset sky to the left and right, adding more butterflies and lavender plants. The character should be positioned slightly left of center. Keep the flat vector style: bold colors, simple shapes, no realistic textures, no text.",
+          "output": "empath-01.png",
+          "reference": "scripts/characters/empath-bg-01.png"
+        }
+      ],
+      "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A purple teardrop-shaped character wearing a dark purple cape, standing in a lavender flower field at sunset, with pink butterflies fluttering around. A pink-purple gradient sky with distant mountains and a warm horizon glow. Expand the scene horizontally: extend the lavender field and sunset sky to the left and right, adding more butterflies and lavender plants. The character should be positioned slightly left of center. Keep the flat vector style: bold colors, simple shapes, no realistic textures, no text.",
+      "reference": "scripts/characters/empath-bg-01.png"
+    },
+    "adventurer": {
+      "filename": "adventurer.png",
+      "trials": [
+        {
+          "at": "2026-03-25T10:05:49.595Z",
+          "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A red-orange adventurer character with aviator helmet and flowing scarf, holding a rolled-up map, standing on clouds and pointing forward boldly. A dramatic red-orange sunset sky with small distant mountains peeking through the clouds below. Expand the scene horizontally: extend the cloud layer and sunset sky to the left and right, making the vast sky feel even more epic and expansive. The character should be positioned slightly left of center. Keep the flat vector style: bold colors, simple shapes, no realistic textures, no text.",
+          "output": "adventurer-01.png",
+          "reference": "scripts/characters/adventurer-bg-29.png"
+        }
+      ],
+      "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A red-orange adventurer character with aviator helmet and flowing scarf, holding a rolled-up map, standing on clouds and pointing forward boldly. A dramatic red-orange sunset sky with small distant mountains peeking through the clouds below. Expand the scene horizontally: extend the cloud layer and sunset sky to the left and right, making the vast sky feel even more epic and expansive. The character should be positioned slightly left of center. Keep the flat vector style: bold colors, simple shapes, no realistic textures, no text.",
+      "reference": "scripts/characters/adventurer-bg-29.png"
+    },
+    "craftsman": {
+      "filename": "craftsman.png",
+      "trials": [
+        {
+          "at": "2026-03-25T10:07:06.231Z",
+          "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A yellow blocky craftsman character wearing an apron, holding a wooden mallet with both arms spread wide, standing in a sunflower field under a bright blue sky with a yellow sun. Expand the scene horizontally: extend the sunflower field and blue sky to the left and right, with more sunflowers and green stems filling the scene. The character should be positioned slightly left of center. Keep the flat vector style: bold colors, simple shapes, no gradients, no shadows, no realistic textures, no text.",
+          "output": "craftsman-01.png",
+          "reference": "scripts/characters/craftsman-bg-01.png"
+        },
+        {
+          "at": "2026-03-25T10:50:42.243Z",
+          "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A yellow blocky craftsman character wearing an apron, holding a wooden mallet in one hand and a wooden stick in the other, with BOTH ARMS SPREAD WIDE OPEN to the sides. Standing in a sunflower field under a bright blue sky with a yellow sun. Expand the scene horizontally: extend the sunflower field and blue sky to the left and right, with more sunflowers and green stems filling the scene. The character should be positioned at center. Keep the flat vector style: bold colors, simple shapes, no gradients, no shadows, no realistic textures, no text.",
+          "output": "craftsman-02.png",
+          "reference": "scripts/characters/craftsman-bg-01.png"
+        }
+      ],
+      "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A yellow blocky craftsman character wearing an apron, holding a wooden mallet in one hand and a wooden stick in the other, with BOTH ARMS SPREAD WIDE OPEN to the sides. Standing in a sunflower field under a bright blue sky with a yellow sun. Expand the scene horizontally: extend the sunflower field and blue sky to the left and right, with more sunflowers and green stems filling the scene. The character should be positioned at center. Keep the flat vector style: bold colors, simple shapes, no gradients, no shadows, no realistic textures, no text.",
+      "reference": "scripts/characters/craftsman-bg-01.png"
+    },
+    "balancer": {
+      "filename": "balancer.png",
+      "trials": [
+        {
+          "at": "2026-03-25T10:12:03.396Z",
+          "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A blue capsule-shaped character with closed eyes and a serene smile, balancing on one foot on calm water, holding a balance scale in one hand. The character is reflected in the still water below. A light blue sky with white clouds above. Expand the scene horizontally: extend the calm water surface and sky to the left and right, with more clouds scattered across the wide sky. The character should be positioned slightly left of center. Keep the flat vector style: bold colors, simple shapes, no realistic textures, no text.",
+          "output": "balancer-01.png",
+          "reference": "scripts/characters/balancer-bg-27.png"
+        }
+      ],
+      "prompt": "Headspace-style flat illustration in wide landscape format (16:9 ratio). Same character and scene as the reference image — keep the exact same character design, color, shape, expression, and pose. A blue capsule-shaped character with closed eyes and a serene smile, balancing on one foot on calm water, holding a balance scale in one hand. The character is reflected in the still water below. A light blue sky with white clouds above. Expand the scene horizontally: extend the calm water surface and sky to the left and right, with more clouds scattered across the wide sky. The character should be positioned slightly left of center. Keep the flat vector style: bold colors, simple shapes, no realistic textures, no text.",
+      "reference": "scripts/characters/balancer-bg-27.png"
+    }
+  }
+}

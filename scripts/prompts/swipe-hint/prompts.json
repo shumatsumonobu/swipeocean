@@ -1,0 +1,81 @@
+{
+  "description": "Headspaceスタイル — 既存キャラクターと同じフラットデザインに統一",
+  "createdAt": "2026-03-24",
+  "config": {
+    "model": "gemini-3-pro-image-preview",
+    "aspectRatio": "1:1",
+    "outputMimeType": "image/png",
+    "temperature": 0.4,
+    "topP": 0.9
+  },
+  "icons": {
+    "left": {
+      "filename": "swipe-left.png",
+      "label": "Not Me（左スワイプ）",
+      "prompt": "Headspace-style flat design character icon on transparent background.\n\nA small round GRAY character with a SAD/UNCERTAIN expression.\n- Body: simple solid GRAY circle. COMPLETELY FLAT — ONE single gray color (#9CA3AF), ZERO shading, ZERO shadow, ZERO highlights, ZERO color variation anywhere on the body. Just one flat gray circle.\n- Eyes: TWO WHITE CIRCLES with BLACK DOTS inside (white sclera + black pupils)\n- Mouth: small simple frown\n- ALL FOUR LIMBS must be IDENTICAL THICKNESS: each arm and each leg is a short fat rounded sausage/cylinder shape. The pointing arm MUST be the same thickness as the legs. No thin arms.\n- Left arm points LEFT — same fat sausage thickness as the legs\n- Right arm hangs at side — same fat sausage thickness\n- Speech bubble above: WARM LIGHT GRAY background (#E8E5E0), rounded rectangle, bold black text \"Not Me\"\n\nABSOLUTELY NO shadows, NO shading, NO gradients, NO highlights, NO color variations on the body. Every pixel of the body is the exact same gray. Flat vector, bold solid colors, simple geometric shapes. Transparent background.",
+      "trials": [
+        {
+          "at": "2026-03-24T05:01:38.461Z",
+          "prompt": "Headspace-style flat design character icon. A small round simple character with a SAD/UNCERTAIN expression — frowning mouth, slightly worried eyes. The character is a simple GRAY circle body with tiny stubby arms and legs. One arm points LEFT. A white speech bubble above with bold black text \"Not Me\". Transparent background. Flat vector style, bold colors, simple geometric shapes, NO gradients, NO shadows, NO glossy shine, NO realistic textures. The character should look like it belongs in the Headspace meditation app — minimal, cute, geometric.",
+          "output": "swipe-left.png",
+          "temperature": 0.4
+        },
+        {
+          "at": "2026-03-24T05:14:22.458Z",
+          "prompt": "Headspace-style flat design character icon on transparent background.\n\nA small round GRAY character with a SAD/UNCERTAIN expression.\n- Body: simple solid GRAY circle, flat color, NO gradients, NO shadows, NO shine\n- Eyes: TWO WHITE CIRCLES with BLACK DOTS inside (white sclera + black pupils) — same style as Headspace characters. NOT line-drawn eyes, NOT emoji eyes\n- Mouth: small simple frown\n- Arms and legs: SHORT, FAT, ROUNDED, STUBBY — thick volume like Headspace characters. NOT thin sticks\n- One arm points LEFT\n- A white speech bubble above the character with bold black text saying \"Not Me\"\n\nStyle: flat vector, bold solid colors, simple geometric shapes, NO outlines, NO gradients, NO shadows, NO glossy shine. Transparent background.",
+          "output": "swipe-left-02.png",
+          "temperature": 0.4
+        },
+        {
+          "at": "2026-03-24T05:47:09.423Z",
+          "prompt": "Headspace-style flat design character icon on transparent background.\n\nA small round GRAY character with a SAD/UNCERTAIN expression.\n- Body: simple solid GRAY circle, flat color, NO gradients, NO shadows, NO shine\n- Eyes: TWO WHITE CIRCLES with BLACK DOTS inside (white sclera + black pupils) — Headspace style\n- Mouth: small simple frown\n- Arms and legs: VERY SHORT, VERY FAT, VERY ROUNDED — thick chunky stubby limbs with real volume. Like little sausages. NOT thin, NOT stick-like\n- One arm points LEFT\n- Speech bubble above: WARM LIGHT GRAY background (not white — use a soft warm gray like #E8E5E0), bold black text saying \"Not Me\"\n\nStyle: flat vector, bold solid colors, simple geometric shapes, NO outlines, NO gradients, NO shadows, NO glossy shine. Transparent background.",
+          "output": "swipe-left-03.png",
+          "temperature": 0.4
+        },
+        {
+          "at": "2026-03-24T06:09:13.359Z",
+          "prompt": "Headspace-style flat design character icon on transparent background.\n\nA small round GRAY character with a SAD/UNCERTAIN expression.\n- Body: simple solid GRAY circle. COMPLETELY FLAT — ONE single gray color (#9CA3AF), ZERO shading, ZERO shadow, ZERO highlights, ZERO color variation anywhere on the body. Just one flat gray circle.\n- Eyes: TWO WHITE CIRCLES with BLACK DOTS inside (white sclera + black pupils)\n- Mouth: small simple frown\n- ALL FOUR LIMBS must be IDENTICAL THICKNESS: each arm and each leg is a short fat rounded sausage/cylinder shape. The pointing arm MUST be the same thickness as the legs. No thin arms.\n- Left arm points LEFT — same fat sausage thickness as the legs\n- Right arm hangs at side — same fat sausage thickness\n- Speech bubble above: WARM LIGHT GRAY background (#E8E5E0), rounded rectangle, bold black text \"Not Me\"\n\nABSOLUTELY NO shadows, NO shading, NO gradients, NO highlights, NO color variations on the body. Every pixel of the body is the exact same gray. Flat vector, bold solid colors, simple geometric shapes. Transparent background.",
+          "output": "swipe-left-04.png",
+          "temperature": 0.3
+        }
+      ]
+    },
+    "right": {
+      "filename": "swipe-right.png",
+      "label": "Me!（右スワイプ）",
+      "prompt": "Headspace-style flat design character icon on transparent background.\n\nA small round CYAN/TEAL character with a HAPPY/EXCITED expression.\n- Body: simple solid TEAL circle. COMPLETELY FLAT — ONE single teal color (#2DD4BF), ZERO shading, ZERO shadow, ZERO highlights, ZERO color variation anywhere on the body. Just one flat teal circle.\n- Eyes: TWO WHITE CIRCLES with BLACK DOTS inside (white sclera + black pupils)\n- Mouth: big happy smile, open mouth\n- ALL FOUR LIMBS must be IDENTICAL THICKNESS: each arm and each leg is a short fat rounded sausage/cylinder shape. The pointing arm MUST be the same thickness as the legs. No thin arms.\n- Right arm points RIGHT — same fat sausage thickness as the legs\n- Left arm hangs at side — same fat sausage thickness\n- Speech bubble above: SOFT MINT background (#CCFBF1), rounded rectangle, bold black text \"Me!\"\n\nABSOLUTELY NO shadows, NO shading, NO gradients, NO highlights, NO color variations on the body. Every pixel of the body is the exact same teal. Flat vector, bold solid colors, simple geometric shapes. Transparent background.",
+      "trials": [
+        {
+          "at": "2026-03-24T05:02:02.220Z",
+          "prompt": "Headspace-style flat design character icon. A small round simple character with a HAPPY/EXCITED expression — big smile, cheerful eyes. The character is a simple CYAN/TEAL circle body with tiny stubby arms and legs. One arm points RIGHT. A white speech bubble above with bold black text \"Me!\". Transparent background. Flat vector style, bold colors, simple geometric shapes, NO gradients, NO shadows, NO glossy shine, NO realistic textures. The character should look like it belongs in the Headspace meditation app — minimal, cute, geometric.",
+          "output": "swipe-right.png",
+          "temperature": 0.4
+        },
+        {
+          "at": "2026-03-24T05:25:15.999Z",
+          "prompt": "Headspace-style flat design character icon on transparent background.\n\nA small round CYAN/TEAL character with a HAPPY/EXCITED expression.\n- Body: simple solid CYAN/TEAL circle, flat color, NO gradients, NO shadows, NO shine\n- Eyes: TWO WHITE CIRCLES with BLACK DOTS inside (white sclera + black pupils) — same style as Headspace characters. NOT line-drawn eyes, NOT emoji eyes\n- Mouth: big happy smile, open mouth\n- Arms and legs: SHORT, FAT, ROUNDED, STUBBY — thick volume like Headspace characters. NOT thin sticks\n- One arm points RIGHT\n- A white speech bubble above the character with bold black text saying \"Me!\"\n\nStyle: flat vector, bold solid colors, simple geometric shapes, NO outlines, NO gradients, NO shadows, NO glossy shine. Transparent background.",
+          "output": "swipe-right-02.png",
+          "temperature": 0.4
+        },
+        {
+          "at": "2026-03-24T05:48:45.182Z",
+          "prompt": "Headspace-style flat design character icon on transparent background.\n\nA small round CYAN/TEAL character with a HAPPY/EXCITED expression.\n- Body: simple solid CYAN/TEAL circle, flat color, NO gradients, NO shadows, NO shine\n- Eyes: TWO WHITE CIRCLES with BLACK DOTS inside (white sclera + black pupils) — Headspace style\n- Mouth: big happy smile, open mouth\n- Arms and legs: VERY SHORT, VERY FAT, VERY ROUNDED — thick chunky stubby limbs with real volume. Like little sausages. NOT thin, NOT stick-like\n- One arm points RIGHT\n- Speech bubble above: SOFT MINT/LIGHT TEAL background (not white — use a pale mint like #CCFBF1), bold black text saying \"Me!\"\n\nStyle: flat vector, bold solid colors, simple geometric shapes, NO outlines, NO gradients, NO shadows, NO glossy shine. Transparent background.",
+          "output": "swipe-right-03.png",
+          "temperature": 0.4
+        },
+        {
+          "at": "2026-03-24T05:52:55.822Z",
+          "prompt": "Headspace-style flat design character icon on transparent background.\n\nA small round CYAN/TEAL character with a HAPPY/EXCITED expression.\n- Body: simple solid CYAN/TEAL circle, flat color, NO gradients, NO shadows, NO shine\n- Eyes: TWO WHITE CIRCLES with BLACK DOTS inside (white sclera + black pupils) — Headspace style\n- Mouth: big happy smile, open mouth showing excitement\n- Arms: VERY SHORT, VERY FAT, VERY ROUNDED — thick chunky sausage-like arms. One arm points RIGHT\n- Legs: VERY SHORT, VERY FAT, VERY ROUNDED — thick chunky sausage-like legs. Same thickness as arms. NOT thin sticks, NOT narrow. Each leg should be a fat rounded cylinder shape.\n- Speech bubble above: SOFT MINT/LIGHT TEAL background (not white — use a pale mint like #CCFBF1), bold black text saying \"Me!\"\n\nCRITICAL: The legs MUST be as thick and chunky as the arms. Look at how fat the legs are on the reference left icon — the right icon legs should match that thickness.\n\nStyle: flat vector, bold solid colors, simple geometric shapes, NO outlines, NO gradients, NO shadows, NO glossy shine. Transparent background.",
+          "output": "swipe-right-04.png",
+          "temperature": 0.4
+        },
+        {
+          "at": "2026-03-24T06:10:32.154Z",
+          "prompt": "Headspace-style flat design character icon on transparent background.\n\nA small round CYAN/TEAL character with a HAPPY/EXCITED expression.\n- Body: simple solid TEAL circle. COMPLETELY FLAT — ONE single teal color (#2DD4BF), ZERO shading, ZERO shadow, ZERO highlights, ZERO color variation anywhere on the body. Just one flat teal circle.\n- Eyes: TWO WHITE CIRCLES with BLACK DOTS inside (white sclera + black pupils)\n- Mouth: big happy smile, open mouth\n- ALL FOUR LIMBS must be IDENTICAL THICKNESS: each arm and each leg is a short fat rounded sausage/cylinder shape. The pointing arm MUST be the same thickness as the legs. No thin arms.\n- Right arm points RIGHT — same fat sausage thickness as the legs\n- Left arm hangs at side — same fat sausage thickness\n- Speech bubble above: SOFT MINT background (#CCFBF1), rounded rectangle, bold black text \"Me!\"\n\nABSOLUTELY NO shadows, NO shading, NO gradients, NO highlights, NO color variations on the body. Every pixel of the body is the exact same teal. Flat vector, bold solid colors, simple geometric shapes. Transparent background.",
+          "output": "swipe-right-05.png",
+          "temperature": 0.3
+        }
+      ]
+    }
+  }
+}

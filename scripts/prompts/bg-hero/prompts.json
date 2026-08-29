@@ -1,0 +1,129 @@
+{
+  "description": "Hero background illustration for top page",
+  "createdAt": "2026-03-26",
+  "config": {
+    "model": "gemini-3-pro-image-preview",
+    "aspectRatio": "16:9",
+    "outputMimeType": "image/png",
+    "temperature": 0.5,
+    "topP": 0.9
+  },
+  "prompt": "Abstract illustration with flowing blobs and gentle circles in a wide horizontal composition. Eight vivid bright colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes. Smooth edges, not fuzzy. Large soft round shapes flowing like ocean waves. On a very dark navy-violet (#0a0a1f) background. Vivid colors on dark background. Warm and inviting atmosphere, dreamy night ocean feeling. Headspace-inspired minimal flat design. No watercolor texture, no paint strokes. No characters, no people, no text, no objects, no shadows, no realistic textures, no light effects.",
+  "trials": [
+    {
+      "at": "2026-03-26T06:02:17.935Z",
+      "prompt": "Soft abstract watercolor illustration of gentle ocean waves, bubbles, and flowing water. Eight colors blend together harmoniously: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Headspace-inspired flat minimal style. Vivid but light colors, warm and inviting, not dark. On a warm cream (#FFF8F0) background. Abstract color flow and soft wave shapes only. No characters, no people, no text, no objects, no shadows, no realistic textures.",
+      "output": "bg-hero-01.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-26T06:09:46.270Z",
+      "prompt": "Soft abstract watercolor illustration of gentle ocean waves, bubbles, and flowing water. Eight colors blend together harmoniously: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Headspace-inspired flat minimal style. Vivid but light colors, warm and inviting, not dark. On a warm cream (#FFF8F0) background. Abstract color flow and soft wave shapes only. No characters, no people, no text, no objects, no shadows, no realistic textures.",
+      "output": "bg-hero-03.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-26T06:10:14.224Z",
+      "prompt": "Soft abstract watercolor illustration of gentle ocean waves, bubbles, and flowing water. Eight colors blend together harmoniously: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Headspace-inspired flat minimal style. Vivid but light colors, warm and inviting, not dark. On a warm cream (#FFF8F0) background. Abstract color flow and soft wave shapes only. No characters, no people, no text, no objects, no shadows, no realistic textures.",
+      "output": "bg-hero-04.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-26T06:22:24.466Z",
+      "prompt": "Soft abstract watercolor illustration of gentle ocean waves, bubbles, and flowing water. Eight colors blend together harmoniously: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Headspace-inspired flat minimal style. Vivid but light colors, warm and inviting, not dark. On a warm cream (#FFF8F0) background. Abstract color flow and soft wave shapes only. No characters, no people, no text, no objects, no shadows, no realistic textures.",
+      "output": "bg-hero-05.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-26T06:23:16.061Z",
+      "prompt": "Soft abstract watercolor illustration of gentle ocean waves, bubbles, and flowing water. Eight colors blend together harmoniously: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Headspace-inspired flat minimal style. Vivid but light colors, warm and inviting, not dark. On a warm cream (#FFF8F0) background. Abstract color flow and soft wave shapes only. No characters, no people, no text, no objects, no shadows, no realistic textures.",
+      "output": "bg-hero-06.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-26T06:23:44.951Z",
+      "prompt": "Soft abstract watercolor illustration of gentle ocean waves, bubbles, and flowing water. Eight colors blend together harmoniously: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Headspace-inspired flat minimal style. Vivid but light colors, warm and inviting, not dark. On a warm cream (#FFF8F0) background. Abstract color flow and soft wave shapes only. No characters, no people, no text, no objects, no shadows, no realistic textures.",
+      "output": "bg-hero-07.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-26T08:35:02.232Z",
+      "prompt": "Abstract illustration with flowing blobs and gentle bubbles in a wide horizontal composition. Eight colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes, no watercolor texture, no paint strokes. Large soft round shapes flowing like ocean waves. Smooth edges, not fuzzy. On a warm cream (#FFF8F0) background. Vivid but light colors, warm and inviting, not dark. Headspace-inspired minimal flat design. No characters, no people, no text, no objects, no shadows, no realistic textures.",
+      "output": "bg-hero-08.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-26T08:36:00.967Z",
+      "prompt": "Abstract illustration with flowing blobs and gentle bubbles in a wide horizontal composition. Eight colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes, no watercolor texture, no paint strokes. Large soft round shapes flowing like ocean waves. Smooth edges, not fuzzy. On a warm cream (#FFF8F0) background. Vivid but light colors, warm and inviting, not dark. Headspace-inspired minimal flat design. No characters, no people, no text, no objects, no shadows, no realistic textures.",
+      "output": "bg-hero-09.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-26T08:36:31.190Z",
+      "prompt": "Abstract illustration with flowing blobs and gentle bubbles in a wide horizontal composition. Eight colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes, no watercolor texture, no paint strokes. Large soft round shapes flowing like ocean waves. Smooth edges, not fuzzy. On a warm cream (#FFF8F0) background. Vivid but light colors, warm and inviting, not dark. Headspace-inspired minimal flat design. No characters, no people, no text, no objects, no shadows, no realistic textures.",
+      "output": "bg-hero-10.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-26T08:47:31.048Z",
+      "prompt": "Abstract illustration with flowing blobs and gentle bubbles in a wide horizontal composition. Eight colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes, no watercolor texture, no paint strokes. Large soft round shapes flowing like ocean waves. Smooth edges, not fuzzy. On a warm cream (#FFF8F0) background. Vivid but light colors, warm and inviting, not dark. Headspace-inspired minimal flat design. No characters, no people, no text, no objects, no shadows, no realistic textures.",
+      "output": "bg-hero-11.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-26T08:48:08.901Z",
+      "prompt": "Abstract illustration with flowing blobs and gentle bubbles in a wide horizontal composition. Eight colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes, no watercolor texture, no paint strokes. Large soft round shapes flowing like ocean waves. Smooth edges, not fuzzy. On a warm cream (#FFF8F0) background. Vivid but light colors, warm and inviting, not dark. Headspace-inspired minimal flat design. No characters, no people, no text, no objects, no shadows, no realistic textures.",
+      "output": "bg-hero-12.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-26T08:49:46.285Z",
+      "prompt": "Abstract illustration with flowing blobs and gentle bubbles in a wide horizontal composition. Eight colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes, no watercolor texture, no paint strokes. Large soft round shapes flowing like ocean waves. Smooth edges, not fuzzy. On a warm cream (#FFF8F0) background. Vivid but light colors, warm and inviting, not dark. Headspace-inspired minimal flat design. No characters, no people, no text, no objects, no shadows, no realistic textures.",
+      "output": "bg-hero-13.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-30T06:03:40.165Z",
+      "prompt": "Abstract illustration with flowing blobs and gentle circles in a wide horizontal composition. Eight vivid bright colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes. Smooth edges, not fuzzy. Large soft round shapes flowing like ocean waves. On a very dark navy-violet (#0a0a1f) background. Vivid colors on dark background. Warm and inviting atmosphere, dreamy night ocean feeling. Headspace-inspired minimal flat design. No watercolor texture, no paint strokes. No characters, no people, no text, no objects, no shadows, no realistic textures, no light effects.",
+      "output": "bg-hero-14.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-30T06:09:23.698Z",
+      "prompt": "Abstract illustration with flowing blobs and gentle circles in a wide horizontal composition. Eight vivid bright colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes. Smooth edges, not fuzzy. Large soft round shapes flowing like ocean waves. On a very dark navy-violet (#0a0a1f) background. Vivid colors on dark background. Warm and inviting atmosphere, dreamy night ocean feeling. Headspace-inspired minimal flat design. No watercolor texture, no paint strokes. No characters, no people, no text, no objects, no shadows, no realistic textures, no light effects.",
+      "output": "bg-hero-15.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-30T06:09:56.530Z",
+      "prompt": "Abstract illustration with flowing blobs and gentle circles in a wide horizontal composition. Eight vivid bright colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes. Smooth edges, not fuzzy. Large soft round shapes flowing like ocean waves. On a very dark navy-violet (#0a0a1f) background. Vivid colors on dark background. Warm and inviting atmosphere, dreamy night ocean feeling. Headspace-inspired minimal flat design. No watercolor texture, no paint strokes. No characters, no people, no text, no objects, no shadows, no realistic textures, no light effects.",
+      "output": "bg-hero-16.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-30T06:10:32.636Z",
+      "prompt": "Abstract illustration with flowing blobs and gentle circles in a wide horizontal composition. Eight vivid bright colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes. Smooth edges, not fuzzy. Large soft round shapes flowing like ocean waves. On a very dark navy-violet (#0a0a1f) background. Vivid colors on dark background. Warm and inviting atmosphere, dreamy night ocean feeling. Headspace-inspired minimal flat design. No watercolor texture, no paint strokes. No characters, no people, no text, no objects, no shadows, no realistic textures, no light effects.",
+      "output": "bg-hero-17.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-30T06:24:04.821Z",
+      "prompt": "Abstract illustration with flowing blobs and gentle circles in a wide horizontal composition. Eight vivid bright colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes. Smooth edges, not fuzzy. Large soft round shapes flowing like ocean waves. On a very dark navy-violet (#0a0a1f) background. Vivid colors on dark background. Warm and inviting atmosphere, dreamy night ocean feeling. Headspace-inspired minimal flat design. No watercolor texture, no paint strokes. No characters, no people, no text, no objects, no shadows, no realistic textures, no light effects.",
+      "output": "bg-hero-18.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-30T06:24:39.024Z",
+      "prompt": "Abstract illustration with flowing blobs and gentle circles in a wide horizontal composition. Eight vivid bright colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes. Smooth edges, not fuzzy. Large soft round shapes flowing like ocean waves. On a very dark navy-violet (#0a0a1f) background. Vivid colors on dark background. Warm and inviting atmosphere, dreamy night ocean feeling. Headspace-inspired minimal flat design. No watercolor texture, no paint strokes. No characters, no people, no text, no objects, no shadows, no realistic textures, no light effects.",
+      "output": "bg-hero-19.png",
+      "temperature": 0.5
+    },
+    {
+      "at": "2026-03-30T06:25:11.713Z",
+      "prompt": "Abstract illustration with flowing blobs and gentle circles in a wide horizontal composition. Eight vivid bright colors blend together: blue (#3b82f6), green (#22c55e), orange (#f97316), pink (#ec4899), purple (#a855f7), coral red (#f87171), yellow (#facc15), and cyan (#06b6d4). Flat smooth gradient style, clean vector-like shapes. Smooth edges, not fuzzy. Large soft round shapes flowing like ocean waves. On a very dark navy-violet (#0a0a1f) background. Vivid colors on dark background. Warm and inviting atmosphere, dreamy night ocean feeling. Headspace-inspired minimal flat design. No watercolor texture, no paint strokes. No characters, no people, no text, no objects, no shadows, no realistic textures, no light effects.",
+      "output": "bg-hero-20.png",
+      "temperature": 0.5
+    }
+  ],
+  "temperature": 0.5
+}
