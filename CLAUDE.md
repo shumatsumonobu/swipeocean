@@ -101,6 +101,14 @@ URLに `?dev=1` を付与すると有効化。結果ページにタイプ切替�
 - 専門用語（Big Five, OCEAN）はそのまま使うが、説明は噛み砕く
 - neuroticism は「神経症的傾向」ではなく「繊細性」、英語も "Sensitivity" と表記
 
+## デザイン
+
+When building, restyling, auditing, or reviewing a screen, follow the design-discipline skill, and speak to me in Japanese, in です・ます form.
+
+- 見た目の決定は `.design/declaration.md`（色・書体・余白・角丸・テーマ数の宣言。置き場はスキルの既定）。まだ無いので、次に画面を触るとき `/design-discipline-init` を1回実行して作る（宣言は subject から導かれ、コードの既存値は照合されて違いが record に残る）。以後のセッションはそれを読んで作る
+- 画面ができたら `/design-discipline-inspect` で修理リストを出し、`/design-discipline-fix` で消化する
+- スキル本体は `.claude/skills/design-discipline/`（エントリは init / review / inspect / fix の4つ）。隣の `frontend-design` は配色・書体の判断層で、無いと design-discipline が動かないので消さない
+
 ## Git ルール
 
 - コミットメッセージに `Co-Authored-By: Claude` を入れない
